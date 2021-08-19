@@ -14,7 +14,7 @@ Organize the images you want to associate with a SuAVE survey, in a  directory o
 
 You will receive the notification from [daemon@maxim.ucsd.edu](mailto:daemon@maxim.ucsd.edu) email address. Check the spam folder if you don’t receive the email in a  reasonable time. Note that tiling large image collections may take  several hours.
 
-![img]({{ site.url }}/s1_dialog.png)
+![img]({{ site.image_base_url }}/SuAVE-Documentation/s1_dialog.png)
 
  
 
