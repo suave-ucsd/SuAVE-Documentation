@@ -13,7 +13,7 @@ SuAVE supports two types of annotations:
 - annotations of individual objects (make sure you have an active object highlighted when you want to annotate it);
 - annotations of distributions.
 
-To create an annotation, click the “Comment” button in the top row,  to see the dialog below. It will show either the active object or the  current distribution. Once you log into your SuAVE account you will be  able to add annotation text. You can also see other annotations for  selected objects, and download the pattern or individual object view as a small png file (eg to include in a document).![img]({{ BASE_URL }}/annotate_distribution.png)
+To create an annotation, click the “Comment” button in the top row,  to see the dialog below. It will show either the active object or the  current distribution. Once you log into your SuAVE account you will be  able to add annotation text. You can also see other annotations for  selected objects, and download the pattern or individual object view as a small png file (eg to include in a document).![img]({{ site.image_base_url }}/annotate_distribution.png)
 
  
 

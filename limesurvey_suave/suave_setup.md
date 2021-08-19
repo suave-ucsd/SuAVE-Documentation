@@ -13,15 +13,15 @@ nav_order: 3
 - Login to your SuAVE Account
 - Ensure that you're in the "Gallery Section" on the SuAVE Homepage. This can be accessed from the left navigation bar of the website.
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 27.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 27.png)
 
 - Click the "New Survey" button on the top left of the gallery menu.
 
-![newsurveysuave.png]({{ BASE_URL }}\limesurvey_suave\assets\newsurveysuave.png)
+![newsurveysuave.png]({{ site.image_base_url }}\limesurvey_suave\assets\newsurveysuave.png)
 
 - You should be presented with a menu that looks like this:
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 28.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 28.png)
 
 - In the following steps we're going to configure the settings to connect it to our LimeSurvey survey and Google Spreadsheet.
 
@@ -55,10 +55,10 @@ nav_order: 3
 
 - Your survey configuration should look something like this:
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 29.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 29.png)
 
 - Press "submit"
 
 **Note**: Nothing will appear in the survey until there are responses that are submitted to the survey. If there are no responses you will get the error below, but do not worry. This does not mean that the survey creation failed.
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 30.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 30.png)

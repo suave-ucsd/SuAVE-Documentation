@@ -18,7 +18,7 @@ You will receive the notification from [daemon@maxim.ucsd.edu](mailto:daemon@max
 
  
 
-In version 2 of SuAVE you can create image tiles directly from the new survey  dialog, by pointing to a folder with images on your computer (as in the  figure below). ![img]({{ BASE_URL }}/s2_daalog.png)
+In version 2 of SuAVE you can create image tiles directly from the new survey  dialog, by pointing to a folder with images on your computer (as in the  figure below). ![img]({{ site.image_base_url }}/s2_daalog.png)
 
  
 

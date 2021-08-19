@@ -21,11 +21,11 @@ nav_order: 2
 
 - Click the "Share" button in the top right of the Google Sheets Page
 
-  ![sharesheets.png]({{ BASE_URL }}\limesurvey_suave\assets\sharesheets.png)
+  ![sharesheets.png]({{ site.image_base_url }}\limesurvey_suave\assets\sharesheets.png)
 
 - You will be presented with the following menu:
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 12.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 12.png)
 
 - In the box that says "Add people and groups" you will enter the following email:
 
@@ -36,16 +36,16 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 - You will be prompted with this menu. Ensure that the share permission is set to "Editor."
 - Press Send.
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 13.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 13.png)
 
 - Next go back to the share menu and under the "Get Link" menu, click "Change to anyone with the link"
   - This will ensure that SuAVE has permissions to read the spreadsheet for the collected data.
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 14.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 14.png)
 
 - Your share menu should now look like this. Ensure that the permission for "Anyone with the link" is set to "Viewer"
 
-![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 15.png)
+![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 15.png)
 
 - Next, click "Copy link" and save it somewhere. **We will need it in a later step.**
 
@@ -54,17 +54,17 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 - Rename the spreadsheet to the ID of your survey
 - Create a new spreadsheet tab by clicking the "+" button on the bottom left of the screen.
 
-![sheet_new_tab.png]({{ BASE_URL }}\limesurvey_suave\assets\sheet_new_tab.png)
+![sheet_new_tab.png]({{ site.image_base_url }}\limesurvey_suave\assets\sheet_new_tab.png)
 
 - Renaming the spreadsheet tabs
 
   - To rename a spreadsheet tab, right click on it or click on the triangle and select "Rename" from the menu.
 
-  ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 16.png)
+  ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 16.png)
 
   - Rename the first spreadsheet tab to the survey ID collected in the previous section. Make sure to rename the title of the spreadsheet to be the survey ID as well.
 
-  ![sheet_tab_namings.png]({{ BASE_URL }}\limesurvey_suave\assets\sheet_tab_namings.png)
+  ![sheet_tab_namings.png]({{ site.image_base_url }}\limesurvey_suave\assets\sheet_tab_namings.png)
 
   - Rename the second tab to "mappings"
 
@@ -95,7 +95,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
       - In SuAVE, the search menu will sort the labels of the "Region" question responses by quantity.
 
-      ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 17.png)
+      ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 17.png)
 
   ### **ExpressionType**
 
@@ -117,7 +117,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
         - If we simply want to copy the exact response from our survey question (with question code "favorite_sport") over to SuAVE, we would use the "copy" expression type with a configuration that looks like this:
 
-          ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 18.png)
+          ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 18.png)
 
     - multi_from_dict:
 
@@ -128,11 +128,11 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
         - Under SuAVEFieldName, you will want to add the "#multi" qualifier after your desired feature title.
         - If you go to your question in LimeSurvey and scroll down you will see a tab titled "Subquestions." Clicking that will display the subquestion codes that you can make a dictionary of.
 
-        ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 19.png)
+        ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 19.png)
 
         - Scroll down when you get to your question in LimeSurvey
 
-        ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 20.png)
+        ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 20.png)
 
         - Create a list of the subquestions that you would like to display in SuAVE like below.
           - Each item should be in the format of "QuestionCode[SubquestionTitle]"
@@ -157,7 +157,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
         - This is how our question is represented in SuAVE, allowing us to sort the responses by the tags that were derived from our subquestions.
 
-          ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 21.png)
+          ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 21.png)
 
     - dict:
 
@@ -170,9 +170,9 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
       - If a question uses the "Short Free Text" question type that asks respondents to select a location on a map, then these ExpressionTypes will be required to display responses on a map in SuAVE
       - With a question that has the QuestionCode of "Latlon" we will add two rows into our "mappings" spreadsheet and enter the configuration as follows:
 
-      ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 22.png)
+      ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 22.png)
 
-      ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 23.png)
+      ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 23.png)
 
     - template
 
@@ -186,9 +186,9 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
         - Here a student submits their first and last name in the separate respective questions and the mapper formats the responses to show their last name first followed by a comma and space and then their first name.
 
-          ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 24.png)
+          ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 24.png)
 
-          ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 25.png)
+          ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 25.png)
 
   ### **BasedOn**
 
@@ -216,7 +216,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
     - The #img special column name is responsible for taking survey questions that require you to upload an image, and display them as tiles for each individual response in SuAVE as shown here:
 
-    ![Untitled]({{ BASE_URL }}\limesurvey_suave\assets\Untitled 26.png)
+    ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 26.png)
 
     - Starting with BasedOn, we see that we're pulling from the survey question that has the ID of "ProImage"
     - Next, the value for Mapper shows that we are formatting SuAVE to just insert the response data from our question with no extra characters.
