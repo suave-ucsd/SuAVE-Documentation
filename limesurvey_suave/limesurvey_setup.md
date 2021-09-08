@@ -12,7 +12,7 @@ Begin by logging into your LimeSurvey account. You will see one or more actions 
 
 
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled.png)
+![Image of LimeSurvey Survey List page](./assets/Untitled.png)
 
 This is the LimeSurvey homepage. Here you can create surveys, or monitor the ones you've created.
 
@@ -22,7 +22,7 @@ Here we can view the surveys we have created along with their basic information 
 
 There will be a button in the top left corner of the homepage that reads "Create a new Survey." Press this to begin the survey creating process.
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%201.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 1.png)
+![Image of New Survey page](./assets/Untitled 1.png)
 
 Here we have many options to customize the functionality of our survey. You can read more about the specifics of each option [here, as part of LimeSurvey's documentation.](https://manual.limesurvey.org/Surveys_-_introduction)
 
@@ -32,7 +32,7 @@ Press the "Save" button in the upper right hand corner.
 
 ### Write Down Your Survey ID
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%202.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 2.png)
+![Zoomed in image of survey title and ID](./assets/Untitled 2.png)
 
 After saving, you should be redirected to your survey homepage. Here, you can revise the settings of the survey and make changes to it's functionality.
 
@@ -46,45 +46,44 @@ Next, we're going add an end message and include an important piece of code that
 
 Select the menu item titled "Text elements" in the sidebar of your survey homepage.
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%203.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 3.png)
+![Image of survey summary with highlighted "Text elements" navigation menu item](./assets/Untitled 3.png)
 
 You will now see a page that looks very similar to the starting page of our survey creation.
 
 Click on the toggle that reads "Toggle Source Code" to the right of the End Message block. 
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%204.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 4.png)
+![Image of "Toggle Source mode" button](./assets/Untitled 4.png)
 
 Your End Message block should now look like this:
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%205.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 5.png)
+![Image of blank "End Message" text box](./assets/Untitled 5.png)
 
 Copy this block of code and paste it into the "End Message" block
 
 ```jsx
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
-		var val = 123456;
 		$.ajax({
 			url: 'https://limesurvey-flask.sdsc.edu/',
 			type: 'GET',
 			dataType: 'json',
-            data: {survey_id: val},
-            success: function(data){
-            console.log(data);
-            }
-        });
-    });
+			data: {survey_id: 123456},
+			success: function(data){
+				console.log(data);
+			}
+		});
+	});
 </script>
 <p>Thank you for participating in this survey!</p>
 ```
 
 **Important:** Replace the "123456" in the code with the survey id you wrote down in the previous step. Your SuAVE setup will not work without doing so. 
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%206.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 6.png)
+![Image of "End Message" script after replacing survey id](./assets/template_survey_script.png)
 
 Before adding our unique survey ID
 
-![LimeSurvey-SuAVE%20Pipeline%20Tutorial%20f9702e2fe80a4f91841f75d768ed9e35/Untitled%207.png]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 7.png)
+![Image of "End Message"script after replacing survey id](./assets/formatted_survey_script.png)
 
 After adding our unique survey ID
 
@@ -94,7 +93,7 @@ You can then add whatever ending message you want by adding more html code, or r
 
 After Saving, you can click the "Toggle Source Code" button again in order to preview what the ending message will look like. This is what the above source code looks like to the survey participant:
 
-![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 8.png)
+![Image of "End Message" box with "source mode" toggled off](./assets/Untitled 8.png)
 
 - **Note:** If you want to change the end message in the future, you may have to repeat this step and paste in the code again
 
@@ -102,7 +101,7 @@ After Saving, you can click the "Toggle Source Code" button again in order to pr
 
 - Next, navigate to the "Group list" tab on the left navigation bar
 
-  ![Screenshot 2021-08-16 at 15-03-31 LimeSurvey.png]({{ site.image_base_url }}\limesurvey_suave\assets\Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
+  ![Image of Survey summary page with highlighted "Group list" navigation bar item](./assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
 
 - We're going to begin by creating a question group, which is essentially a set of questions that will be grouped together on a single page in your survey.
 
@@ -110,7 +109,7 @@ Note that there must be at least one question group, since each question has to 
 
 - This is what the question group page looks like:
 
-![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 9.png)
+![Image of Question Group page](./assets/Untitled 9.png)
 
 - Your question group does not require any of the fields to be filled in, however we recommend you at least add a title, which will help identify the question group and will show up on the top of page when the survey questions are presented.
 - You can read more about question groups in the official [LimeSurvey Documentation here.](https://manual.limesurvey.org/Question_groups_-_introduction)
@@ -118,11 +117,11 @@ Note that there must be at least one question group, since each question has to 
 - Next, add a question by clicking "Add Question" in the left navigation bar, or by clicking "Save and add question" in the top right
   - To view questions and question groups in the left navigation bar, you will have to select the "Structure" option at the top of the navigation bar.
 
-![new_question.png]({{ site.image_base_url }}\limesurvey_suave\assets\new_question.png)
+![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](./assets/new_question.png)
 
 - Next, we will setup the survey questions in order to collect the data that we'll present in SuAVE.
 
-![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 10.png)
+![Image of Create Question page](./assets/Untitled 10.png)
 
 Survey questions are very versatile and are able to handle many data formats, including but not limited to: multiple choice selections, images, and free form text.
 
@@ -135,7 +134,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the left navigation bar select the "Settings" toggle in the top left and click "Question list."
 
-  ![question_code_columns.png]({{ site.image_base_url }}\limesurvey_suave\assets\question_code_columns.png)
+  ![Image of "Question list" page with highlighted question codes column](./assets/question_code_columns.png)
 
   - Write down a list of the question codes of the questions that contain information that you would like to display in SuAVE. We will need these for the following step.
 
@@ -145,7 +144,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the toolbar at the top of the page there will be a green button titled "Activate Survey" which will take you through the activation steps.
 
-  ![Untitled]({{ site.image_base_url }}\limesurvey_suave\assets\Untitled 11.png)
+  ![Image of focused "Activate this survey" and other top menu items](./assets/Untitled 11.png)
 
 You can use the "Preview survey" button to get a preview of what the survey respondents will see before activating your survey.
 
