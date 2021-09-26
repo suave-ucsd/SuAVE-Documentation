@@ -67,7 +67,7 @@ Copy this block of code and paste it into the "End Message" block
 			url: 'https://limesurvey-flask.sdsc.edu/',
 			type: 'GET',
 			dataType: 'json',
-			data: {survey_id: 123456},
+			data: { survey_id: 123456 },
 			success: function(data){
 				console.log(data);
 			}
@@ -77,7 +77,8 @@ Copy this block of code and paste it into the "End Message" block
 <p>Thank you for participating in this survey!</p>
 ```
 
-**Important:** Replace the "123456" in the code with the survey id you wrote down in the previous step. Your SuAVE setup will not work without doing so. 
+**Important:** Replace the "123456" in the code with the survey id you wrote down in the previous step. Your SuAVE setup will not work without doing so. Also, make sure there are spaces around curly braces in the data: { survey_id: 123456 } line
+
 
 ![Image of "End Message" script after replacing survey id](./assets/template_survey_script.png)
 
