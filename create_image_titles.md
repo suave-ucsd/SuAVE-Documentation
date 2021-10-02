@@ -14,11 +14,11 @@ Organize the images you want to associate with a SuAVE survey, in a  directory o
 
 You will receive the notification from [daemon@maxim.ucsd.edu](mailto:daemon@maxim.ucsd.edu) email address. Check the spam folder if you don’t receive the email in a  reasonable time. Note that tiling large image collections may take  several hours.
 
-![img]({{ site.image_base_url }}/s1_dialog.png)
+![img](./s1_dialog.png)
 
  
 
-In version 2 of SuAVE you can create image tiles directly from the new survey  dialog, by pointing to a folder with images on your computer (as in the  figure below). ![img]({{ site.image_base_url }}/s2_daalog.png)
+In version 2 of SuAVE you can create image tiles directly from the new survey  dialog, by pointing to a folder with images on your computer (as in the  figure below). ![img](./s2_daalog.png)
 
  
 
