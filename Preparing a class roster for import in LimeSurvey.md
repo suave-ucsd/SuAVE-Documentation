@@ -4,8 +4,6 @@ parent: Key Concepts
 nav_order: 7
 ---
 
-# {{page.title}}
-
 # Preparing a class roster for import in LimeSurvey
 You can import your class roster to limesurvey in order to fill the participants table. 
 In order to do this you need to create a csv file. 
@@ -16,12 +14,12 @@ In order to do this you need to create a csv file.
     - email, attribute_1 ``<LocalID>``, token, attribute_2 ``<District_Name>``, lastname, firstname
     .![img](./ClassRosterTable.png)
 - Once you are done choosing the desired importing settings, do not forget to click on the Upload button.
-## Creating a participant table and increasing the number of uses
+# Creating a participant table and increasing the number of uses
 Once you have imported your class roster as a csv file you’ll need to edit the participants table created on limesurvey. 
 - In the settings section on the left hand side of the screen under “survey menu” you will see “survey participants”. If you click this you can select “display participants”.
 - Now you will see the participants table (your class) for the survey. Here you may want to edit the “uses left”. This allows the survey participant (student) to access and complete the survey as many times as you set.
 .![img](./updateUsesLeft.png)
-## Adding instructor and TA to the table:
+# Adding instructor and TA to the table:
 - Under the settings menu on the left hand side of your survey, under the survey menu subheading click on “survey participants” and then click the “create” drop down menu before clicking “add participant”
 - Now fill in the instructor or TA’s name and add their email
 - You may want to add a larger number of uses than the default “1”. This allows the new participant to edit their survey responses once they have completed it for the first time. 
@@ -29,18 +27,18 @@ Once you have imported your class roster as a csv file you’ll need to edit the
     - This will generate access codes for all participants without them.
 - Setting survey properties (eg. retaining timestamps to check submissions against deadlines; ensure response persistence)
 - Using tokens to personalize survey greetings, and letting students confirm their information from the roster by setting up default answers to questions 
-## Customizing email templates and the end message:
+# Customizing email templates and the end message:
 - Under the settings menu on the left hand side of your survey click on “email templates”.
 - Here you are able to edit the invitation, reminder, registration and confirmation emails connected to your survey.
     - You will be able to send invitation and reminder emails to select participants through the participants table
     - Registration emails will be automatically sent to particpants once they registered to patricpate in your survey
     - Confirmation emails wiil also be automatically sent to particpants once they submit their responses
-## Setting up a TA to receive update emails:
+# Setting up a TA to receive update emails:
 - Under the settings menu on the left hand side of your survey click on “general settings”.
     - You will see an administrator box, fill in your TA’s name and email in the appropriate boxes.
     .![img](./TA_Receive_Email.png)
     - If inherit is on, please press the off button in order to change the default value
-## The testing/tuning process: what to expect when you deactivate/reactivate a survey
+# The testing/tuning process: what to expect when you deactivate/reactivate a survey
 - There are two ways to stop a survey:
     - Expiration:	
         - No responses are lost.
