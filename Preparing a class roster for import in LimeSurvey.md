@@ -13,7 +13,7 @@ In order to do this you need to create a csv file.
 - Save the roster as a CSV file.
 - Display attribute warnings: If enabled, after the importing process warnings will be displayed in case there is something wrong with the fields. For example. you might get an attribute warning if nothing is provided in any of the mandatory fields or if an email is incorrectly introduced in the CSV file.
 - You can also import customized attributes when importing a CSV file. You will have to define what attributes will be added. You can do it like this:
-    - email, attribute_1 <Grade>, token, attribute_2<School>, attribute_3<ID>, lastname, firstname
+    - email, attribute_1 \<LocalID>, token, attribute_2 \<District_Name>, lastname, firstname
     .![img](./ClassRosterTable.png)
 - Once you are done choosing the desired importing settings, do not forget to click on the Upload button.
 ## Creating a participant table and increasing the number of uses
