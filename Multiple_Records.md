@@ -14,7 +14,7 @@ There is no in-built LimeSurvey function to register a participant and have them
     - Choose an appropriate field description for the additional attribute
     - Enable <b>Show during registration</b> and <b>Mandatory during registration</b>
     - Remember to click save!
-# Steps for participants to register for your survey
+# Steps for participants to register for your survey:
 - Send this url to your participants and have them register at this url each time they want to complete a response
     - url: https://limesurvey.sdsc.edu/signup/signup.html?survey_id=[Survey ID]
     .![img](./RegisterPage.png)
