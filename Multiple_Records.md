@@ -1,11 +1,12 @@
 ---
 title: Multiple Records for Same Participant
-parent: Key Concepts
-nav_order: 8
+parent: LimeSurvey Integration
+nav_order: 5
 ---
 
 # Multiple Records for the Same Participant
 There is no in-built LimeSurvey function to register a participant and have them be able to edit multiple responses. However, your participants can go to this site https://limesurvey.sdsc.edu/signup/signup.html?survey_id=[Your Survey ID] to register as a participant each time they want to submit a response. 
+Note: This is only necessary if you want your particpants to submit multiple reponses AND have them be able to edit each reponse
 
 # Steps to set up Participants Table:
 - Initialize Participants Table on your survey

@@ -1,7 +1,7 @@
 ---
 title: Preparing a class roster for import in LimeSurvey
-parent: Key Concepts
-nav_order: 7
+parent: LimeSurvey Integration
+nav_order: 6
 ---
 
 # Preparing a class roster for import in LimeSurvey
