@@ -12,13 +12,13 @@ In order to do this you need to create a csv file.
 - Display attribute warnings: If enabled, after the importing process warnings will be displayed in case there is something wrong with the fields. For example. you might get an attribute warning if nothing is provided in any of the mandatory fields or if an email is incorrectly introduced in the CSV file.
 - You can also import customized attributes when importing a CSV file. You will have to define what attributes will be added. You can do it like this:
     - email, attribute_1 ``<LocalID>``, token, attribute_2 ``<District_Name>``, lastname, firstname
-    .![img](./ClassRosterTable.png)
+    .![img](./assets/ClassRosterTable.png)
 - Once you are done choosing the desired importing settings, do not forget to click on the Upload button.
 # Creating a participant table and increasing the number of uses
 Once you have imported your class roster as a csv file you’ll need to edit the participants table created on limesurvey. 
 - In the settings section on the left hand side of the screen under “survey menu” you will see “survey participants”. If you click this you can select “display participants”.
 - Now you will see the participants table (your class) for the survey. Here you may want to edit the “uses left”. This allows the survey participant (student) to access and complete the survey as many times as you set.
-.![img](./updateUsesLeft.png)
+.![img](./assets/updateUsesLeft.png)
 # Adding instructor and TA to the table:
 - Under the settings menu on the left hand side of your survey, under the survey menu subheading click on “survey participants” and then click the “create” drop down menu before clicking “add participant”
 - Now fill in the instructor or TA’s name and add their email
@@ -36,7 +36,7 @@ Once you have imported your class roster as a csv file you’ll need to edit the
 # Setting up a TA to receive update emails:
 - Under the settings menu on the left hand side of your survey click on “general settings”.
     - You will see an administrator box, fill in your TA’s name and email in the appropriate boxes.
-    .![img](./TA_Receive_Email.png)
+    .![img](./assets/TA_Receive_Email.png)
     - If inherit is on, please press the off button in order to change the default value
 # The testing/tuning process: what to expect when you deactivate/reactivate a survey
 - There are two ways to stop a survey:

@@ -11,14 +11,16 @@ Note: This is only necessary if you want your particpants to submit multiple rep
 # Steps to set up Participants Table:
 - Initialize Participants Table on your survey
 - Add at least one survey participant attribute (click on the Manage attributes module)
-    .![img](./AddAttribute.png)
+    .![img](./assets/AddAttribute.png)
     - Choose an appropriate field description for the additional attribute
     - Enable <b>Show during registration</b> and <b>Mandatory during registration</b>
     - Remember to click save!
+    
 # Steps for participants to register for your survey:
 - Send this url to your participants and have them register at this url each time they want to complete a response
     - url: https://limesurvey.sdsc.edu/signup/signup.html?survey_id=[Survey ID]
-    .![img](./RegisterPage.png)
+        - ex) https://limesurvey.sdsc.edu/signup/signup.html?survey_id=958141
+    .![img](./assets/RegisterPage.png)
     - Participants will receive an email with the survey link to submit <b>one</b> response
     - To submit another reponse with the same email, please enter a unique answer in the additional attribute field that was created
         - In the example above, the additional attribute is <b>ID</b>
