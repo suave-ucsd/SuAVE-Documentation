@@ -1,5 +1,5 @@
 ---
-title: Configuring LimeSurvey fro an existing SuAVE gallery
+title: Configuring LimeSurvey for an existing SuAVE gallery
 parent: LimeSurvey Integration
 nav_order: 7
 ---
