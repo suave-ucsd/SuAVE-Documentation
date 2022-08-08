@@ -29,7 +29,7 @@ Download your SuAVE gallery as a CSV file. To get the CSV file click on this ico
 - If you want to enable participants to edit their existing responses AND have them submit more than one response, please follow the instructions on this page: https://suave-ucsd.github.io/SuAVE-Documentation/Multiple_Records.html
 
 # Steps to upload responses from your SuAVE to responses from LimeSurvey
-Please download the jupyter notebook here:
+Please download the jupyter notebook here: https://github.com/suave-ucsd/SuAVE-Documentation/blob/main/limesurvey_suave/assets/CSV%20to%20VV.ipynb
 
 Follow all the instructions in the notebook.
 
