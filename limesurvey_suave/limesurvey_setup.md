@@ -50,7 +50,7 @@ Select the menu item titled "Text elements" in the sidebar of your survey homepa
 
 You will now see a page that looks very similar to the starting page of our survey creation.
 
-Click on the toggle that reads "Toggle Source Code" to the right of the End Message block. 
+Click on the toggle that reads "Toggle Source Code" to the right of the End Message block.
 
 ![Image of "Toggle Source mode" button](./assets/Untitled 4.png)
 
@@ -62,33 +62,29 @@ Copy this block of code and paste it into the "End Message" block
 
 ```jsx
 <script type="text/javascript" charset="utf-8">
-	$(document).ready(function(){
-		$.ajax({
-			url: 'https://limesurvey-flask.sdsc.edu/',
-			type: 'GET',
-			dataType: 'json',
-			data: { survey_id: 123456 },
-			success: function(data){
-				console.log(data);
-			}
-		});
-	});
+              $(document).ready(function(){
+                  var val = {SID}
+                             $.ajax({
+            url: 'https://limesurvey-flask.sdsc.edu',
+            type: 'GET',
+            dataType:'json',
+            data: {
+              survey_id: {SID},
+              token: "{TOKEN}"
+            },
+            success: function(data){
+                console.log(data);
+
+            },
+                             });
+              });
 </script>
-<p>Thank you for participating in this survey!</p>
 ```
+Now it should look like this:
 
-**Important:** Replace the "123456" in the code with the survey id you wrote down in the previous step. Your SuAVE setup will not work without doing so. Also, make sure there are spaces around the curly braces in the "data: { survey_id: 123456 }" line.
+![Image of "End Message" script after replacing survey id](./assets/new_script.JPG)
 
-
-![Image of "End Message" script after replacing survey id](./assets/template_survey_script.png)
-
-Before adding our unique survey ID
-
-![Image of "End Message"script after replacing survey id](./assets/formatted_survey_script.png)
-
-After adding our unique survey ID
-
-You can then add whatever ending message you want by adding more html code, or replacing the text that says "Thank you for participating in this survey!" For example, you can enter 
+You can then add whatever ending message you want by adding more html code, or replacing the text that says "Thank you for participating in this survey!" For example, you can enter
 
 ```jsx
 <p>Thank for your submitting your information!<br>&nbsp;</p><p>To edit your responses to this survey, click <a href="https://limesurvey.sdsc.edu/limesurvey/index.php/123456?token={TOKEN}&amp;lang=en">https://limesurvey.sdsc.edu/limesurvey/index.php/123456?token={TOKEN}&amp;lang=en</a></p><p>Your access code for this survey is: {TOKEN}.</p><h3>To view survey responses in SuAVE <a href="https://suave2.sdsc.edu/main/file=surveyauthor_surveyname.csv&amp;view=grid">Click here</a></h3>
