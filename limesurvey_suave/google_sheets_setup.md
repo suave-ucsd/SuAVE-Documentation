@@ -224,11 +224,9 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
 ### Testing:
 
-- When setting up the mapping from LimeSurvey to Google spreadsheet, it is recommended that you should check one line of mapping at a time (e.g. type in the map for survey participant's names and test to see if it works). To do that efficiently, use the following website:
-
- - https://limesurvey.sdsc.edu/limesurvey-update
- - Note that you will be prompted for a username (lsadmin) and a password(VocalMimic).
- - The point of this website is to force the spreadsheet to refresh so you don't need to fill out a new survey for testing purpose every time you change something in the mapping.
+- When setting up the mapping from LimeSurvey to Google spreadsheet, it is recommended that you should check one line of mapping at a time (e.g. type in the map for survey participant's names and test to see if it works). To do that efficiently, use the following website: [https://limesurvey.sdsc.edu/limesurvey-update](https://limesurvey.sdsc.edu/limesurvey-update)
+- Note that you will be prompted for a username (lsadmin) and a password(VocalMimic).
+- The point of this website is to force the spreadsheet to refresh so you don't need to fill out a new survey for testing purpose every time you change something in the mapping.
 
 ### Checkpoint
 
