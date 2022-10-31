@@ -103,7 +103,7 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
 
     - A list of possible expression types are:
 
-      - copy, dict, multi_from_dict, geoLa, geoLo, template
+      - copy, dict, multi_from_dict, multi_from_typed, geoLa, geoLo, template
 
     - copy:
 
