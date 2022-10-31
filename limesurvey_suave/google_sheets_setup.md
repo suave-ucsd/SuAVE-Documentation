@@ -165,6 +165,17 @@ limesurvey-flask@fusion-r2r.iam.gserviceaccount.com
       - If a response can be filtered/identified by a specific label that is designated in a question, then a dict is a good option
       - The setup is the same as multi_from_dict, without the #multi qualifier
 
+    - multi_from_typed:
+
+      - Used when you want participants to type in multiple responses and use each response as an option on SuaVe.
+      - You should add "#multi" qualifier after the SuaveFieldName
+      - ExpressionType is multi_from_typed
+      - Say if your limesurvey question ID is keywordm then the BasedOn should look like this.
+      ```
+      keywords[S1],keywords[S2],keywords[S3],keywords[S4],keywords[S5]
+      ```
+
+
     - geoLa/geoLo
 
       - If a question uses the "Short Free Text" question type that asks respondents to select a location on a map, then these ExpressionTypes will be required to display responses on a map in SuAVE
