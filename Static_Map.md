@@ -1,10 +1,10 @@
 ---
-title: Static Map Layers to the Map
+title: Static Map Layers to SuAVE
 parent: SuAVE Bibliographic Network
 nav_order: 1
 ---
 
-# Static Map Layers to the Map
+# Static Map Layers to SuAVE
 
 1. **Create the map**: Navigate to [https://www.google.com/maps/d/u/0/?hl=en](https://www.google.com/maps/d/u/0/?hl=en). Click on "CREATE A NEW MAP" in the top left. Name the map and the level fittingly. Then, click on "Share" (on the screen where you are viewing the specific map you are creating), and copy the link.
 
