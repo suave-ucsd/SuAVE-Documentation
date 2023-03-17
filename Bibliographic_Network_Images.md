@@ -295,15 +295,15 @@ Change the limit on line #6 to the number of pictures you want per query (recomm
 
 For the Image Gender Prediction (#91 - #119) here are some pointers at looking at the output of the code cell. An image is filtered out if there are multiple faces in the image (2+ gender guesses for the image), if there is a Resize error, HTTPError error, or the image has no faces (0 gender guesses for the image)
 
+**If the column names are not exactly "Name", "Affiliation#sortquan", "City#sortquan", and "Country#sortquan", you will need to make the needed fixes to lines #32-41. For example, if a column in your dataset is just "Country", change line #38 to  "Country".**
+
 **IMPORTANT disclaimer**: this code may take a while to finish. If you are in a time crunch, lower the limit (for 2 images per query, the code takes 2-10 seconds per person). Once you finish this code, if you do not have time to run the image gender identifier, save names and dict_collection as json files so you do not lose them.
 
 >     import csv
 >     import time
 >     import requests
 >     
->     
 >     limit = 2
->     
 >     
 >     predicted_genders = []
 >     
