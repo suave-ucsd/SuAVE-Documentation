@@ -27,7 +27,6 @@ Once that is done,
     3. If there are matches, the best option would be to Edit cell values such that the values under Names are matching, then click Apply
 11. Finally, facet on LastName and manually go over the facets that have more than 2 values. Sort by count to do this. Click on each cluster (the cluster name will turn red) to see the records included in it and edit them as necessary. Click on the cluster again to deselect it. If you need to edit the entire name in the cluster, click Edit. Once done, remove the LastName column (edit column – remove this column)
 
-1. 
 
 Make sure that when you save the file, it is saved in UTF-8 encoding.
 
