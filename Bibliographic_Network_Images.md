@@ -7,7 +7,7 @@ nav_order: 7
 
 # Generating Images for SuAVE Bibliographic Network
 
-The following code will generate images based on search queries that are constructed from the values in the dataset.
+The following code will generate images based on search queries that are constructed from the variables "Name", "Affiliation", "City", and "Country" in the dataset.
 
 **Run code as is unless specified to change something**.
 
