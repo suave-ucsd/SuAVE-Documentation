@@ -1,5 +1,5 @@
 ---
-title: Suave Bibliographic Network
+title: SuAVE Bibliographic Network
 has_children: true
 ---
 
