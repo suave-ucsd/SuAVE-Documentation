@@ -20,10 +20,10 @@ Note: The only liberty you should take is balancing limit of number images gener
 # Collect Images From Google
 
 >     #format: "/directory/file.csv"
->     csv_file = "/Users/joeykaminsky/Downloads/test 5 csv - Sheet1-2.csv"
+>     csv_file = ""
 >     
 >     #format: "/directory/"
->     download_dir = "/Users/joeykaminsky/Downloads/"
+>     download_dir = ""
 >     
 >     
 >     import urllib.request
