@@ -19,6 +19,7 @@ From here, do the following:
 2. Name the survey something relevant to the network files
 3. Upload relevant images that relate to the pieces in the csv (follow the "Generating Images for SuAVE Bibliographic Network" documentation if you want to use images of the author, not the default of country images)
 4. Upload the netvis.json file under "Netvis Defintion"
-  i. This will allow for the Netvis View
-  ii. This step can also be done for existing surveys. To do so, navigate to "Settings" of the survey, then "Manage Netvis", and  then upload the netvis.json file 
+  
+  1. This will allow for the Netvis View
+  2. This step can also be done for existing surveys. To do so, navigate to "Settings" of the survey, then "Manage Netvis", and  then upload the netvis.json file 
 
