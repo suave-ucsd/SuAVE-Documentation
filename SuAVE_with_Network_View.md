@@ -7,13 +7,13 @@ nav_order: 6
 
 # {{page.title}}
 
-* Make sure your SuAVE visualization has a netvis.json file associated with it. If not, follow the steps in "Adding Network Files to SuAVE".
+* Make sure your SuAVE visualization has a Netvis .json file associated with it. If not, follow the steps in "Adding Network Files to SuAVE".
 
 Once you have completed this, to share and open the SuAVE Visualization with Netvis view, follow these steps:
 
 1. Navigate to your SuAVE Visualization.
 
-2. Copy the url
+2. Copy the url.
 
    1. The url should look something like this: 
 
@@ -25,4 +25,4 @@ Once you have completed this, to share and open the SuAVE Visualization with Net
 
       > suave-net.sdsc.edu/main/[SURVEY INFO]&view=netvis
 
-Now, whenever you share this link, it will initialize with the Netvis view.
+Now, whenever you share this link, it will initialize the SuAVE gallery with the Netvis view.
