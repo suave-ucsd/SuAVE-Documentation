@@ -9,8 +9,8 @@ After generating the network files using http://corpus-db.sdsc.edu/, you should 
 
 Navigate to http://suave-net.sdsc.edu/. Click "New Survey". Your screen should look like this:
 
-<img width="1063" alt="Screenshot 2023-03-13 at 6 16 06 PM" src="https://user-images.githubusercontent.com/102625537/225810626-cecb9ea2-d341-46ff-ba31-d42431b9f99b.png">
 
+<img width="1440" alt="Screenshot 2023-03-16 at 4 53 25 PM" src="https://user-images.githubusercontent.com/102625537/225810716-fa6c250d-6b59-4378-a66e-30fd5661b293.png">
 
 
 From here, do the following:
