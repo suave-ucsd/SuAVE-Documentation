@@ -8,7 +8,7 @@ nav_order: 1
 
 1. **Create the map**: Navigate to [https://www.google.com/maps/d/u/0/?hl=en](https://www.google.com/maps/d/u/0/?hl=en). Click on "CREATE A NEW MAP" in the top left. Name the map and the level fittingly.
 
-2. **Import survey to map**: Make sure your dataset has a location identifier (best if that identifier is Latitude and Longitude). Under your map layer, click "Import", and choose the spreadsheet of the dataset from your Google Drive. 
+2. **Import survey to map**: Make sure your dataset has a location identifier (Latitude and Longitude). Under your map layer, click "Import", and choose the spreadsheet of the dataset from your Google Drive. 
 
     1. Please make sure it is the dataset, not a downloaded version. This will allow the map and SuAVE gallery map to update automatically if more entries are added.
 
