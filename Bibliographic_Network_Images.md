@@ -102,13 +102,13 @@ Note: The only liberty you should take is balancing limit of number images gener
 
 **Download deploy_gender.prototxt, gender_net.caffemodel, deploy.prototxt.txt, and res10_300x300_ssd_iter_140000_fp16.caffemodel and change GENDER_MODEL, GENDER_PROTO, FACE_PROTO, and FACE_MODEL to the respective file destinations (lines 7, 10, 17, and 19)**
 
-deploy_gender.prototxt: https://drive.google.com/file/d/1AW3WduLk1haTVAxHOkVS_BEzel1WXQHP/view
+deploy_gender.prototxt: [https://drive.google.com/file/d/1AW3WduLk1haTVAxHOkVS_BEzel1WXQHP/view](https://drive.google.com/file/d/1AW3WduLk1haTVAxHOkVS_BEzel1WXQHP/view)
 
-gender_net.caffemodel: https://drive.google.com/file/d/1W_moLzMlGiELyPxWiYQJ9KFaXroQ_NFQ/view
+gender_net.caffemodel: [https://drive.google.com/file/d/1W_moLzMlGiELyPxWiYQJ9KFaXroQ_NFQ/view](https://drive.google.com/file/d/1W_moLzMlGiELyPxWiYQJ9KFaXroQ_NFQ/view)
 
-deploy.prototxt.txt: https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt
+deploy.prototxt.txt: [https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt](https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt)
 
-res10_300x300_ssd_iter_140000_fp16.caffemodel: https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20180205_fp16/res10_300x300_ssd_iter_140000_fp16.caffemodel
+res10_300x300_ssd_iter_140000_fp16.caffemodel: [https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20180205_fp16/res10_300x300_ssd_iter_140000_fp16.caffemodel](https://raw.githubusercontent.com/opencv/opencv_3rdparty/dnn_samples_face_detector_20180205_fp16/res10_300x300_ssd_iter_140000_fp16.caffemodel)
 
 >     # Import Libraries
 >     import cv2
