@@ -7,7 +7,7 @@ nav_order: 2
 
 # Organizing Images for SuAVE Galleries
 
-Make sure you first ran the code in "Generating Images for SuAVE Bibliographic Network".
+This code only works if you use the code in "Generating Images for SuAVE Bibliographic Network" to generate images for a SuAVE gallery. Please make sure you first ran the code in "Generating Images for SuAVE Bibliographic Network".
 
 Now, if you want to obtain a list of the searches that obtained the images in the SuAVE gallery, add this to the end of the code:
 
