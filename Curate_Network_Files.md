@@ -6,7 +6,7 @@ nav_order: 4
 
 # Curate Network Files
 
-You will need OpenRefine to curate network files. If you do not already have it, you can download it here: https://openrefine.org.
+You will need OpenRefine to curate network files. If you do not already have it, you can download it here: [https://openrefine.org](https://openrefine.org).
 
 The goal of the curation process is to unify author names such that all records for the same person have identical spelling (ideally, as full a name as possible: with spelled out first name and perhaps middle name(s) as well), while different people would have different spelling. 
 
