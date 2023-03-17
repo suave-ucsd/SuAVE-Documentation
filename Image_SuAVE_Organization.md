@@ -7,9 +7,9 @@ nav_order: 2
 
 # Organizing Images for SuAVE Galleries
 
-To obtain the best searches for images for each name in a dataset, first run the code in "Generating Images for SuAVE Bibliographic Network".
+Make sure you first ran the code in "Generating Images for SuAVE Bibliographic Network".
 
-Once you have run that, add this to the end of the code:
+Now, if you want to obtain a list of the searches that obtained the images in the SuAVE gallery, add this to the end of the code:
 
 >     best_search = []
 >     for i in range(len(names)):
