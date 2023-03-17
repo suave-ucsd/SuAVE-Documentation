@@ -8,7 +8,7 @@ nav_order: 3
 
 ### Here are the steps you will need to follow:
 
-1. Go to http://corpus-db.sdsc.edu/
+1. Go to [http://corpus-db.sdsc.edu/](http://corpus-db.sdsc.edu/)
 
 2. Enter your email and project name that is reflective of the network files you will generate
 
