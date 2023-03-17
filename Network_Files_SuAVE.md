@@ -5,9 +5,9 @@ nav_order: 5
 ---
 
 # {{page.title}}
-After generating the network files using http://corpus-db.sdsc.edu/, you should have two files: the dataset and a Netvis JSON file.
+After generating the network files using [http://corpus-db.sdsc.edu/](http://corpus-db.sdsc.edu/), you should have two files: the dataset and a Netvis JSON file.
 
-Navigate to http://suave-net.sdsc.edu/. Click "New Survey". Your screen should look like this:
+Navigate to [http://suave-net.sdsc.edu/](http://suave-net.sdsc.edu/). Click "New Survey". Your screen should look like this:
 
 
 <img width="1440" alt="Screenshot 2023-03-16 at 4 53 25 PM" src="https://user-images.githubusercontent.com/102625537/225810716-fa6c250d-6b59-4378-a66e-30fd5661b293.png">
