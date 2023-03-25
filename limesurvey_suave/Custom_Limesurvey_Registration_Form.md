@@ -44,6 +44,8 @@ User would be directed to this page, asking for an access code that would connec
 ```
 Feel free to modify the text of the title and the prompts
 
+Once finished, download the file as a .json file. You can then edit the file type to be a .config file. **Caution**: Double check that it actually changed the file type, not just the file name. You can check this by seeing if the file name is 638892.config.json (incorrect) or 638892.config (correct).
+
 2. Create an image file to include in the form. Recommended width is 600 px. Upload the image to Limesurvey, by selecting  Resources (a menu item on the left, under Survey menu) - Images - Upload. Make sure the file is correctly referenced under ImageLocation
 
 3. The signup form config file (in our example, 638892.config) should be uploaded to Limesurvey under Resources - Files - Upload. Check that the file is available by opening the following page in the browser: https://limesurvey.sdsc.edu/limesurvey/upload/surveys/638892/files/638892.config  (the survey-id should correspond to your current survey.)
