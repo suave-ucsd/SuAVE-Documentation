@@ -24,12 +24,12 @@ nav_order: 2
 9. (**This step is optional**): Under "Exclusions", specify any words that you do not want to show up in your dataset.
 10. (**This step is optional**): Enter the keywords to tag authors by if the word appears in a title or abstract.
    - (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
-12. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
-13. (**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
-14. (**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
-15. Click "Submit".
-16. Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.
-17. Follow the link in the email.
+11. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
+12. (**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
+13. (**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
+14. Click "Submit".
+15. Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.
+16. Follow the link in the email.
 
 
 Congratulations! You have generated your desired dataset.
