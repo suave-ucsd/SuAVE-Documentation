@@ -15,6 +15,12 @@ nav_order: 1
 4. Make sure your email is correct at the top of the page.
 5. Name the project under "Project Name" with a fitting title.
 6. Next, select your search type. Most likely, you will want to use search. Click on "Author Open Alex ID" in the scenario where you have the Open Alex IDs for specific authors you would like to include in the search. Follow the correct steps below. Both search formats will follow "All Searches" after the completion of the search's specific steps.
+7. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
+8. (**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
+9. (**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
+10. Click "Submit".
+11. Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.
+12. Follow the link in the email.
 
 ### Author Open Alex ID
 a. (**This step is optional**): You have the option to exclude authors with a certain number of coauthors. You have the choice to select the threshold for too many coauthors. It is defaulted at 25.
@@ -40,21 +46,5 @@ d.  (**This step is optional**): Enter the keywords to tag authors by if the wor
    - (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
 
 ### All Searches (After Following Either Author Open Alex ID Search or Regular Search)
-7. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
-8. (**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
-9. (**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
-10. Click "Submit".
-11. Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.
-12. Follow the link in the email.
-
-<ol start="7">
-  <li>(**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.</li>
-  <li>(**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).</li>
-  <li>(**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).</li>
-  <li>Click "Submit".</li>
-  <li>Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.</li>
-  <li>Follow the link in the email.</li>
-</ol>
-
 
 Congratulations! You have generated your desired dataset.
