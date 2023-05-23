@@ -13,7 +13,7 @@ nav_order: 1
     3a. If you receive an error after doing this, open a new tab and navigate back to https://corpus-db.sdsc.edu. Make sure you enter your correct username and password.
 4. Make sure your email is correct at the top of the page.
 5. Name the project under "Project Name" with a fitting title.
-6. Next, select your search type. Most likely, you will want to use search. Click on "Author Open Alex ID" in the scenatio where you have the Open Alex IDs for specific authors you would like to include in the search.
+6. Next, select your search type. Most likely, you will want to use search. Click on "Author Open Alex ID" in the scenatio where you have the Open Alex IDs for specific authors you would like to include in the search. Follow the correct steps below. Both search formats will follow "All Searches" after the completiong of the search's specific steps.
 
 ### Author Open Alex ID
 a. (This step is optional): You have the option to exclude authors with a certain number of coauthors. You have the choice to select the threshold for too many coauthors. It is defaulted at 25.
