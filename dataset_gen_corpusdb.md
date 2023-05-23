@@ -30,6 +30,7 @@ nav_order: 1
 4. (**This step is optional**): Enter the keywords to tag authors by if the word appears in a title or abstract.
     4a. (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
 
+### All Searches (After Following Either Author Open Alex ID Search or Regular Search)
 7. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
 8. (**This step is optional**): Under "Institutions, enter institutions you would like to include in the search separated by commas. Please include all names for the insitution as to not exclude relavant results (i.e. UC San Diego, UCSD, University of California San Diego).
 9. (**This step is optional**): Under "Collaborating Institutions, enter collaborating institutions you would like to include in the search separated by commas. Like "Instituions", please include all names for the insitution as to not exclude relavant results (i.e. UC San Diego, UCSD, University of California San Diego).
