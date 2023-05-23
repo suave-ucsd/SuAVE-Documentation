@@ -11,7 +11,7 @@ nav_order: 1
 1. Go to https://corpus-db.sdsc.edu.
 2. Enter the username and password you use for https://suave-net.sdsc.edu.
 3. If you are looking to generate a dataset, click on "Search" and then click "Submit".
-    3a. If you receive an error after doing this, open a new tab and navigate back to https://corpus-db.sdsc.edu. Make sure you enter your correct username and password.
+    a. If you receive an error after doing this, open a new tab and navigate back to https://corpus-db.sdsc.edu. Make sure you enter your correct username and password.
 4. Make sure your email is correct at the top of the page.
 5. Name the project under "Project Name" with a fitting title.
 6. Next, select your search type. Most likely, you will want to use search. Click on "Author Open Alex ID" in the scenatio where you have the Open Alex IDs for specific authors you would like to include in the search. Follow the correct steps below. Both search formats will follow "All Searches" after the completiong of the search's specific steps.
