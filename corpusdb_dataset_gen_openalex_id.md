@@ -6,7 +6,7 @@ nav_order: 3
 ---
 # Generating a Dataset Using CorpusDB - Author Open Alex ID Search
 
-***IMPORTANT***: Follow the steps below if you are going to generate a database based on **Open Alex Author IDs**. If you do not have any Open Alex Author IDs in mind to generate a dataset with, then follow the [Generating a Dataset Using CorpusDB - Important Terms Search](https://suave-ucsd.github.io/SuAVE-Documentation/dataset_gen_search_terms_corpusdb.html).
+***IMPORTANT***: Follow the steps below if you are going to generate a database based on **Open Alex Author IDs**. If you do not have any Open Alex Author IDs in mind to generate a dataset with, then follow the [Generating a Dataset Using CorpusDB - Important Terms Search](https://suave-ucsd.github.io/SuAVE-Documentation/corpusdb_dataset_gen_search_terms.html).
 
 
 ## Follow these steps to generate a dataset using CorpusDB
