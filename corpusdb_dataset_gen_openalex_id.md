@@ -30,7 +30,7 @@ nav_order: 3
 12. (**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
 13. Click "Submit".
 14. Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.
-15. Follow the link in the email ([https://corpus-db.sdsc.edu/collect](https://corpus-db.sdsc.edu/collect)) and enter the code included.
+15. Follow the link sent to your email ([https://corpus-db.sdsc.edu/collect](https://corpus-db.sdsc.edu/collect)) and enter the code included in the email.
 16. Your dataset will automatically download to your downloads folder.
 
 
