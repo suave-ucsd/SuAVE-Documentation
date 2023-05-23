@@ -23,8 +23,6 @@ nav_order: 2
    - Select "Allow relaxed search" if you want to populate items with the scope words in no specfic order. Do not check this if you want items to exactly match the scope specfied.
 9. (**This step is optional**): Under "Exclusions", specify any words that you do not want to show up in your dataset.
 10. (**This step is optional**): Enter the keywords to tag authors by if the word appears in a title or abstract.
-
-   - (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
 12. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
 13. (**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
 14. (**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).
