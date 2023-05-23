@@ -47,4 +47,14 @@ d.  (**This step is optional**): Enter the keywords to tag authors by if the wor
 11. Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.
 12. Follow the link in the email.
 
+<ol start="7">
+  <li>(**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.</li>
+  <li>(**This step is optional**): Under "Institutions", enter institutions you would like to include in the search separated by commas. Please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).</li>
+  <li>(**This step is optional**): Under "Collaborating Institutions", enter collaborating institutions you would like to include in the search separated by commas. Like "Institutions", please include all names for the institution as to not exclude relevant results (i.e., UC San Diego, UCSD, University of California San Diego).</li>
+  <li>Click "Submit".</li>
+  <li>Depending on the number of results, an email will be sent to the address specified in the beginning in seconds, minutes, or, in the worst case, hours.</li>
+  <li>Follow the link in the email.</li>
+</ol>
+
+
 Congratulations! You have generated your desired dataset.
