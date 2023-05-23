@@ -5,7 +5,7 @@ nav_order: 1
 
 ---
 
-## Follow these steps to generate a dataset using CorpusDB
+# Follow these steps to generate a dataset using CorpusDB
 
 1. Go to https://corpus-db.sdsc.edu.
 2. Enter the username and password you use for https://suave-net.sdsc.edu.
