@@ -1,6 +1,6 @@
 ---
-title: Generating a Dataset Using CorpusDB
-parent: Data Generation and Filtering Using CorpusDB - Important Terms Search
+title: Generating a Dataset Using CorpusDB - Important Terms Search
+parent: Data Generation and Filtering Using CorpusDB
 nav_order: 2
 
 ---
