@@ -1,6 +1,6 @@
 ---
-title: Generating a Dataset Using CorpusDB
-parent: Data Generation and Filtering Using CorpusDB - Author Open Alex ID Search
+title: Generating a Dataset Using CorpusDB - Author Open Alex ID Search
+parent: Data Generation and Filtering Using CorpusDB
 nav_order: 1
 
 ---
