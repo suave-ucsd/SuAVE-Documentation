@@ -16,11 +16,13 @@ nav_order: 1
 6. Next, select your search type. Most likely, you will want to use search. Click on "Author Open Alex ID" in the scenatio where you have the Open Alex IDs for specific authors you would like to include in the search.
 
 ### Author Open Alex ID
-a. (**This step is optional**): You have the option to exclude authors with a certain number of coauthors. You have the choice to select the threshold for too many coauthors. It is defaulted at 25.
-b. Enter the IDs you would like to include, seperating them with a comma.
-    - (**This step is optional**): You have the option to include or exclude external authors in general or external authors within the authors' instiutions. Choose these based on your preferences.
-c. (**This step is optional**): Enter the keywords to tag authors by if the word appears in a title or abstract.
-    - (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
+a. (This step is optional): You have the option to exclude authors with a certain number of coauthors. You have the choice to select the threshold for too many coauthors. It is defaulted at 25.
+
+b. Enter the IDs you would like to include, separating them with a comma.
+    - (This step is optional): You have the option to include or exclude external authors in general or external authors within the authors' institutions. Choose these based on your preferences.
+    
+c. (This step is optional): Enter the keywords to tag authors by if the word appears in a title or abstract.
+    - (This step is optional): You have the option here to exclude pieces that contain none of the keywords.
 
 ### Regular Search
 1. (**This step is optional**): You have the option to exclude authors with a certain number of coauthors. You have the choice to select the threshold for too many coauthors. It is defaulted at 25.
