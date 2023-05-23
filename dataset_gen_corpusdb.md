@@ -1,10 +1,12 @@
 ---
 title: Generating a Dataset Using CorpusDB
-parent: Data Generation and Filtering Using CorpusDB
+parent: Data Generation and Filtering Using CorpusDB - Author Open Alex ID Search
 nav_order: 1
 
 ---
-# Generating a Dataset Using CorpusDB
+# Generating a Dataset Using CorpusDB - Author Open Alex ID Search
+
+***IMPORTANT***: Follow the steps below if you are going to generate a database based on **Open Alex IDs**. If you do not have any Open Alex IDs in mind to generate a dataset with, then follow the ***Generating a Dataset Using CorpusDB - Important Terms Search***.
 
 ## Follow these steps to generate a dataset using CorpusDB
 
