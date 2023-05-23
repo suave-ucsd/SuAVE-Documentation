@@ -31,12 +31,12 @@ c. (This step is optional): Enter the keywords to tag authors by if the word app
 a. (**This step is optional**): You have the option to exclude authors with a certain number of coauthors. You have the choice to select the threshold for too many coauthors. It is defaulted at 25.
 b. Fill out the scope of texts you want in your search. Please follow the directions closely as they are important for a successful search (i.e. include plurals of words).
 
-    - Select "Allow relaxed search" if you want to populate items with the scope words in no specfic order. Do not check this if you want items to exactly match the scope specfied.
+   - Select "Allow relaxed search" if you want to populate items with the scope words in no specfic order. Do not check this if you want items to exactly match the scope specfied.
     
 c.  (**This step is optional**): Under "Exclusions", specify any words that you do not want to show up in your dataset.  
 d.  (**This step is optional**): Enter the keywords to tag authors by if the word appears in a title or abstract.
 
-    - (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
+   - (**This step is optional**): You have the option here to exclude pieces that contain none of the keywords.
 
 ### All Searches (After Following Either Author Open Alex ID Search or Regular Search)
 7. (**This step is optional**): Under "Starting Year" and "Ending Year", include year boundaries for search results.
