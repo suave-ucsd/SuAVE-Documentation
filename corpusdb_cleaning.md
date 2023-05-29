@@ -4,7 +4,7 @@ parent: Data Generation and Filtering Using CorpusDB
 nav_order: 4
 
 ---
-# CorpusDB Dataset Cleaning
+# Corpus-DB Dataset Cleaning
 
 1. Go to [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu).
 2. Enter the username and password.
