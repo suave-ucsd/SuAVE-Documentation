@@ -1,6 +1,6 @@
 ---
 title: Corpus-DB Dataset Cleaning
-parent: Data Generation and Filtering Using Corpus0DB
+parent: Data Generation and Filtering Using Corpus-DB
 nav_order: 4
 
 ---
