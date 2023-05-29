@@ -21,4 +21,8 @@ nav_order: 4
     - First, click on 'Match Duplicated Name' or 'Match Duplicated Name/Afil' depending on your preference. If you want to merge rows with the same name, click on 'Match Duplicated Name'. If you want to merge rows with the same name and affiliation (more selective option), click on 'Match Duplicated Name/Afil'.
     - After clicking on this, scroll to the bottom of the page to see the possible duplicates. Either select the the checkbox next to the rows to merge (if there is an issue with merging of rows when you do not want to) or 'Select All'. Click 'Merge' on the bottom left of the screen.
     - Now, clck on 'Fuzzy Match Name'. This will further merge rows.  Scroll to the bottom on the page again. For each fuzzy match, either click on 'Select All and Merge', select some of the rows and click 'Merge Selected', or 'Skip to Next' based on your preferences. You also have the option to select with row the rows will merge into under 'Choose item into which others will be merged'; it is automatically set to 'Auto'. If you would like to change this, click the button you want the rows merged into, where they are in the format 'CI {row number}'.
-    - 
+    - Once you are done, no more fuzzy matches will populate.
+12. Make any other row edits you need to make. When you are done, select 'Save Results' in the top right of the screen. A .zip file will automatically be saved with the changes. 
+13. Upload the new cleaned dataset back into SuAVE as [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu) by following steps 1-4.
+
+Congraulations! You now have a SuAVE visualization (and csv) of your cleaned Corpus-DB dataset.
