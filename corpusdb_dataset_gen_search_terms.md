@@ -6,7 +6,7 @@ nav_order: 2
 ---
 # Generating a Dataset Using Corpus-DB - Important Terms Search
 
-***IMPORTANT***: Follow the steps below if you are going to generate a database based on **important words and phrases**. If you would like to create a dataset based on Author Open Alex IDs, then follow the [Generating a Dataset Using Corpus-DB - Author Open Alex ID Search](https://suave-ucsd.github.io/SuAVE-Documentation/corpus-db_dataset_gen_openalex_id.html).
+***IMPORTANT***: Follow the steps below if you are going to generate a database based on **important words and phrases**. If you would like to create a dataset based on Author Open Alex IDs, then follow the [Generating a Dataset Using Corpus-DB - Author Open Alex ID Search](https://suave-ucsd.github.io/SuAVE-Documentation/corpusdb_dataset_gen_openalex_id.html).
 
 ## Follow these steps to generate a dataset using Corpus-DB
 
