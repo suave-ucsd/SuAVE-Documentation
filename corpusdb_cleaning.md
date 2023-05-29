@@ -1,6 +1,6 @@
 ---
-title: CorpusDB Dataset Cleaning
-parent: Data Generation and Filtering Using CorpusDB
+title: Corpus-DB Dataset Cleaning
+parent: Data Generation and Filtering Using Corpus0DB
 nav_order: 4
 
 ---
@@ -9,7 +9,7 @@ nav_order: 4
 1. Go to [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu).
 2. Enter the username and password.
 3. Click on "New Survey".
-4. Appropriately name the dataset and, under "Upload CorpusDB Zip File", upload the **.zip** file of the dataset you previously downloaded.
+4. Appropriately name the dataset and, under "Upload Corpus-DB Zip File", upload the **.zip** file of the dataset you previously downloaded.
     - When creating the dataset and downloading it, you will have downloaded a folder with 3 files. Please create a **.zip** file with these three items and upload them as directed above.
 5. Next, navigate back to [https://corpus-db.sdsc.edu](https://corpus-db.sdsc.edu).
 6. Again, fill in your login credentials to [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu).
