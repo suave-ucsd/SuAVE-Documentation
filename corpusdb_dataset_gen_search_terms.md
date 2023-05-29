@@ -1,14 +1,14 @@
 ---
-title: Generating a Dataset Using CorpusDB - Important Terms Search
-parent: Data Generation and Filtering Using CorpusDB
+title: Generating a Dataset Using Corpus-DB - Important Terms Search
+parent: Data Generation and Filtering Using Corpus-DB
 nav_order: 2
 
 ---
-# Generating a Dataset Using CorpusDB - Important Terms Search
+# Generating a Dataset Using Corpus-DB - Important Terms Search
 
-***IMPORTANT***: Follow the steps below if you are going to generate a database based on **important words and phrases**. If you would like to create a dataset based on Author Open Alex IDs, then follow the [Generating a Dataset Using CorpusDB - Author Open Alex ID Search](https://suave-ucsd.github.io/SuAVE-Documentation/corpusdb_dataset_gen_openalex_id.html).
+***IMPORTANT***: Follow the steps below if you are going to generate a database based on **important words and phrases**. If you would like to create a dataset based on Author Open Alex IDs, then follow the [Generating a Dataset Using Corpus-DB - Author Open Alex ID Search](https://suave-ucsd.github.io/SuAVE-Documentation/corpus-db_dataset_gen_openalex_id.html).
 
-## Follow these steps to generate a dataset using CorpusDB
+## Follow these steps to generate a dataset using Corpus-DB
 
 1. Go to [https://corpus-db.sdsc.edu](https://corpus-db.sdsc.edu).
 2. Enter the username and password you use for [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu).
