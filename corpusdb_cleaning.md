@@ -25,4 +25,4 @@ nav_order: 4
 12. Make any other row edits you need to make. When you are done, select 'Save Results' in the top right of the screen. A .zip file will automatically be saved with the changes. 
 13. Upload the new cleaned dataset back into SuAVE as [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu) by following steps 1-4.
 
-Congraulations! You now have a SuAVE visualization (and csv) of your cleaned Corpus-DB dataset.
+Congraulations! You now have a SuAVE visualization (and csv file) of your cleaned Corpus-DB dataset.
