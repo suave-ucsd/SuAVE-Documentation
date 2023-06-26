@@ -24,6 +24,11 @@ Note: The only liberty you should take is balancing limit of number images gener
 >     
 >     #format: "/directory/"
 >     download_dir = ""
+>
+>     name_col = 'Name'
+>     affiliation_col = 'Affiliation#sortquan'
+>     city_col = 'City#sortquan'
+>     country_col = 'Country#sortquan'
 >     
 >     
 >     import face_recognition
@@ -48,8 +53,25 @@ Note: The only liberty you should take is balancing limit of number images gener
 >     import cv2
 >     import numpy as np
 > 
->     def generate_queries(name, sex, affiliation, country, city):
->        headers = {
+>      def generate_queries(name, affiliation, country, city):
+>          args = [name, affiliation, country, city]
+>          combinations = []
+>          for i in range(2, len(args) + 1):
+>              comb = list(itertools.combinations(args, i))
+>              for c in comb:
+>                  if c[0] == name and "" not in c and "Unknown" not in c:
+>                      if city in c and country in c:
+>                          continue
+>                      combinations.append(list(c))
+>          final_combinations = [name]
+>          for combo in combinations:
+>              new_combo = ' '.join(combo)
+>              final_combinations.append(new_combo)
+>          return final_combinations
+>          
+>      
+>      def get_image_urls(limit, name = '', sex = '', affiliation = '', country = '', city = ''):
+>          headers = {
 >              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60     
 >               Safari/537.36",
 >          }
