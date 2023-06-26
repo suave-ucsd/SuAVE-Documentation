@@ -399,9 +399,8 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 >          #print(img_results)
 >          #based on information present, removes incorrectly gendered images
 >          index_count = 0
-> 
+>          sex = ""
 >          for image_dictionary in img_results:
->              sex = ""
 >              for key in image_dictionary.keys():
 >                  if 'female' in key:
 >                      sex = 'female'
