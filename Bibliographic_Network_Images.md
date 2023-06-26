@@ -26,58 +26,69 @@ Note: The only liberty you should take is balancing limit of number images gener
 >     download_dir = ""
 >     
 >     
+>     import face_recognition
 >     import urllib.request
 >     import urllib
 >     import re
+>     import lxml
 >     import ssl
 >     import itertools
 >     import gender_guesser.detector as gender
 >     import csv
 >     import html
->     import os
 >     import requests
 >     from bs4 import BeautifulSoup
->     
+>     import time
+>     import os
+>     import io
+>     from PIL import Image
+>     import json
+>     import time
+>     import scrapy
+>     import cv2
+>     import numpy as np
+> 
 >     def generate_queries(name, sex, affiliation, country, city):
->             args = [name, sex, affiliation, country, city]
->             combinations = []
->             for i in range(2, len(args) + 1):
->                 comb = list(itertools.combinations(args, i))
->                 for c in comb:
->                     if c[0] == name and "" not in c and "Unknown" not in c:
->                         combinations.append(list(c))
->             final_combinations = []
->             final_combinations.append(name)
->             for combo in combinations:
->                 new_combo = ' '.join(combo)
->                 final_combinations.append(new_combo)
->             return final_combinations
->     
->     def get_image_urls(limit, name = '', sex = '', affiliation = '', country = '', city = ''):
->         if sex == '':
->             d = gender.Detector(case_sensitive=False)
->             first = name.split(" ")[0]
->             guessed_gender = d.get_gender(first)
->             if "male" == guessed_gender or "female" == guessed_gender:
->                 sex = guessed_gender
+>        headers = {
+>              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60     
+>               Safari/537.36",
+>          }
+>          if sex == '':
+>              d = gender.Detector(case_sensitive=False)
+>              first = name.split(" ")[0]
+>              guessed_gender = d.get_gender(first)
+>              if "male" == guessed_gender or "female" == guessed_gender:
+>                  sex = guessed_gender
+>          
+>          queries = generate_queries(name, affiliation, country, city)
+>      
+>          all_links = {}
+>          for query in queries:
+>              html = requests.get("https://www.google.com/search?q=" + query + "+person&tbm=isch&hl=en&gl=us", headers = headers)
+>              soup = BeautifulSoup(html.text, "lxml")
+>              all_script_tags = soup.select("script")
+>
+>              matched_images_data = "".join(re.findall(r"AF_initDataCallback\(([^<]+)\);", str(all_script_tags)))
+>              matched_images_data_fix = json.dumps(matched_images_data)
+>              matched_images_data_json = json.loads(matched_images_data_fix)
+>              matched_google_image_data = re.findall(r'\"b-GRID_STATE0\"(.*)sideChannel:\s?{}}', matched_images_data_json)
+>              matched_google_images_thumbnails = ", ".join(
+>                  re.findall(r'\[\"(https\:\/\/encry#sortpted-tbn0\.gstatic\.com\/images\?.*?)\",\d+,\d+\]',
+>                             str(matched_google_image_data))).split(", ")
+>              removed_matched_google_images_thumbnails = re.sub(
+>                  r'\[\"(https\:\/\/encrypted-tbn0\.gstatic\.com\/images\?.*?)\",\d+,\d+\]', "", str(matched_google_image_data))
+>              matched_google_full_resolution_images = re.findall(r"(?:'|,),\[\"(https:|http.*?)\",\d+,\d+\]",           
+>              removed_matched_google_images_thumbnails)[:limit]
+>      
+>              full_res_images = [
+>                  bytes(bytes(img, "ascii").decode("unicode-escape"), "ascii").decode("unicode-escape") for img in
+>                  matched_google_full_resolution_images
+>              ]
+>              
+>              all_links[query] = full_res_images
+>          return all_links
 >         
->         queries = generate_queries(name, sex, affiliation, country, city)
->         
->         all_links = {}
->         for query in queries:
->     
->             search_url = "https://www.google.com/search?q=" + query + "&tbm=isch"
->             response = requests.get(search_url)
->             soup = BeautifulSoup(response.text, "html.parser")
->     
->             # Find all the images on the page
->             images = soup.find_all("img")
->     
->             # Extract the URLs of the first limit images
->             urls = [image["src"] for image in images[1:limit+1]] 
->             all_links[query] = urls
->             
->         return all_links
+
 >     
 >     
 >     def add_column_to_csv(filename, column_name, data):
@@ -163,119 +174,57 @@ res10_300x300_ssd_iter_140000_fp16.caffemodel: [https://raw.githubusercontent.co
 >                 # append to our list
 >                 faces.append((start_x, start_y, end_x, end_y))
 >         return faces
->     
->     def display_img(title, img):
->         """Displays an image on screen and maintains the output until the user presses a key"""
->         # Display Image on screen
->         cv2.imshow(title, img)
->         # Mantain output until user presses a key
->         cv2.waitKey(0)
->         # Destroy windows when user presses a key
->         cv2.destroyAllWindows()
->         
->     def get_optimal_font_scale(text, width):
->         """Determine the optimal font scale based on the hosting frame width"""
->         for scale in reversed(range(0, 60, 1)):
->             textSize = cv2.getTextSize(text, fontFace=cv2.FONT_HERSHEY_DUPLEX, fontScale=scale/10, thickness=1)
->             new_width = textSize[0][0]
->             if (new_width <= width):
->                 return scale/10
->         return 1
->     
->     # from: https://stackoverflow.com/questions/44650888/resize-an-image-without-distortion-opencv
->     def image_resize(image, width = None, height = None, inter = cv2.INTER_AREA):
->         # initialize the dimensions of the image to be resized and
->         # grab the image size
->         dim = None
->         (h, w) = image.shape[:2]
->         # if both the width and height are None, then return the
->         # original image
->         if width is None and height is None:
->             return image
->         # check to see if the width is None
->         if width is None:
->             # calculate the ratio of the height and construct the
->             # dimensions
->             r = height / float(h)
->             dim = (int(w * r), height)
->         # otherwise, the height is None
->         else:
->             # calculate the ratio of the width and construct the
->             # dimensions
->             r = width / float(w)
->             dim = (width, int(h * r))
->         # resize the image
->         return cv2.resize(image, dim, interpolation = inter)
->     
->     import urllib.request
->     
->     def predict_gender(input_url: str):
->         """Predict the gender of the faces showing in the image"""
->         try:
->             # Read Input Image from URL
->             with urllib.request.urlopen(input_url) as url:
->                 s = url.read()
->             img = np.array(bytearray(s), dtype=np.uint8)
->             img = cv2.imdecode(img, cv2.IMREAD_COLOR)
->     
->             # resize the image, uncomment if you want to resize the image
->             # img = cv2.resize(img, (frame_width, frame_height))
->             # Take a copy of the initial image and resize it
->             frame = img.copy()
->             ######if frame.shape[1] > frame_width:
->                 #####frame = image_resize(frame, width=frame_width)
->             # predict the faces
->             faces = get_faces(frame)
->             # Loop over the faces detected
->             # for idx, face in enumerate(faces):
->             labels = []
->             for i, (start_x, start_y, end_x, end_y) in enumerate(faces):
->                 face_img = frame[start_y: end_y, start_x: end_x]
->                 # image --> Input image to preprocess before passing it through our dnn for classification.
->                 # scale factor = After performing mean substraction we can optionally scale the image by some factor. (if 1 -> no scaling)
->                 # size = The spatial size that the CNN expects. Options are = (224*224, 227*227 or 299*299)
->                 # mean = mean substraction values to be substracted from every channel of the image.
->                 # swapRB=OpenCV assumes images in BGR whereas the mean is supplied in RGB. To resolve this we set swapRB to True.
->                 blob = cv2.dnn.blobFromImage(image=face_img, scalefactor=1.0, size=(
->                     227, 227), mean=MODEL_MEAN_VALUES, swapRB=False, crop=False)
->                 # Predict Gender
->                 gender_net.setInput(blob)
->                 gender_preds = gender_net.forward()
->                 i = gender_preds[0].argmax()
->                 gender = GENDER_LIST[i]
->                 gender_confidence_score = gender_preds[0][i]
->                 # Draw the box
->                 label = "{}-{:.2f}%".format(gender, gender_confidence_score*100)
->                 print(label)
->                 labels.append(label)
->                 yPos = start_y - 15
->                 while yPos < 15:
->                     yPos += 15
->                 # get the font scale for this image size
->                 optimal_font_scale = get_optimal_font_scale(label,((end_x-start_x)+25))
->                 box_color = (255, 0, 0) if gender == "Male" else (147, 20, 255)
->                 cv2.rectangle(frame, (start_x, start_y), (end_x, end_y), box_color, 2)
->                 # Label processed image
->                 cv2.putText(frame, label, (start_x, yPos),
->                             cv2.FONT_HERSHEY_SIMPLEX, optimal_font_scale, box_color, 2)
->             # Display processed image
->             #display_img("Gender Estimator", frame)
->             # uncomment if you want to save the image
->             # cv2.imwrite("output.jpg", frame)
->             # Cleanup
->             cv2.destroyAllWindows()
->             if len(labels) == 1:
->                 return labels[0]
->             else:
->                 return "delete"
->         except urllib.error.HTTPError as e:
->             print("HTTPError")
->         except Exception as e:
->             if 'ssize.empty() in function' in str(e):
->                 print("Resize error")
->     
->     # Disable SSL image certificate verification
->     ssl._create_default_https_context = ssl._create_unverified_context
+
+
+>      def predict_gender(image_url):
+>          opener = urllib.request.build_opener()
+>          opener.addheaders = [
+>              ('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.9999.999 
+>              Safari/537.36')
+>          ]
+>          urllib.request.install_opener(opener)
+>          try:
+>              req = urllib.request.urlopen(image_url)
+>              arr = np.asarray(bytearray(req.read()), dtype=np.uint8)
+>              image = cv2.imdecode(arr, -1)
+>          except Exception as e:
+>              #print("Error occurred while reading the image from URL:", str(e))
+>              return "delete"
+>      
+>          # Detect faces in the image
+>          try:
+>              face_locations = face_recognition.face_locations(image)
+>              face_encodings = face_recognition.face_encodings(image, face_locations)
+>          except Exception as e:
+>              print("Error occurred while reading the image from URL:", str(e))
+>              return "delete"
+>      
+>          genders = []
+>      
+>          for face_location, face_encoding in zip(face_locations, face_encodings):
+>              # Extract face region from the image
+>              top, right, bottom, left = face_location
+>              face = image[top:bottom, left:right]
+>      
+>              # Perform gender prediction
+>              blob = cv2.dnn.blobFromImage(face, 1.0, (227, 227), MODEL_MEAN_VALUES, swapRB=False)
+>              genderNet.setInput(blob)
+>              genderPreds = genderNet.forward()
+>              gender = genderList[genderPreds[0].argmax()]
+>              confidence = genderPreds[0][genderPreds[0].argmax()]
+>      
+>              genders.append((gender, confidence))
+>      
+>              label = f"{gender}, {confidence:.2f}"
+>              cv2.rectangle(image, (left, top), (right, bottom), (0, 255, 0), 2)
+>              cv2.putText(image, label, (left, top - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2, cv2.LINE_AA)
+>      
+>          if len(genders) == 1:
+>                  return genders[0][0] + ": " + str(genders[0][1])
+>          else:
+>              return "delete"
+>         # Disable SSL image certificate verification
+>         ssl._create_default_https_context = ssl._create_unverified_context
 
 Some general functions
 
