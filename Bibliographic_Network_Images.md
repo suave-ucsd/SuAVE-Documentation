@@ -645,6 +645,6 @@ To produce the SuAVE visualization, do these steps:
 1. Choose upload CSV and upload the updated CSV
 2. Title your SuAVE visualization
 3. Instead of creating an empty repository, upload the images you downloaded (the order your upload the images does not matter)
-   - Alternatively, upload your images to (dzgen.sdsc.edu/upload)[dzgen.sdsc.edu/upload]; enter your email, upload the images, and select upload to server. Wait until it sends a link to your email, and copy that link under the upload your images via link option.
+   - Alternatively, upload your images to [dzgen.sdsc.edu/upload](dzgen.sdsc.edu/upload); enter your email, upload the images, and select stire in file server. Wait until it sends a link to your email, and copy that link under the upload your images via link option.
 
 Now you will have a SuAVE visualization with images. Be sure to manually check some images to assure validaity and scan over images to make sure there are no wacky images.
