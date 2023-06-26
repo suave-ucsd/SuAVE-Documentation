@@ -248,200 +248,210 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 
 **IMPORTANT disclaimer**: this code may take a while to finish. If you are in a time crunch, lower the limit (for 2 images per query, the code takes 2-10 seconds per person). Once you finish this code, if you do not have time to run the image gender identifier, save names and dict_collection as json files so you do not lose them.
 
->     import csv
->     import time
->     import requests
->     
->     limit = 2
->     
->     predicted_genders = []
->     
->     final_results = []
->     final_img_predictions = []
->     to_redo = []
->     
->     with open(csv_file, 'r') as file:
->         reader = csv.reader(file)
->         num_rows = len(list(reader))
->     
->     names = []    
->     def process_data(csv_file, start_index, end_index, counter):
->         errors = []
->         inner_count = 0
->         dict_collection = []
->         d = gender.Detector(case_sensitive=False)
->         with open(csv_file, 'r') as file:
->             query_dict = {}
->             reader = csv.DictReader(file)
->             for i, row in enumerate(reader):
->                 if i < start_index:
->                     continue
->                 if i >= end_index:
->                     break
->                 ###
->                 #operates that these are the names of columns
->                 name = row["Name"]
->                 name = html.unescape(name)
->                 names.append(name)
->                 print(F"{counter}: {name}")
->                 affiliation = row["Affiliation#sortquan"]
->                 affiliation = html.unescape(affiliation)
->                 country = row["Country#sortquan"]
->                 country = html.unescape(country)
->                 city = row["City#sortquan"]
->                 city = html.unescape(city)
->                 ###
->                 predicted_genders.append(d.get_gender(name.split(" ")[0]))
->                 try:
->                     imgs = get_image_urls(limit, name=name, affiliation=affiliation, country=country, city=city)
->                     dict_collection.append(imgs)
->                     ##
->                     total_length = 0
->                     for lst in imgs.values():
->                         total_length += len(lst)
->                     if total_length == 0 and inner_count not in errors:
->                         errors.append({inner_count:[name, affiliation, country, city, counter]})
->                     ##
->                 except requests.exceptions.ReadTimeout as e:
->                     print(f"Request timed out for row {i}. Skipping.")
->                     dict_collection.append({name: []})
->                     errors.append({inner_count:[name, affiliation, country, city, counter]})
->                 if counter % 250 == 0 and counter != 0:
->                     print(f"Processed {counter} rows. Pausing for 3 minutes...")
->                     time.sleep(180)
->                 counter += 1
->                 inner_count += 1
->         print(dict_collection)   
->         for error in errors:
->             try:
->                 name = list(error.values())[0][0]
->                 affiliation = list(error.values())[0][1]
->                 country = list(error.values())[0][2]
->                 city = list(error.values())[0][3]
->                 ovr_index = list(error.values())[0][4]
->                 
->                 print(F"Redo for: {name}")
->     
->                 imgs = get_image_urls(limit, name=name, affiliation=affiliation, country=country, city=city)
->                 dict_collection[list(error.keys())[0]] = imgs
->                 
->                 total_length = 0
->                 for lst in imgs.values():
->                     total_length += len(lst)
->                 if total_length == 0:
->                     to_redo.append({ovr_index:[name, affiliation, country, city]})
->     
->             except requests.exceptions.ReadTimeout as e:
->                 print(f"Request timed out for {name}. Skipping.")
->         
->             
->             
->         img_results = []        
->         first_iteration = True
->         for image_dict in dict_collection:
->             to_add = {}
->             for search, images in image_dict.items():
->                 if first_iteration:
->                     first_iteration = False
->                 else:
->                     print("\n")
->                 print(F"Search: {search}\n")
->                 search_result = []
->                 to_delete = []
->                 #number pictures
->                 count = 1
->                 for index in range(len(images)):
->                     ##remove images with multiple/no faces
->                     print(F"Image {count}")
->                     gender_guess = predict_gender(images[index])
->                     count += 1
->                     #removes unwanted photos from list - ones with too many faces, no faces, or raises an error in the code
->                     if gender_guess == "delete" or gender_guess == None:
->                         to_delete.append(index)
->                     else:
->                         search_result.append(gender_guess)
->                 for index in reversed(to_delete):
->                     #use dict_collection so that you can add images
->                     image_dict[search].remove(images[index])
->                 to_add[search] = search_result
->             img_results.append(to_add)
->         
->         
->         index_count = 0
->         sex = ""
->         for image_dictionary in img_results:
->             for key in image_dictionary.keys():
->                 if 'female' in key:
->                     sex = 'female'
->                 elif 'male' in key and 'female' not in key:
->                     sex = 'male'
->     
->             filtered_dict = {}
->             for k, v in image_dictionary.items():
->                 to_remove = []
->                 filtered_list = []
->                 for i in v:
->                     if sex != "" and sex == 'male' and "Female" not in i:
->                         filtered_list.append(i)
->                     elif sex != "" and sex == 'female' and "Male" not in i:
->                         filtered_list.append(i)
->                     elif sex != "":
->                         to_remove.append(v.index(i))
->                 reversed_remove = reversed(to_remove)
->                 for index in reversed_remove:
->                     #removes misclassified images from dict_collection
->                     dict_collection[index_count][k].pop(index)
->                     image_dictionary[k].pop(index)
->     
->                 filtered_dict[k] = filtered_list
->             image_dictionary = filtered_dict
->             index_count += 1
->             
->             
->         idx_ct = 0
->         for image_dict in img_results:
->             if image_dict == {}:
->                 final_results.append({"none":[]})
->                 final_img_predictions.append({"none":[]})
->                 idx_ct += 1
->                 continue
->             fin_results = {}
->             for key, results in image_dict.items():
->                 if len(results) != 0:
->                     img_pctg = len(results) / limit
->                     avg_rating = 0
->                     for result in results:             
->                         avg_rating += float(extract_numbers_and_periods(result))
->                     avg_rating = (avg_rating / len(results)) / 100
->                     fin_results[key] = (avg_rating * 0.5) + (0.5 * img_pctg)
->                 else:
->                     fin_results[key] = 0
->     
->             best = image_dict[max_value(fin_results)[0]]
->             best_search = max_value(fin_results)[0]
->             print(best_search)
->             to_add = {}
->             to_add_2 = {}
->             to_add[best_search] = dict_collection[idx_ct][best_search]
->             to_add_2[best_search] = best
->             final_results.append(to_add)
->             final_img_predictions.append(to_add_2)
->             idx_ct += 1    
->             
->         return counter
->                     
->     
->     ####
->     start_index = 0
->     end_index = 100
->     counter = 0
->     while start_index <= num_rows:
->         counter = process_data(csv_file, start_index, end_index, counter)
->         start_index += 100
->         end_index += 100
->     ####
->     
->     add_column_to_csv(csv_file, "Guessed_Gender", predicted_genders)
+>      limit = 2
+>    
+>      predicted_genders = []
+>    
+>      final_results = []
+>      final_img_predictions = []
+>      to_redo = []
+>    
+>      with open(csv_file, 'r') as file:
+>          reader = csv.reader(file)
+>          num_rows = len(list(reader))
+>    
+>      names = []    
+>      def process_data(csv_file, start_index, end_index, counter):
+>          internal = []
+>          print(F"{start_index}-{end_index}")
+>          errors = []
+>          inner_count = 0
+>          dict_collection = []
+>          d = gender.Detector(case_sensitive=False)
+>          with open(csv_file, 'r') as file:
+>              query_dict = {}
+>              reader = csv.DictReader(file)
+>              for i, row in enumerate(reader):
+>                  if i < start_index:
+>                      continue
+>                  if i >= end_index:
+>                      break
+>                  ###
+>                  #operates that these are the names of columns
+>                  name = row[name_col]
+>                  name = html.unescape(name)
+>                  names.append(name)
+>                  #print(F"{counter}: {name}")
+>                  affiliation = row[affiliation_col]
+>                  affiliation = html.unescape(affiliation)
+>                  country = row[country_col]
+>                  country = html.unescape(country)
+>                  city = row[city_col]
+>                  city = html.unescape(city)
+>                  ###
+>                  predicted_genders.append(d.get_gender(name.split(" ")[0]))
+>                  if i % 25 == 0 and i != 0:
+>                      print(i)
+>                  try:
+>                      imgs = get_image_urls(limit, name=name, affiliation=affiliation, country=country, city=city)
+>                      dict_collection.append(imgs)
+>                      ##
+>                      total_length = 0
+>                      for lst in imgs.values():
+>                          total_length += len(lst)
+>                      if total_length == 0 and inner_count not in errors:
+>                          errors.append({inner_count:[name, affiliation, country, city, counter]})
+>                      ##
+>                  except requests.exceptions.ReadTimeout as e:
+>                      print(f"Request timed out for row {i}. Skipping.")
+>                      dict_collection.append({name: []})
+>                      errors.append({inner_count:[name, affiliation, country, city, counter]})
+>                  if counter % 250 == 0 and counter != 0:
+>                      print(f"Processed {counter} rows. Pausing for 3 minutes...")
+>                      #time.sleep(180)
+>                  counter += 1
+>                  inner_count += 1
+>          #print(dict_collection) 
+>          #print(F"# redos: {len(errors)}")
+>          for error in errors:
+>              try:
+>                  name = list(error.values())[0][0]
+>                  affiliation = list(error.values())[0][1]
+>                  country = list(error.values())[0][2]
+>                  city = list(error.values())[0][3]
+>                  ovr_index = list(error.values())[0][4]
+>                  
+>                  print(F"Redo for: {name}")
+>      
+>                  imgs = get_image_urls(limit, name=name, affiliation=affiliation, country=country, city=city)
+>                  dict_collection[list(error.keys())[0]] = imgs
+>                  
+>                  total_length = 0
+>                  for lst in imgs.values():
+>                      total_length += len(lst)
+>                  if total_length == 0:
+>                      to_redo.append({ovr_index:[name, affiliation, country, city]})
+>      
+>              except requests.exceptions.ReadTimeout as e:
+>                  print(f"Request timed out for {name}. Skipping.")
+>          
+>          print(F"Gender Guesses for {start_index}-{end_index}")    
+>          ct_2 = 0    
+>          img_results = []        
+>          first_iteration = True
+>          for image_dict in dict_collection:
+>              if ct_2 % 25 == 0:
+>                  print(ct_2)
+>              ct_2 += 1
+>              to_add = {}
+>              for search, images in image_dict.items():
+>                  if first_iteration:
+>                      first_iteration = False
+>                  else:
+>                      print("\n")
+>                  #print(F"Search: {search}\n")
+>                  search_result = []
+>                  to_delete = []
+>                  #number pictures
+>                  count = 1
+>                  for index in range(len(images)):
+>                      ##remove images with multiple/no faces
+>                      #print(F"Image {count}")
+>                      gender_guess = predict_gender(images[index])
+>                      #print(gender_guess)
+>                      count += 1
+>                      #removes unwanted photos from list - ones with too many faces, no faces, or raises an error in the code
+>                      if gender_guess == "delete" or gender_guess == None:
+>                          to_delete.append(index)
+>                      else:
+>                          search_result.append(gender_guess)
+>                  for index in reversed(to_delete):
+>                      #use dict_collection so that you can add images
+>                      image_dict[search].remove(images[index])
+>                  to_add[search] = search_result
+>              img_results.append(to_add)
+>          
+>          #print(img_results)
+>          index_count = 0
+>          sex = ""
+>          for image_dictionary in img_results:
+>              for key in image_dictionary.keys():
+>                  if 'female' in key:
+>                      sex = 'female'
+>                  elif 'male' in key and 'female' not in key:
+>                      sex = 'male'
+>      
+>              filtered_dict = {}
+>              for k, v in image_dictionary.items():
+>                  to_remove = []
+>                  filtered_list = []
+>                  for i in v:
+>                      if sex != "" and sex == 'male' and "Female" not in i:
+>                          filtered_list.append(i)
+>                      elif sex != "" and sex == 'female' and "Male" not in i:
+>                          filtered_list.append(i)
+>                      elif sex != "":
+>                          to_remove.append(v.index(i))
+>                  reversed_remove = reversed(to_remove)
+>                  for index in reversed_remove:
+>                      #removes misclassified images from dict_collection
+>                      dict_collection[index_count][k].pop(index)
+>                      image_dictionary[k].pop(index)
+>      
+>                  filtered_dict[k] = filtered_list
+>              image_dictionary = filtered_dict
+>              index_count += 1
+>              
+>              
+>          idx_ct = 0
+>          curr_results = []
+>          for image_dict in img_results:
+>              #print(image_dict)
+>              if image_dict == {}:
+>                  final_results.append({"none":[]})
+>                  final_img_predictions.append({"none":[]})
+>                  idx_ct += 1
+>                  continue
+>              fin_results = {}
+>              for key, results in image_dict.items():
+>                  if len(results) != 0:
+>                      img_pctg = len(results) / limit
+>                      avg_rating = 0
+>                      for result in results:             
+>                          avg_rating += float(extract_numbers_and_periods(result))
+>                      avg_rating = (avg_rating / len(results)) / 100
+>                      fin_results[key] = (avg_rating * 0.5) + (0.5 * img_pctg)
+>                  else:
+>                      fin_results[key] = 0
+>      
+>              best = image_dict[max_value(fin_results)[0]]
+>              best_search = max_value(fin_results)[0]
+>              #print(best_search)
+>              to_add = {}
+>              to_add_2 = {}
+>              to_add[best_search] = dict_collection[idx_ct][best_search]
+>              to_add_2[best_search] = best
+>              final_results.append(to_add)
+>              curr_results.append(to_add)
+>              final_img_predictions.append(to_add_2)
+>              idx_ct += 1    
+>          print(curr_results)    
+>          return counter
+>                      
+>      
+>      ####
+>      start = time.time()
+>      start_index = 0
+>      end_index = 100
+>      counter = 0
+>      while start_index <= num_rows:
+>          counter = process_data(csv_file, start_index, end_index, counter)
+>          start_index += 100
+>          end_index += 100
+>          time.sleep(60)
+>      end = time.time()
+>      ####
+>      print(end - start)
 
 # Add Image URLs and Gender Prediction Based on Best Images to CSV
 
@@ -612,5 +622,6 @@ To produce the SuAVE visualization, do these steps:
 1. Choose upload CSV and upload the updated CSV
 2. Title your SuAVE visualization
 3. Instead of creating an empty repository, upload the images you downloaded (the order your upload the images does not matter)
+   - Alternatively, upload your images to (dzgen.sdsc.edu/upload)[dzgen.sdsc.edu/upload]; enter your email, upload the images, and select upload to server. Wait until it sends a link to your email, and copy that link under the upload your images via link option.
 
 Now you will have a SuAVE visualization with images. Be sure to manually check some images to assure validaity and scan over images to make sure there are no wacky images.
