@@ -493,7 +493,8 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 >                 ###
 >                 # Add the rest of the URLs to the rest_urls list
 >             else: 
->                 first_urls.append("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08w3j9UMPcMqpu55Q-sQAJGXRwJ-20KEJfwiAyrcMjuO1NW5MhJ2otwqIejs&s")
+>                 first_urls.append("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08w3j9UMPcMqpu55Q-sQAJGXRwJ-
+>                   20KEJfwiAyrcMjuO1NW5MhJ2otwqIejs&s")
 >                 first_img_result.append("")
 >             if len(values) > 1:
 >                 rest_urls.append(", ".join(values[1:]))
