@@ -245,8 +245,8 @@ res10_300x300_ssd_iter_140000_fp16.caffemodel: [https://raw.githubusercontent.co
 >                  return genders[0][0] + ": " + str(genders[0][1])
 >          else:
 >              return "delete"
->         # Disable SSL image certificate verification
->         ssl._create_default_https_context = ssl._create_unverified_context
+>    # Disable SSL image certificate verification
+>    ssl._create_default_https_context = ssl._create_unverified_context
 
 Some general functions
 
