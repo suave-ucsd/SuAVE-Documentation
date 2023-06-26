@@ -11,7 +11,7 @@ The following code will generate images based on search queries that are constru
 
 **Run code as is unless specified to change something**.
 
-**Use a VPN to run this code. UCSD offers a VPN if you do not possess one.**
+**Use a VPN to run this code. I reccomend ProtonVPN**
 
 Note: The only liberty you should take is balancing limit of number images generated per query and time to execute. If you are not as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
 
@@ -75,15 +75,16 @@ Note: The only liberty you should take is balancing limit of number images gener
 >              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60     
 >               Safari/537.36",
 >          }
+>          #Guess sex by name
 >          if sex == '':
 >              d = gender.Detector(case_sensitive=False)
 >              first = name.split(" ")[0]
 >              guessed_gender = d.get_gender(first)
 >              if "male" == guessed_gender or "female" == guessed_gender:
 >                  sex = guessed_gender
->          
+>          #Generate queries from code above
 >          queries = generate_queries(name, affiliation, country, city)
->      
+>          #Scrape using bs4 and circumventing the encryption using this code
 >          all_links = {}
 >          for query in queries:
 >              html = requests.get("https://www.google.com/search?q=" + query + "+person&tbm=isch&hl=en&gl=us", headers = headers)
@@ -199,6 +200,8 @@ res10_300x300_ssd_iter_140000_fp16.caffemodel: [https://raw.githubusercontent.co
 
 
 >      def predict_gender(image_url):
+>          #Takes an image url and returns the gender of people in the image with the confidence ratings of those predictions
+>          #The code only returns predictions for valid images with only 1 person in the image; else "delete" is returned
 >          opener = urllib.request.build_opener()
 >          opener.addheaders = [
 >              ('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.9999.999 
@@ -284,6 +287,7 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 >    
 >      names = []    
 >      def process_data(csv_file, start_index, end_index, counter):
+>          #Run the code above in chunks of 100 (or whatever you set the code to run at once
 >          internal = []
 >          print(F"{start_index}-{end_index}")
 >          errors = []
@@ -312,6 +316,7 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 >                  city = html.unescape(city)
 >                  ###
 >                  predicted_genders.append(d.get_gender(name.split(" ")[0]))
+>                  #Print statement to keep track of progress
 >                  if i % 25 == 0 and i != 0:
 >                      print(i)
 >                  try:
@@ -328,13 +333,11 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 >                      print(f"Request timed out for row {i}. Skipping.")
 >                      dict_collection.append({name: []})
 >                      errors.append({inner_count:[name, affiliation, country, city, counter]})
->                  if counter % 250 == 0 and counter != 0:
->                      print(f"Processed {counter} rows. Pausing for 3 minutes...")
->                      #time.sleep(180)
 >                  counter += 1
 >                  inner_count += 1
 >          #print(dict_collection) 
 >          #print(F"# redos: {len(errors)}")
+>          #For rows that had errors the first time; it is was something wacky that happened, the code should wrk here for the row
 >          for error in errors:
 >              try:
 >                  name = list(error.values())[0][0]
@@ -356,7 +359,7 @@ For the Image Gender Prediction (#91 - #119) here are some pointers at looking a
 >      
 >              except requests.exceptions.ReadTimeout as e:
 >                  print(f"Request timed out for {name}. Skipping.")
->          
+>          #Guessing genders for each image url generated
 >          print(F"Gender Guesses for {start_index}-{end_index}")    
 >          ct_2 = 0    
 >          img_results = []        
