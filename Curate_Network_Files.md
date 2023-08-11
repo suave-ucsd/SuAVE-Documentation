@@ -1,7 +1,7 @@
 ---
 title: Curate Network Files
 parent: SuAVE Bibliographic Network
-nav_order: 4
+nav_order: 3
 ---
 
 # Curate Network Files
