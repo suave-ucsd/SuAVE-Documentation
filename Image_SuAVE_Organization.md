@@ -1,7 +1,7 @@
 ---
 title: Organizing Images for SuAVE Galleries
 parent: SuAVE Bibliographic Network
-nav_order: 2
+nav_order: 9
 
 ---
 
