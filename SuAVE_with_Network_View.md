@@ -1,7 +1,7 @@
 ---
 title: Opening SuAVE with Network View
 parent: SuAVE Bibliographic Network
-nav_order: 6
+nav_order: 5
 
 ---
 
