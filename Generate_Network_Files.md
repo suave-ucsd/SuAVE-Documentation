@@ -1,7 +1,7 @@
 ---
 title: Generating Network Files
 parent: SuAVE Bibliographic Network
-nav_order: 3
+nav_order: 2
 ---
 
 # {{page.title}}
