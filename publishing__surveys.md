@@ -6,7 +6,7 @@ nav_order: 4
 
 # {{page.title}}
 
-- If you do not have a SuAVE account yet, click (here)[https://suave-ucsd.github.io/SuAVE-Documentation/create_account.html] (as you need one to publish a survey).
+- If you do not have a SuAVE account yet, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/create_account.html) (as you need one to publish a survey).
 
 - If you need help adding images to correspond to your survey, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/create_image_titles.html).
 
