@@ -18,7 +18,7 @@ Once that is done,
 4. Work through the found clusters and unify the names, by placing checkmarks under the Merge? column. If you need to change the assigned name from the one suggested by OpenRefine, click that name or type in your preferred option. Try to have them in the form of First name followed by Last name, for consistency.
 5. Click Merge Selected and re-cluster once you are worked through all suggested clusters.
 6. Experiment with other methods and keying functions to unify as many records as feasible. When you use n-Gram fingerprint, make sure you experiment with n-Gram size of 1 as well.
-7. If in doubt, click “Brose this cluster”. To return to the previous mode, click Reset All.
+7. If in doubt, click “Browse this cluster”. To return to the previous mode, click Reset All.
 8. If you notice records that should be clustered but not found by the program, edit Name in one of them to match the other, and they recluster.
 9. Remove records with names such as Anonymous, Author, and et al.,For this, select Name – Facet – text Facet, navigate to such abnormal entries, and click “include”. Then under All, select Edit Rows – remove matching rows.
 10. Split the name into first name and last name, and run clustering on the last names only.
