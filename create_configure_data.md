@@ -14,4 +14,4 @@ In version 1 of SuAVE you can publish local  CSV files. The publication process 
 
 In version 2, SuAVE can additionally import CSV files from a web URL, or retrieve data from a URL each time SuAVE loads. The latter is  especially useful if you have independently updated data files, eg  google spreadsheets or files generated on database queries.
 
-A reference to a Google sheet that SuAVE can accept looks like https://docs.google.com/spreadsheets/d/1_XwupwRD-Y-wz3NIeft4uq4dvXZmIIv8o2tekHKk8jA/export?format=csv&gid=886577023
+A reference to a Google sheet that SuAVE can accept looks like [this](https://docs.google.com/spreadsheets/d/1_XwupwRD-Y-wz3NIeft4uq4dvXZmIIv8o2tekHKk8jA/export?format=csv&gid=886577023)
