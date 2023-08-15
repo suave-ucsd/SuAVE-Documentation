@@ -6,8 +6,6 @@ nav_order: 6
 
 # {{page.title}}
 
-# Annotations
-
 SuAVE supports two types of annotations:
 
 - annotations of individual objects (make sure you have an active object highlighted when you want to annotate it);
