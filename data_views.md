@@ -6,8 +6,6 @@ nav_order: 4
 
 # {{page.title}}
 
-# SuAVE Data Views
-
 Survey data in SuAVE can be shown as several types of interactive data views. Data views currently include:
 
 1. Grid view
