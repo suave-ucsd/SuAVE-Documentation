@@ -7,9 +7,6 @@ nav_order: 3
 # {{page.title}}
 
 
-
-# Graphic Representation of Surveys
-
 Surveys can use:
 
 1. A default SuAVE symbol for all items. It is typically used for  testing or for quick analysis of questionnaire data. it is usually  replaced with photos or icons that reflect values of one or more  variables.
