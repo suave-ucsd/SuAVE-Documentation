@@ -6,8 +6,6 @@ nav_order: 2
 
 # {{page.title}}
 
-# Survey Data Files
-
 The types of data files include:
 
 - Static CSV files uploaded to SuAVE servers from your local computer
