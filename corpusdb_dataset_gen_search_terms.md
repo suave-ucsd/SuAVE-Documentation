@@ -32,4 +32,8 @@ nav_order: 2
 17. Your dataset will automatically download to your downloads folder.
 
 
-Congratulations! You have generated your desired dataset.
+
+### Checkpoint
+
+- A dataset of the network files
+- A Netvis .json file
