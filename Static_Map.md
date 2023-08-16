@@ -20,10 +20,11 @@ In version 2 of SuAVE, survey authors can add static map layers to the map view.
 4. **Copy map**: Under "Share" click on "Anyone with a link can view", and copy the link.
 
 5. **Add map to SuAVE Visualization**: Follow the normal steps for uploading a dataset to SuAVE. Once the visualization is done, navigate to the "Settings" of the survey. Click on "Map" under "Public View Options". Then, under "Overlay KML Link", link your map.
- - You can also add the map by linking the map as embedded in iFrame (as constructed by Google for embedding in web pages), e.g. <iframe src="https://urldefense.com/v3/__https://www.google.com/maps/d/embed?mid=1Fi77O_glgGeWVqq4Tlo9cIPJIq2kU0A__;!!Mih3wA!AUr5yIdI7cIr0cT6rlh9lMQfNzwSJWf9oyWCK48f6LVzBrMbnK42hyHYwpPpQU0UbRePLVgIkqy5nQEbu6xo$ " width="640" height="480"></iframe>
- - You also have the option to link directly to the map 
 
 6. This will populate a SuAVE gallery with a static map, which can be seen by clicking "Map View" in the top right of the screen when viewing the visualization.
 
+
+
+Beyond SuAVE, you can add these maps to web pages. You can  add the map by linking the map as embedded in iFrame (as constructed by Google for embedding in web pages), e.g. <iframe src="https://urldefense.com/v3/__https://www.google.com/maps/d/embed?mid=1Fi77O_glgGeWVqq4Tlo9cIPJIq2kU0A__;!!Mih3wA!AUr5yIdI7cIr0cT6rlh9lMQfNzwSJWf9oyWCK48f6LVzBrMbnK42hyHYwpPpQU0UbRePLVgIkqy5nQEbu6xo$ " width="640" height="480"></iframe>. You also have the option to directly embed the url to the map.
 
 As always, try to make the static layers as small as possible, by simplifying geometries and removing attribute information that is not absolutely necessary.
