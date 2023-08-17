@@ -28,8 +28,11 @@ To get a notebook to run within these requirements, follow these steps (you need
 6. Now, open a Jupyter Notebook. Click on "Kernel" and then "Change kernel". Select the one you just created.
 
 **Checkpoint**
+
 Dataset (to run the code on) with the columns "Name", "Affiliation", "City", and "Country"
+
 Utilizing VPN
+
 Jupyter Notebook open with a kernel running in Python 3.7 or 3.8
 
 
