@@ -36,7 +36,7 @@ To get a notebook to run within these requirements, follow these steps (you need
 - Jupyter Notebook open with a kernel running in Python 3.7 or 3.8
 
 
-Note: The only liberty you should take is balancing the limit of the number of images generated per query and the time to execute. If you are not getting as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
+***Note for the Following Code***: The only liberty you should take is balancing the limit of the number of images generated per query and the time to execute. If you are not getting as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
 
 
 # Collect Images From Google
