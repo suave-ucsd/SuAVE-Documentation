@@ -13,9 +13,28 @@ The following code will generate images based on search queries that are constru
 
 **Use a VPN to run this code. I reccomend ProtonVPN**
 
-Note: The only liberty you should take is balancing limit of number images generated per query and time to execute. If you are not as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
+**In addition, this code only works for Python versions 3.7 and 3.8 due to the package face_recognition.**
 
-**The only other things you should change are csv_file, download_dir, GENDER_MODEL, GENDER_PROTO, FACE_PROTO, and FACE_MODEL variables.**
+To get a notebook to run within these requirements, follow these steps (you need Anaconda Navigator for this to work):
+
+1. Navigate to your terminal
+2. Create a virtual environment using the following command (replace "myenv" with the environment name of your choosing):
+   - `conda create -n myenv python=3.7`
+3. Activate the environment with the following command (replace "myenv" with the environment name of your choosing):
+   - conda activate myenv
+4. Create a kernel that works in Python 3.7. For this step, make sure to have ipykernel package (if not, enter the command  `conda install ipykernel`)To do this, use the following command (replace "myenv_kernel" with the environment name of your choosing):
+   - `python -m ipykernel install --user --name=myenv_kernel`
+5. Next, in your terminal, enter the command `jupyter notebook`. This will open jupyter for you. If this does not work, type in `conda install jupyter` and it should work then.
+6. Now, open a Jupyter Notebook. Click on "Kernel" and then "Change kernel". Select the one you just created.
+
+**Checkpoint**
+Dataset (to run the code on) with the columns "Name", "Affiliation", "City", and "Country"
+Utilizing VPN
+Jupyter Notebook open with a kernel running in Python 3.7 or 3.8
+
+
+Note: The only liberty you should take is balancing the limit of the number of images generated per query and the time to execute. If you are not getting as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
+
 
 # Collect Images From Google
 
