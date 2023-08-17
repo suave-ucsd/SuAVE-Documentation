@@ -40,42 +40,43 @@ To get a notebook to run within these requirements, follow these steps (you need
 
 # Imports
 ```python
->    import face_recognition
->    import urllib.request
->    import urllib
->    import re
->    import ssl
->    import itertools
->    import gender_guesser.detector as gender
->    import csv
->    import html
->    import os
->    import requests
->    from bs4 import BeautifulSoup
->    from PIL import Image
->    import json
->    import time
->    import io
->    from PIL import Image
->    import cv2
->    import numpy as np
->    import lxml
+import face_recognition
+import urllib.request
+import urllib
+import re
+import ssl
+import itertools
+import gender_guesser.detector as gender
+import csv
+import html
+import os
+import requests
+from bs4 import BeautifulSoup
+from PIL import Image
+import json
+import time
+import io
+from PIL import Image
+import cv2
+import numpy as np
+import lxml
 ```
 
 # Dataset Information
-**In this code, change `csv_file` and `download_dir` to the specific location of the dataset and where you want pictures to be downloaded to. Also change the column names to match the ones in the dataset.**
+**In this code, change `csv_file` and `download_dir` to the specific location of the dataset and where you want pictures to be downloaded to. Also, change the column names to match the ones in the dataset.**
+```python
+#change `csv_file` and `download_dir` to the specific location of the dataset and where you want pictures to be downloaded to
+csv_file = "C:/Users/jdk23/Downloads/tester1234.csv"
+#format: "/directory/"
+download_dir = "/Users/jdk23/Downloads/"
+#format: "/directory/"
 
-> #In this code, change `csv_file` and `download_dir` to the specific location of the dataset and where you want pictures to be downloaded to
-> csv_file = ""
-> #format: "/directory/"
-> download_dir = ""
-> #format: "/directory/"
->
-> #edit the names of these to what they are in the datatset
-> name_col = 'Name'
-> affiliation_col = 'Affiliation'
-> city_col = 'City'
-> country_col = 'Country'
+#change the values of these variables to the names of the columns in the dataframe
+name_col = 'Name'
+affiliation_col = 'Affiliation'
+city_col = 'City'
+country_col = 'Country'
+```
 
 # General Functions
 
