@@ -258,7 +258,7 @@ def add_column_to_csv(filename, column_name, data):
 ```
 
 # Code that Generates the Data, URLs to add to Dataset
-# Remember that you can mess with `limit` in line 1 to achieve better/more results. As a warning, increasing `limit` by as much as 1 can greatly increase the already long run time. Setting `limit` as 2 or 3 is recommended.
+**Remember that you can mess with `limit` in line 1 to achieve better/more results. As a warning, increasing `limit` by as much as 1 can greatly increase the already long run time. Setting `limit` as 2 or 3 is recommended.**
 ```python
 limit = 2
 
