@@ -39,7 +39,7 @@ To get a notebook to run within these requirements, follow these steps (you need
 
 
 # Imports
-
+```python
 >    import face_recognition
 >    import urllib.request
 >    import urllib
@@ -60,6 +60,7 @@ To get a notebook to run within these requirements, follow these steps (you need
 >    import cv2
 >    import numpy as np
 >    import lxml
+```
 
 # Dataset Information
 **In this code, change `csv_file` and `download_dir` to the specific location of the dataset and where you want pictures to be downloaded to. Also change the column names to match the ones in the dataset.**
