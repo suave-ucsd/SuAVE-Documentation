@@ -41,25 +41,25 @@ To get a notebook to run within these requirements, follow these steps (you need
 # Imports
 
 >    import face_recognition
-> import urllib.request
-> import urllib
-> import re
-> import ssl
-> import itertools
-> import gender_guesser.detector as gender
-> import csv
-> import html
-> import os
-> import requests
-> from bs4 import BeautifulSoup
-> from PIL import Image
-> import json
-> import time
-> import io
-> from PIL import Image
-> import cv2
-> import numpy as np
-> import lxml
+>    import urllib.request
+>    import urllib
+>    import re
+>    import ssl
+>    import itertools
+>    import gender_guesser.detector as gender
+>    import csv
+>    import html
+>    import os
+>    import requests
+>    from bs4 import BeautifulSoup
+>    from PIL import Image
+>    import json
+>    import time
+>    import io
+>    from PIL import Image
+>    import cv2
+>    import numpy as np
+>    import lxml
 
 # Dataset Information
 **In this code, change `csv_file` and `download_dir` to the specific location of the dataset and where you want pictures to be downloaded to. Also change the column names to match the ones in the dataset.**
