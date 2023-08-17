@@ -9,11 +9,10 @@ nav_order: 6
 
 The following code will generate images based on search queries that are constructed from the variables "Name", "Affiliation", "City", and "Country" in the dataset.
 
-**Run code as is unless specified to change something**.
-
-**Use a VPN to run this code. I recommend ProtonVPN as it is free**
-
-**In addition, this code only works for Python versions 3.7 and 3.8 due to the package face_recognition.**
+**Requirements**
+- Use a VPN to run this code. I recommend ProtonVPN as it is free
+- In addition, this code only works for Python versions 3.7 and 3.8 due to the package face_recognition.
+- Dataset with the following columns (at least): "Name", "Affiliation", "City", and "Country" in the dataset.
 
 To get a notebook to run within these requirements, follow these steps (you need Anaconda Navigator for this to work):
 
@@ -36,7 +35,7 @@ To get a notebook to run within these requirements, follow these steps (you need
 - Jupyter Notebook open with a kernel running in Python 3.7 or 3.8
 
 
-***Note for the Following Code***: The only liberty you should take is balancing the limit of the number of images generated per query and the time to execute. If you are not getting as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
+***Note for the Following Code***: The only liberty you should take in this code (besides changing the variables names designated to custom to the specific laptop and dataset) is balancing the limit of the number of images generated per query and the time to execute. If you are not getting as many valid results as desired (no valid images generated for some people), increase the image generation per query limit. Keep in mind this greatly impacts runtime for large datasets. Start at a limit of 2 and increase as needed.
 
 
 # Collect Images From Google
