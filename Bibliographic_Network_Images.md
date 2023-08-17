@@ -40,7 +40,7 @@ To get a notebook to run within these requirements, follow these steps (you need
 
 # Imports
 
-> import face_recognition
+>    import face_recognition
 > import urllib.request
 > import urllib
 > import re
