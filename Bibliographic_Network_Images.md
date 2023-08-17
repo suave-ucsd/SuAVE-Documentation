@@ -11,7 +11,7 @@ The following code will generate images based on search queries that are constru
 
 **Run code as is unless specified to change something**.
 
-**Use a VPN to run this code. I reccomend ProtonVPN**
+**Use a VPN to run this code. I recommend ProtonVPN as it is free**
 
 **In addition, this code only works for Python versions 3.7 and 3.8 due to the package face_recognition.**
 
