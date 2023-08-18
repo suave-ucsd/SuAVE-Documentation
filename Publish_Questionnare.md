@@ -1,6 +1,6 @@
 ---
 title: Publish Questionnare
-parent: Common Use Cases
+parent: Main Workflows
 nav_order: 1
 ---
 
