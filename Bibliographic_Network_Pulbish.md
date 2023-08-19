@@ -1,0 +1,1 @@
+publish a bibliographic network
