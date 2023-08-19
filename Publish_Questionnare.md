@@ -6,17 +6,7 @@ nav_order: 1
 
 # Publish Questionnare
 
-**Requirement**: A survey dataset, where the first row are the column titles and the following rows are the completed entries. This can be a CSV file or Google Sheet
-
-
-Step 2: Create a new survey in your gallery: read this
-Step 3: Configure your newly created survey:
-                - add metadata: read this
-                - customize symbols: read this
-                - modify variable types:
-                - edit the data table
-                - re-upload or relink your data
-                - specify the default view….
+**Requirement**: A survey dataset, where the first row are the column titles and the following rows are the completed entries. This can be a CSV file or Google Sheet.
 
 If you do not have a survey dataset, follow the step-by-step guide [here]().
 
