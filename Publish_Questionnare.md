@@ -26,6 +26,6 @@ If you do not have a survey dataset, follow the step-by-step guide [here]().
 4. Configure your newly created survey
     - Add images (in general): [https://suave-ucsd.github.io/SuAVE-Documentation/find_images_for_your_survey.html](https://suave-ucsd.github.io/SuAVE-Documentation/find_images_for_your_survey.html)
     - Add images (in the scenario where each response in the dataset relates to a person and you would like for the image of each response to be that person): [https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Images.html](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Images.html)
-    - Other customization options: [https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html](https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html)
+    - Customization options: [https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html](https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html)
 
 
