@@ -24,7 +24,7 @@ nav_order: 3
 **Without the Images**
 1. Follow the instructions on uploading surveys [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Questionnare.html).
 
-
+---
 ***Additional Resources***
 - With creating these SuAVE Bibliographic Networks comes the Network View. To learn how to see this, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_with_Network_View.html).
 - If you would like to add a static map layer to your visualization, follow this [link](https://suave-ucsd.github.io/SuAVE-Documentation/Static_Map.html).
