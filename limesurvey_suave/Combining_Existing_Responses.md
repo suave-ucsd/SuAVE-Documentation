@@ -12,7 +12,7 @@ Download your SuAVE gallery as a CSV file. To get the CSV file click on this ico
 .![img](./assets/SuAVECSV.png)
 
 # Steps to set up the corresponding LimeSurvey
-- To create a survey, please follow this manual: https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/limesurvey_setup.html
+- To create a survey, please follow this manual: [https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/limesurvey_setup.html](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/limesurvey_setup.html)
 - Identify all the columns in your CSV that you want to include in your survey.
     .![img](./assets/CSV.png)
     - For the example above, we want a question asking for the first and last name, the employee status, email address, department, vice-chancellor, occupational subgroup, job code description, employee class, keywords, and publication link for each participant. We will tackle the image column in a later step.
@@ -23,16 +23,16 @@ Download your SuAVE gallery as a CSV file. To get the CSV file click on this ico
     - Make sure to use the default code (i.e. A1, A2, …, An) when adding subquestions or answer options. Additionally, be sure to organize the subquestions or answer options alphabetically for questions with subquestions or answer options. For instance, with answer options like “Dog”, “Cat”, and “Neither”, code “A1” should correspond to “Cat”, code “A2” should correspond to “Dog”, and code “A3” should correspond to “Neither”.
 - After you have created all the questions you want, activate your survey. Go to the responses table and export the responses as a VV file (please change the file extension to txt).
 
-- To enable your participants to edit their existing responses, import a participants table. Refer to this manual: https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/Preparing%20a%20class%20roster%20for%20import%20in%20LimeSurvey.html. 
+- To enable your participants to edit their existing responses, import a participants table. Refer to this manual: [https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/Preparing%20a%20class%20roster%20for%20import%20in%20LimeSurvey.html](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/Preparing%20a%20class%20roster%20for%20import%20in%20LimeSurvey.html). 
     - Note: When importing your participants, make sure the order corresponds to the responses table (your SuAVE gallery) to easily transfer token information to the responses table. To get the same order, you may want to sort your responses and participants table by identifying column/s that exist for all responses and are in both your responses and participant table (for this example, it would be by the email column). Please ensure all your participants correspond to an existing response. After importing all your participants, generate tokens for all participants, then download the participants table as a CSV file.
 
-- If you want to enable participants to edit their existing responses AND have them submit more than one response, please follow the instructions on this page: https://suave-ucsd.github.io/SuAVE-Documentation/Multiple_Records.html
+- If you want to enable participants to edit their existing responses AND have them submit more than one response, please follow the instructions on this page: [https://suave-ucsd.github.io/SuAVE-Documentation/Multiple_Records.html](https://suave-ucsd.github.io/SuAVE-Documentation/Multiple_Records.html).
 
 # Steps to upload responses from your SuAVE to responses from LimeSurvey
-Please download the jupyter notebook here: https://github.com/suave-ucsd/SuAVE-Documentation/blob/main/limesurvey_suave/assets/CSV%20to%20VV.ipynb
+Please download the jupyter notebook here: [https://github.com/suave-ucsd/SuAVE-Documentation/blob/main/limesurvey_suave/assets/CSV%20to%20VV.ipynb](https://github.com/suave-ucsd/SuAVE-Documentation/blob/main/limesurvey_suave/assets/CSV%20to%20VV.ipynb)
 
 Follow all the instructions in the notebook.
 
-Now that you have your LimeSurvey set up, you would need to connect your survey to a Google Spreadsheet. Please follow the instructions on this page: https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/google_sheets_setup.html
+Now that you have your LimeSurvey set up, you would need to connect your survey to a Google Spreadsheet. Please follow the instructions on this page: [https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/google_sheets_setup.html](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/google_sheets_setup.html).
 
-You would have to create a new SuAVE gallery to connect existing responses to LimeSurvey. To connect your Google SpreadSheet (created from the previous step), please follow the instructions on this page: https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/suave_setup.html 
+You would have to create a new SuAVE gallery to connect existing responses to LimeSurvey. To connect your Google SpreadSheet (created from the previous step), please follow the instructions on this page: [https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/suave_setup.html](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/suave_setup.html).
