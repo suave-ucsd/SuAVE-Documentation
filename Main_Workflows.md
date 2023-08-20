@@ -8,7 +8,7 @@ nav_order: 3
 
 **This section will help navigate you through some common uses for SuAVE, Limesurvey, CorpusDB, and OpenRefine. Follow the steps along with the links.**
 
-Learn how to...
+To learn how to...
 
 - Publish your questionnaire survey data: click [here]()
 - Publish your image gallery: click [here]()
