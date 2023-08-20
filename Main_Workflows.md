@@ -19,6 +19,6 @@ To learn how to...
 - Update a published survey or image gallery: click [here]()
 - Share data views with collaborators: click [here]()
 - Clone a public SuAVE survey: click [here]()
-- Work with Jupyter Notebooks in the context of SuAVE and Limesurvey: click [here]()
+- Work with Jupyter Notebooks in the context of SuAVE: click [here]()
 - Create a Limesurvey for a SuAVE gallery: click [here]()
 - Set up a registration form for a Limesurvey survey: click [here]()
