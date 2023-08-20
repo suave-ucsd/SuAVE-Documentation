@@ -11,9 +11,7 @@ title: SuAVE Documentation
 
 **Follow the link below that best aligns with the workflow you could use help with or click through the tabs to find the page that best fits your needs**
 
-**This section will help navigate you through some common uses for SuAVE, Limesurvey, CorpusDB, and OpenRefine. Follow the steps along with the links.**
-
-To learn how to...
+Follow the link below if you wish to learn how to...
 
 - Publish your questionnaire survey data: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Questionnare.html)
 - Publish your image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
