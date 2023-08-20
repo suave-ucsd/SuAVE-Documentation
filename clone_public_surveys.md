@@ -1,5 +1,5 @@
 ---
-title: Cloning public SuAVE surveys
+title: Cloning Public SuAVE Surveys
 nav_order: 7
 ---
 
