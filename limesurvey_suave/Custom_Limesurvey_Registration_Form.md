@@ -5,7 +5,7 @@ nav_order: 8
 ---
 
 # When do you need a custom survey signup/registration form?
-Often, SuAVE galleries allow users to update individual entries by selecting their profile in SuAVE and clicking "CLICK TO UPDATE YOUR ENTRY" in the right frame (e.g. https://suave2.sdsc.edu/main/file=usmex_USMEX_Fellows.csv&view=grid). In the mappings spreadsheet (which defines how LimeSurvey variables translate into SuAVE fields), this field is typically described as:
+Often, SuAVE galleries allow users to update individual entries by selecting their profile in SuAVE and clicking "CLICK TO UPDATE YOUR ENTRY" in the right frame (e.g. [https://suave2.sdsc.edu/main/file=usmex_USMEX_Fellows.csv&view=grid](https://suave2.sdsc.edu/main/file=usmex_USMEX_Fellows.csv&view=grid)). In the mappings spreadsheet (which defines how LimeSurvey variables translate into SuAVE fields), this field is typically described as:
 
 ```
 SuaveFieldName: Editing#hidden
