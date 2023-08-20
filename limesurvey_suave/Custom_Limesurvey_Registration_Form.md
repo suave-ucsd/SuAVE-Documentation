@@ -13,7 +13,7 @@ ExpressionType: template
 Mapper: "<a href='https://limesurvey.sdsc.edu/limesurvey/index.php/638892?' style='color:red;background-color: cyan;' target='_blank'>CLICK TO UPDATE YOUR ENTRY</a>"
 ```
 
-Limesurvey includes a standard signup form, such as https://limesurvey.sdsc.edu/limesurvey/index.php/638892, in our example. We provide an option for the user to create a custom participant signup form, with a logo, title and prompts specific to the survey.
+Limesurvey includes a standard signup form, such as [https://limesurvey.sdsc.edu/limesurvey/index.php/638892](https://limesurvey.sdsc.edu/limesurvey/index.php/638892), in our example. We provide an option for the user to create a custom participant signup form, with a logo, title and prompts specific to the survey.
 
 To point to this custom signup form, use the following Mapper expression:
 
