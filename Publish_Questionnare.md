@@ -8,8 +8,6 @@ nav_order: 1
 
 **Requirement**: A survey dataset, where the first row are the column titles and the following rows are the completed entries. This can be a CSV file or Google Sheet.
 
-If you do not have a survey dataset, follow the step-by-step guide [here]().
-
 1. Go to [https://suave-net.sdsc.edu/home](https://suave-net.sdsc.edu/home).
 2. If you do not have an account, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/create_account.html).
 3. Follow the step-by-step guide linked [here](https://suave-ucsd.github.io/SuAVE-Documentation/create_configure_data.html). You will find the formatting guidelines and a step-by-step guide.
