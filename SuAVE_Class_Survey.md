@@ -16,7 +16,7 @@ nav_order: 6
 4. Once you have your survey set up, you will need to go to [Google Sheets](https://docs.google.com/spreadsheets) to set up the dataset for the survey.
 5. To set up your Google Sheet for the survey, follow [these steps](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/google_sheets_setup.html).
   - This [page](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/multiple_response_formatting_tool.html) offers a tool to help map multiple choice and list questions.
-  - Linked [here]() is a list of common mappings.
+  - Linked [here](https://docs.google.com/spreadsheets/d/1BHOFtE8XwGCOsY9aGsUU6Ry-yHPXv6geGDwmgvBQP1I/edit#gid=539759871) is a list of common mappings.
 6. Now, test your mapping. This can be done by filling out the survey and seeing if it properly maps to the Google Sheets. If nothing appears in the Google Sheet after you have completed the survey, that means you have messed up a mapping or skipped a step. Retrace your steps and check for typos. Do not move forward until the mapping is correct.
 7. Once you have completed testing the Google Sheet, navigate to [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu).
 8. Now, set up the SuAVE visualization for the survey by following the steps linked [here](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/suave_setup.html).
