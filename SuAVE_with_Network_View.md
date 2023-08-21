@@ -7,7 +7,7 @@ nav_order: 5
 
 # {{page.title}}
 
-* Make sure your SuAVE visualization has a Netvis .json file associated with it. If not, follow the steps in "Adding Network Files to SuAVE".
+* Make sure your SuAVE visualization has a Netvis .json file associated with it. If not, follow the steps [here](https://suave-ucsd.github.io/SuAVE-Documentation/Network_Files_SuAVE.html).
 
 Once you have completed this, to share and open the SuAVE Visualization with Netvis view, follow these steps:
 
