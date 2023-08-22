@@ -27,10 +27,10 @@ Follow all the steps from **Adding a Jupyter Notebook of a SuAVE Visualization**
 
 The URL should be in the following format: https://jupyterhub-west.nrp-nautilus.io/user/jkaminsky@ucsd.edu/notebooks/jupyter-suave/SuaveDispatch.ipynb?user=<user>&csv=<CSV tied to gallery>&params=none&dzc=<DZC URL>&surveyurl=<Image Gallery URL>
    - Example: https://jupyterhub-west.nrp-nautilus.io/user/jkaminsky@ucsd.edu/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=https://suave-net.sdsc.edu/main/file=joeykaminsky2_Tester_13.csv&view=grid&user=jkaminsky&csv=joeykaminsky2_Tester_13.csv&params=none&dzc=https://dzgen.sdsc.edu/dzgen/lib-staging-uploads/6eb3af87e3c855ed01cdaad5591b4722/content.dzc&activeobject=null
-   - To get the **survey URL**: navigate to the SuAVE visualization and open it. Copy the URL at the top of the page.
+   - To get the **DZN URL**: Navigate to the gallery view of SuAVE surveys. Click on "Edit" then "Settings" for the survey of interest. Scroll down to "Image Definition Link" and copy the URL.
    - To get the **user**: This should be whoever created the SuAVE visualization. This field is not that important, but
    - To get the **CSV**: Within the link to the survey, there should be an argument that says ***file=***. Copy what comes after it until .csv. In the case above, within the survey URL is file=joeykaminsky2_Tester_13.csv, so csv=joeykaminsky2_Tester_13.csv.
-   - To get the **DZN URL**: Navigate to the gallery view of SuAVE surveys. Click on "Edit" then "Settings" for the survey of interest. Scroll down to "Image Definition Link" and copy the URL.
+   - To get the **survey URL**: navigate to the SuAVE visualization and open it. Copy the URL at the top of the page.
 
 
 ---
