@@ -18,13 +18,13 @@ Follow the link below if you wish to learn how to...
 - Publish a bibliographic network: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Pulbish.html)
 - Add a map to your SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Add_Map_SuAVE.html)
 - Create a survey linked to a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Survey.html)
-- Collect student responses for a class survey: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Class_Survey.html)
-- Update a published survey or image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_Gallery.html)
+- Collect student responses for a class questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Class_Survey.html)
+- Update a published questionnaire or image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_Gallery.html)
 - Share data views with collaborators: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Share_Views.html)
-- Clone a public SuAVE survey: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Clone_Survey.html)
+- Clone a public SuAVE questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Clone_Survey.html)
 - Work with Jupyter Notebooks in the context of SuAVE: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Notebook_SuAVE.html)
 - Create a Limesurvey for a SuAVE gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Existing_SuAVE.html)
-- Set up a registration form for a Limesurvey survey: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
+- Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
 
 
