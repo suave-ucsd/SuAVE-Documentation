@@ -1,10 +1,10 @@
 ---
-title: Create Class Survey Linked to SuAVE
+title: Create Class Limesurvey Questionnaire Linked to SuAVE
 parent: Main Workflows
 nav_order: 6
 ---
 
-# Create a Class Survey Linked to SuAVE
+# Create a Class Limesurvey Questionnaire Linked to SuAVE
 
 **Follow the steps below to create a SuAVE visualization that will update in real time with your classroom survey**
 
