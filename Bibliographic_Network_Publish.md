@@ -27,5 +27,6 @@ nav_order: 3
 ---
 ***Additional Resources***
 - With creating these SuAVE Bibliographic Networks comes the Network View. To learn how to see this, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_with_Network_View.html).
+- If you want to replace an image you added to the DZGen file, go [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
 - If you would like to add a static map layer to your visualization, follow this [link](https://suave-ucsd.github.io/SuAVE-Documentation/Static_Map.html).
 - Customization options: [https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html](https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html)
