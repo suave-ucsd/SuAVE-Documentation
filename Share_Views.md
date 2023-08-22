@@ -8,19 +8,19 @@ nav_order: 8
 
 When looking at a SuAVE visualization, you can look at the different view options by clicking the options in the top right corner. In order to share a specific view, follow these instructions.
 
-1. Navigate to your SuAVE Visualization.
+1. Navigate to your SuAVE visualization.
 
-2. Copy the url.
+2. Copy the URL.
 
-   1. The url should look something like this: 
+   1. The URL should look something like this: 
 
       > suave-net.sdsc.edu/main/[SURVEY INFO]&view=grid
 
-3. Change the url from &view=grid to &view=[new_view_option]
+3. Change the URL from &view=grid to &view=[new_view_option]
    1. You can choose from the following: Grid, Bucket, Crosstab, Map, Table, List, Network, Heatmap, QCA, R, Jupyter, Netvis
       - You need to enable some of these viewing options. To do this, go back to gallery view of all SuAVE visualizations, click "Edit" under the visualization, then "Settings", and then under "View Options", select the viewing options you want to enable.
       - Some of these views require additional files. For example, Netvis requires a Netvis .json file. Be sure you have all the necessary files for the viewing option.
 
-4. Your url should look something like below, which can be shared to other collaborators:
+4. Your URL should look something like below, which can be shared to other collaborators:
 
    > suave-net.sdsc.edu/main/[SURVEY INFO]&view=[new_view_option]
