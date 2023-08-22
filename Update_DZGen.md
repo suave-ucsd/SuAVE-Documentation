@@ -1,10 +1,10 @@
 ---
-title: Updating Images in DZGen
+title: Updating Images from DZGen in SuAVE Visualization
 parent: Main Workflows
 nav_order: 13
 ---
 
-# Updating Images in DZGen
+# Updating Images from DZGen in SuAVE Visualization
 
 If you want to replace an image you added to the DZGen file, follow these steps:
 
