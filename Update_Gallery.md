@@ -9,8 +9,6 @@ nav_order: 7
 1. Make sure you are the owner or an admin to the SuAVE visualization you wish to update.
 2. Locate the gallery in the SuAVE gallery, and click edit.
 3. Click on "Settings".
-4. If you want to update the image gallery, enter the correct image collection URL under "Image Definition Link"
-   - If you do not have this link, go to [https://dzgen.sdsc.edu/upload/](https://dzgen.sdsc.edu/upload/). Upload the photos that correlate to the dataset, include your email, click "file server", and then hit submit. Soon, the URL will be in sent to the email you provided.
 
 Now, choose from the following on what you would like to update:
    - If you want to update/add the Netvis file, go under "Manage Netvis" and either upload the Netvis files or URLs.
