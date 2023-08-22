@@ -1,10 +1,10 @@
 ---
-title: Publish a Bibliographic Network
+title: Create and Publish a Bibliographic Network
 parent: Main Workflows
 nav_order: 3
 ---
 
-# Publish a Bibliographic Network
+# Create and Publish a Bibliographic Network
 
 1. Follow the steps [here](https://suave-ucsd.github.io/SuAVE-Documentation/corpusdb_dataset_gen_start.html)  on how to use CorpusDB (dataset generation website) to generate your bibliographic network.
 2. Clean the dataset you generated there by following the steps linked [here](https://suave-ucsd.github.io/SuAVE-Documentation/corpusdb_cleaning.html).
