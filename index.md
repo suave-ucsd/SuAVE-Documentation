@@ -21,7 +21,7 @@ Follow the link below if you wish to learn how to...
 - Collect student responses for a class questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Class_Survey.html)
 - Update a published questionnaire or image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_Gallery.html)
 - Share data views with collaborators: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Share_Views.html)
-- Clone a public SuAVE questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Clone_Survey.html)
+- Clone a public SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Clone_Survey.html)
 - Work with Jupyter Notebooks in the context of SuAVE: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Notebook_SuAVE.html)
 - Create a Limesurvey for a SuAVE gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Existing_SuAVE.html)
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
