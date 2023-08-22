@@ -18,7 +18,7 @@ A basic overview is given [here](https://docs.google.com/document/d/1_hE7fin7xvY
    - To get the **DZN URL**: Navigate to the gallery view of SuAVE surveys. Click on "Edit" then "Settings" for the survey of interest. Scroll down to "Image Definition Link" and copy the URL.
 4. Next, copy the URL you have created and run it in a web browser. It should populate the SuAVE Dispatch notebook with information pertaining to the particular survey (as seen from running the code cell in step 2).
 5. Run all the code; this will add the survey to the Jupyter Hub.
-6. Finally, go back to the SuAVE gallery view of visualizations and go back to the "Settings" of the particular survey. Here, enable public "Jupyter" view.
+6. Finally, go back to the SuAVE gallery view of visualizations and go back to the "Settings" of the particular survey. Here, enable public "Jupyter" view and hit "submit".
 
 
 # Accessing a Jupyter Notebook Tied with a SuAVE Visualization
