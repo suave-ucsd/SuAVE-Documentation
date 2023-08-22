@@ -6,7 +6,7 @@ nav_order: 2
 
 # Publish Image Gallery
 
-**Requirements**: Saved photos, dataset with one of the columns being titled #img
+**Requirements**: Saved photos, dataset (typically in Google Sheets) with one of the columns being titled #img
 
 1. Go to [https://dzgen.sdsc.edu/upload/](https://dzgen.sdsc.edu/upload/).
 2. Upload the photos that go with the dataset. Include your email, choose "file server", and then hit submit.
