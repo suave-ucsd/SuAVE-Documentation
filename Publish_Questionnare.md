@@ -1,12 +1,12 @@
 ---
-title: Publish Questionnare
+title: Upload Dataset to SuAVE
 parent: Main Workflows
 nav_order: 1
 ---
 
-# Publish Questionnare
+# Upload Dataset to SuAVE
 
-**Requirement**: A survey dataset, where the first row are the column titles and the following rows are the completed entries. This can be a CSV file or Google Sheet.
+**Requirement**: A dataset (typically in the form of a curated file or survey responses), where the first row are the column titles and the following rows are the completed entries. This can be a CSV file or Google Sheet.
 
 1. Go to [https://suave-net.sdsc.edu/home](https://suave-net.sdsc.edu/home).
 2. If you do not have an account, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/create_account.html).
