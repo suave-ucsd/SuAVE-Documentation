@@ -22,3 +22,4 @@ To learn how to...
 - Work with Jupyter Notebooks in the context of SuAVE: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Notebook_SuAVE.html)
 - Create a Limesurvey for a SuAVE gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Existing_SuAVE.html)
 - Set up a registration form for a Limesurvey survey: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
+- Update images in DZGen: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
