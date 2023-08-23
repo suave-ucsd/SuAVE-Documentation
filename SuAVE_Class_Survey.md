@@ -20,8 +20,8 @@ nav_order: 6
 6. Now, test your mapping. This can be done by filling out the questionnaire and seeing if it properly maps to the Google Sheets. Once you fill out the survey, go to [https://limesurvey.sdsc.edu/limesurvey-update](https://limesurvey.sdsc.edu/limesurvey-update) (Username is **lsadmin** and password is **VocalMimic**). Enter the SurveyID and hit “Update”. If a message populates on the screen and the Google Sheet updates, then you can move to the next step.
   - If nothing appears in the Google Sheet after you have completed the questionnaire, that means you have messed up a mapping or skipped a step. Retrace your steps and check for typos. Do not move forward until the mapping is correct.
 7. Once you have completed testing the Google Sheet, navigate to [https://suave-net.sdsc.edu](https://suave-net.sdsc.edu).
-8. Now, set up the SuAVE visualization for the survey by following the steps linked [here](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/suave_setup.html).
-  - If you want participants of the survey to see the SuAVE visualization, navigate back to Limesurvey; go to "Text Elements" and link the survey URL in the "End message".
+8. Now, set up the SuAVE visualization for the questionnaire by following the steps linked [here](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/suave_setup.html).
+  - If you want participants of the questionnaire to see the SuAVE visualization, navigate back to Limesurvey; go to "Text Elements" and link the SuAVE visualization URL in the "End message".
 9. You should now have 3 things: the Limesurvey questionnaire, Google Sheet dataset, and SuAVE visualization.
 10. Test that everything is in sync. Fill out the questionnaire a couple more times. These responses should now populate in the Google Sheet dataset and then the SuAVE visualization. If the responses do not show up in SuAVE and the Google Sheet, then it is a mapping issue. If the response do not populate in the SuAVE visualization only, then it is an issue between the Google Sheet and SuAVE. Fix the issue and then you are ready to publish the questionnaire.
 
