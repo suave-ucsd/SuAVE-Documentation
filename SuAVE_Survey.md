@@ -11,10 +11,10 @@ nav_order: 5
 1. First, login to [Limesurvey](https://limesurvey.sdsc.edu/limesurvey/index.php/admin/authentication/sa/login).
 2. Learn how to set up your questionnaire [here](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/limesurvey_setup.html).
   - **TEST YOUR QUESTIONNAIRE**. This includes all aspects of the questionnaire, which can include all combinations of survey flow, the registration form, among other things.
-  - If you want participants to be able to answer the survey multiple times, follow the steps [here](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/Multiple_Records.html).
+  - If you want participants to be able to answer the questionnaire multiple times, follow the steps [here](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/Multiple_Records.html).
   - If you do not have a list of participants to fill out the questionnaire, you can create a registration form for the survey by following [these steps](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/Custom_Limesurvey_Registration_Form.html).
   - Some common stylistic tools within Limesurvey are survey logic and question type. Survey logic is used when only respondents who answered previous questions in a certain way should see a certain question. As the survey creator, you also decide how respondents answer questions, which can range from "Select all that Apply" to "Free response". With these aspects of Limesurvey, it is up to you to make the survey logic understandable for other developers and the question types logical for the question and unbiased.
-3. Once you have your survey set up, you will need to go to [Google Sheets](https://docs.google.com/spreadsheets) to set up the dataset for the survey.
+3. Once you have your questionnaire set up, you will need to go to [Google Sheets](https://docs.google.com/spreadsheets) to set up the dataset for the questionnaire.
 4. To set up your Google Sheet for the questionnaire, follow [these steps](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/google_sheets_setup.html).
   - This [page](https://suave-ucsd.github.io/SuAVE-Documentation/limesurvey_suave/multiple_response_formatting_tool.html) offers a tool to help map multiple choice and list questions.
   - Linked [here](https://docs.google.com/spreadsheets/d/1BHOFtE8XwGCOsY9aGsUU6Ry-yHPXv6geGDwmgvBQP1I/edit#gid=539759871) is a list of common mappings.
