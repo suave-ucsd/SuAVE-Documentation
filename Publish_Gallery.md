@@ -17,6 +17,6 @@ nav_order: 2
   
 ---
 ***Additional Resources***
-- If you want to replace an image you added to the DZGen file, go [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
+- **If you want to replace an image you added to the DZGen file**, go [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
 - Customization options: [https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html](https://suave-ucsd.github.io/SuAVE-Documentation/customizing_surveys.html)
    
