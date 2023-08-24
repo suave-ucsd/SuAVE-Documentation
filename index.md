@@ -11,7 +11,7 @@ title: SuAVE Documentation
 
 **Follow the link below that best aligns with the workflow you could use help with or click through the tabs to find the page that best fits your needs**
 
-Follow the link below if you wish to learn how to...
+<h2>Follow the link below if you wish to learn how to...</h2>
 
 - Publish a dataset: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Questionnare.html)
 - Publish your image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
