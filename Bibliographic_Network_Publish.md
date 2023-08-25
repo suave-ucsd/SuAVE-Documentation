@@ -22,7 +22,7 @@ nav_order: 3
     - When uploading the new survey, paste the link of the images from dzgen under "URL" in "Image Definition".
   
 **Without the Images**
-1. Follow the instructions on uploading surveys [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Questionnare.html).
+1. Follow the instructions on uploading surveys [here](https://suave-ucsd.github.io/SuAVE-Documentation/Upload_Dataset.html).
 
 ---
 ***Additional Resources***
