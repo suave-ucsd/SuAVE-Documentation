@@ -9,7 +9,7 @@ title: SuAVE Documentation
 
 # Main Workflows
 
-**SuAVE lets you publish, share, analyze and annotate your datasets, including spreadsheets (such as raw survey data) and image galleries, integrate online data collection with data publishing, generate, curate and analyze bibliographic networks, publish maps and tables, and launch Jupyter notebooks with your data. **
+**SuAVE lets you publish, share, analyze and annotate your datasets, including spreadsheets (such as raw survey data) and image galleries, integrate online data collection with data publishing, generate, curate and analyze bibliographic networks, publish maps and tables, and launch Jupyter notebooks with your data.**
 
 <h2>Follow the link below if you wish to learn how to...</h2>
 
