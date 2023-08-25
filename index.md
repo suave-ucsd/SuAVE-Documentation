@@ -7,7 +7,7 @@ title: SuAVE Documentation
 ---
 
 
-# Main Workflows
+# <b>Main Workflows</b>
 
 **SuAVE (Survey Analysis via Visual Exploration) is a free online data analysis platform with unique capabilities.**
 
