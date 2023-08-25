@@ -15,7 +15,7 @@ title: SuAVE Documentation
 
 <h2>Follow the links below if you wish to learn how to...</h2>
 
-- Publish raw survey data: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Questionnare.html)
+- Publish raw survey data: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Upload_Dataset.html)
 - Publish an image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
 - Publish a bibliographic network: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Pulbish.html)
 - Add a map to your SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Add_Map_SuAVE.html)
