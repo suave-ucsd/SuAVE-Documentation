@@ -13,7 +13,6 @@ title: SuAVE Documentation
 
 <h2>Follow the link below if you wish to learn how to...</h2>
 
-<h3>
 - Publish a dataset: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Questionnare.html)
 - Publish your image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
 - Publish a bibliographic network: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Pulbish.html)
@@ -27,6 +26,5 @@ title: SuAVE Documentation
 - Create a Limesurvey questionnaire for a SuAVE gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Existing_SuAVE.html)
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
-</h3>
 
 
