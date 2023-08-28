@@ -142,7 +142,7 @@ title: SuAVE Documentation
 </div>
 <div class="button-container" style="margin-top: 10px;">
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 6r</a>
+      <a href="#">Button 61</a>
    </div>
    <div class="empty-button" style="margin-left: 20px;"></div> <!-- Empty white button -->
    <div class="button" style="margin-left: 20px;">
