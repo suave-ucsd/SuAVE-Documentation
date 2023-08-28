@@ -43,6 +43,7 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 1</a>
    </div>
+   <div class="empty-button"></div> <!-- Empty button for spacing -->
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
    </div>
@@ -54,7 +55,7 @@ title: SuAVE Documentation
    </div>
 </div>
 <div class="button-container" style="margin-top: 20px;">
-   <div class="button" style="margin-right: 20px;">
+   <div class="button">
       <a href="#">Button 5</a>
    </div>
    <div class="button" style="margin-left: 20px;">
@@ -77,6 +78,10 @@ title: SuAVE Documentation
       display: flex;
       flex-direction: column;
       align-items: center;
+   }
+   .empty-button {
+      width: 20px; /* Adjust the width of the empty button for spacing */
+      visibility: hidden; /* Hide the empty button */
    }
    .button a {
       display: inline-block;
