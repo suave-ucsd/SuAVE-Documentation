@@ -64,6 +64,8 @@ title: SuAVE Documentation
       <a href="#">Button 4</a>
       <div class="line"></div>
    </div>
+</div>
+<div class="button-container" style="margin-top: 20px;">
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 7</a>
    </div>
@@ -103,7 +105,8 @@ title: SuAVE Documentation
       transform: translateX(-50%);
    }
    .button-container:last-child .button:nth-child(2) .line,
-   .button-container:last-child .button:last-child .line {
+   .button-container:last-child .button:last-child .line,
+   .button-container:last-child .button:nth-child(3) .line {
       display: none;
    }
 </style>
