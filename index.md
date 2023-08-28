@@ -39,31 +39,31 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
 
 <div class="button-container">
-   <div class="custom-button">
+   <div class="button">
       <a href="#">Button 1</a>
       <div class="line"></div>
    </div>
-   <div class="custom-button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
       <div class="line"></div>
    </div>
-   <div class="custom-button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 3</a>
       <div class="white-line"></div>
    </div>
-   <div class="custom-button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 4</a>
       <div class="line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 10px;">
-   <div class="custom-button">
+   <div class="button">
       <a href="#">Button 5</a>
    </div>
-   <div class="custom-button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
    </div>
-   <div class="custom-button" style="margin-left: 160px;">
+   <div class="button" style="margin-left: 160px;">
       <a href="#">Button 7</a>
    </div>
 </div>
@@ -108,87 +108,6 @@ title: SuAVE Documentation
 </style>
 
 
-
-
-
------
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<div class="button-container">
-   <div class="button">
-      <a href="#">Button 1</a>
-   </div>
-   <div class="line"></div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 2</a>
-   </div>
-   <div class="line"></div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 3</a>
-   </div>
-   <div class="line"></div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 4</a>
-   </div>
-</div>
-<div class="button-container" style="margin-top: 20px;">
-   <div class="button">
-      <a href="#">Button 5</a>
-   </div>
-   <div class="line"></div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 6</a>
-   </div>
-   <div class="line"></div>
-   <div class="button" style="margin-left: 160px;">
-      <a href="#">Button 7</a>
-   </div>
-</div>
-
-<style>
-   .button-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   .button {
-      position: relative;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      border: 2px solid #007bff;
-      border-radius: 5px;
-      padding: 10px 20px;
-      margin: 0 10px;
-   }
-   .line {
-      width: 2px;
-      background-color: black;
-      margin: 10px 0;
-   }
-   .empty-button {
-      width: 20px;
-      visibility: hidden;
-   }
-   .button a {
-      display: inline-block;
-      background-color: transparent;
-      color: #007bff;
-      text-decoration: none;
-      text-align: center;
-      cursor: pointer;
-      font-size: 14px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      transition: background-color 0.3s, color 0.3s;
-   }
-   .button a:hover {
-      background-color: #007bff;
-      color: white;
-   }
-</style>
 
 
 
