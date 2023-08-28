@@ -47,7 +47,7 @@ title: SuAVE Documentation
    </div>
 </div>
 
-<div style="margin-top: 10px;">
+<div style="margin-top: 30px;">
    <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 3</a>
 </div>
 
