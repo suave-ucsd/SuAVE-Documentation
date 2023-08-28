@@ -35,5 +35,13 @@ title: SuAVE Documentation
    <button class="custom-button">Images</button>
 </a>
 
+{% include custom_button.html label="Images" url="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" %}
+
+<div class="button-container">
+    {% include custom_button.html label="Button 1" url="#" %}
+    {% include custom_button.html label="Button 2" url="#" %}
+</div>
+
+
 
 
