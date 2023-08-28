@@ -155,3 +155,48 @@ title: SuAVE Documentation
       <a href="#">Button 8</a>
    </div>
 </div>
+
+<style>
+   .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .button {
+      position: relative;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .line {
+      width: 3px;
+      height: 25px; /* Adjust the height of the line */
+      background-color: black;
+      margin-top: 10px; /* Adjust the distance of the line from the button */
+   }
+   .white-line {
+      width: 3px;
+      height: 25px; /* Adjust the height of the line */
+      background-color: white;
+      margin-top: 10px; /* Adjust the distance of the line from the button */
+   }
+   .empty-button {
+      width: 140px; /* Adjust the width of the empty button for spacing */
+      padding: 10px 20px;
+      border-radius: 5px;
+      visibility: hidden; /* Hide the empty button */
+   }
+   .button a {
+      width: 120px;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #337ab7;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+   }
+   .button:not(:last-child) {
+      margin-right: 20px;
+   }
+</style>
