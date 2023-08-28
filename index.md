@@ -63,7 +63,7 @@ title: SuAVE Documentation
 </div>
 <div class="button-container" style="margin-top: 10px;">
    <div class="button">
-      <a href="#">Button 61</a>
+      <a href="#">Button 6</a>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 8</a>
