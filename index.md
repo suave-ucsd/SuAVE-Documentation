@@ -107,3 +107,85 @@ title: SuAVE Documentation
    }
 </style>
 
+
+
+
+
+-----
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<div class="button-container">
+   <div class="button">
+      <a href="#">Button 1</a>
+   </div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 2</a>
+   </div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 3</a>
+   </div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 4</a>
+   </div>
+</div>
+<div class="button-container" style="margin-top: 20px;">
+   <div class="button">
+      <a href="#">Button 5</a>
+   </div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 6</a>
+   </div>
+   <div class="button" style="margin-left: 40px;">
+      <a href="#">Button 7</a>
+   </div>
+</div>
+
+<style>
+   .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .button {
+      position: relative;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .line {
+      width: 2px;
+      height: 16px; /* Adjust the height of the line */
+      background-color: black;
+      margin-top: 2px; /* Adjust the distance of the line from the button */
+   }
+   .empty-button {
+      width: 20px; /* Adjust the width of the empty button for spacing */
+      visibility: hidden; /* Hide the empty button */
+   }
+   .button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: transparent; /* Use the custom button's transparent background */
+      border: none; /* Remove the border from the custom button */
+      color: #007bff; /* Use the custom button's color */
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background-color 0.3s, color 0.3s;
+   }
+   .button a:hover {
+      background-color: #007bff;
+      color: white;
+   }
+   .button:not(:last-child) {
+      margin-right: 20px;
+   }
+</style>
+
+
