@@ -112,19 +112,21 @@ title: SuAVE Documentation
 
 
 -----
-
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <div class="button-container">
    <div class="button">
       <a href="#">Button 1</a>
    </div>
+   <div class="line"></div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
    </div>
+   <div class="line"></div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 3</a>
    </div>
+   <div class="line"></div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 4</a>
    </div>
@@ -133,10 +135,12 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 5</a>
    </div>
+   <div class="line"></div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
    </div>
-   <div class="button" style="margin-left: 40px;">
+   <div class="line"></div>
+   <div class="button" style="margin-left: 160px;">
       <a href="#">Button 7</a>
    </div>
 </div>
@@ -153,12 +157,16 @@ title: SuAVE Documentation
       display: flex;
       flex-direction: column;
       align-items: center;
+      border: 2px solid #007bff; /* Add border to buttons */
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin: 0 10px; /* Adjust margin */
    }
    .line {
       width: 2px;
       height: 16px; /* Adjust the height of the line */
       background-color: black;
-      margin-top: 2px; /* Adjust the distance of the line from the button */
+      margin: 0 10px; /* Adjust margin */
    }
    .empty-button {
       width: 20px; /* Adjust the width of the empty button for spacing */
@@ -166,12 +174,10 @@ title: SuAVE Documentation
    }
    .button a {
       display: inline-block;
-      padding: 10px 20px;
-      background-color: transparent; /* Use the custom button's transparent background */
-      border: none; /* Remove the border from the custom button */
-      color: #007bff; /* Use the custom button's color */
+      background-color: transparent;
+      color: #007bff;
       text-decoration: none;
-      border-radius: 5px;
+      text-align: center;
       cursor: pointer;
       font-size: 18px;
       font-weight: bold;
@@ -182,9 +188,6 @@ title: SuAVE Documentation
    .button a:hover {
       background-color: #007bff;
       color: white;
-   }
-   .button:not(:last-child) {
-      margin-right: 20px;
    }
 </style>
 
