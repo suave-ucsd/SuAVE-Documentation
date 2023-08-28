@@ -58,7 +58,7 @@ layout: default
       <a href="#">Button 4</a>
    </div>
 </div>
-<div class="button-container" style="margin-top: 20px;">
+<div class="button-container" style="margin-top: 2px;">
    <div class="button">
       <a href="#">Button 5</a>
    </div>
