@@ -126,4 +126,8 @@ title: SuAVE Documentation
    .button:not(:last-child) {
       margin-right: 20px;
    }
+   .button a:hover {
+    background-color: #007bff;
+    color: white;
+}
 </style>
