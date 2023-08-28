@@ -42,18 +42,15 @@ title: SuAVE Documentation
 <div class="button-container">
    <div class="button">
       <a href="#">Button 1</a>
-      <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
-      <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 5</a>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
-      <div class="line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 20px;">
@@ -62,7 +59,6 @@ title: SuAVE Documentation
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 4</a>
-      <div class="line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 20px;">
@@ -92,21 +88,8 @@ title: SuAVE Documentation
       text-decoration: none;
       border-radius: 5px;
    }
-   .line {
-      width: 2px;
-      height: 20px; /* Adjust the height of the line */
-      background-color: black;
-      margin-top: 5px; /* Adjust the distance of the line from the button */
-   }
-   .button:not(:last-child) .line {
-      position: absolute;
-      top: calc(100% + 5px); /* Adjust the distance of the line from the button */
-      left: 50%;
-      transform: translateX(-50%);
-   }
-   .button-container:last-child .button:nth-child(2) .line,
-   .button-container:last-child .button:last-child .line,
-   .button-container:last-child .button:nth-child(3) .line {
-      display: none;
+   .button:not(:last-child) {
+      margin-right: 20px;
    }
 </style>
+
