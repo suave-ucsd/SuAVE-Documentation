@@ -36,7 +36,11 @@ title: SuAVE Documentation
 </a>
 ----
 
-<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+---
+layout: default
+---
+
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 <div class="button-container">
    <div class="button">
@@ -63,7 +67,8 @@ title: SuAVE Documentation
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
    </div>
-   <div class="button" style="margin-left: 165px;">
+   <div class="empty-button" style="width: 140px;"></div> <!-- Empty white button -->
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 7</a>
    </div>
 </div>
@@ -93,7 +98,10 @@ title: SuAVE Documentation
       background-color: white;
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
-
+   .empty-button {
+      width: 140px; /* Adjust the width of the empty button for spacing */
+      visibility: hidden; /* Hide the empty button */
+   }
    .button a {
       display: inline-block;
       padding: 10px 20px;
@@ -106,8 +114,3 @@ title: SuAVE Documentation
       margin-right: 20px;
    }
 </style>
-
-
-
-
-
