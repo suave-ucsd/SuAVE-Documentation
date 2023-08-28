@@ -103,7 +103,7 @@ title: SuAVE Documentation
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .empty-button {
-      width: 140px;
+      width: 120px;
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
