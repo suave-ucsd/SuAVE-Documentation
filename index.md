@@ -103,6 +103,7 @@ layout: default
       visibility: hidden; /* Hide the empty button */
    }
    .button a {
+      width: 140px;
       display: inline-block;
       padding: 10px 20px;
       background-color: #337ab7;
