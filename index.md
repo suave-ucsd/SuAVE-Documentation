@@ -125,6 +125,7 @@ title: SuAVE Documentation
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
+      <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 3</a>
