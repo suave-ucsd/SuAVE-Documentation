@@ -178,7 +178,7 @@ title: SuAVE Documentation
       text-decoration: none;
       text-align: center;
       cursor: pointer;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: bold;
       text-transform: uppercase;
       letter-spacing: 1px;
