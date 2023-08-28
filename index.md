@@ -67,7 +67,7 @@ layout: default
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
    </div>
-   <div class="empty-button" style="width: 140px;"></div> <!-- Empty white button -->
+   <div class="empty-button" style="margin-left: 20px;"></div> <!-- Empty white button -->
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 7</a>
    </div>
@@ -99,13 +99,13 @@ layout: default
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .empty-button {
-      width: 20px; /* Adjust the width of the empty button for spacing */
+      width: 100px; /* Adjust the width of the empty button for spacing */
       padding: 10px 20px;
       border-radius: 5px;
       visibility: hidden; /* Hide the empty button */
    }
    .button a {
-      width: 140px;
+      width: 100px;
       display: inline-block;
       padding: 10px 20px;
       background-color: #337ab7;
