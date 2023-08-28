@@ -39,31 +39,31 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
 
 <div class="button-container">
-   <div class="button">
+   <div class="custom-button">
       <a href="#">Button 1</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="custom-button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="custom-button" style="margin-left: 20px;">
       <a href="#">Button 3</a>
       <div class="white-line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="custom-button" style="margin-left: 20px;">
       <a href="#">Button 4</a>
       <div class="line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 10px;">
-   <div class="button">
+   <div class="custom-button">
       <a href="#">Button 5</a>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="custom-button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
    </div>
-   <div class="button" style="margin-left: 160px;">
+   <div class="custom-button" style="margin-left: 160px;">
       <a href="#">Button 7</a>
    </div>
 </div>
