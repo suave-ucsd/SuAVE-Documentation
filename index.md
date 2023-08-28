@@ -65,9 +65,7 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 6</a>
    </div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 8</a>
-   </div>
+   <div class="empty-button" style="margin-left: 20px;"></div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 8</a>
    </div>
@@ -105,9 +103,18 @@ title: SuAVE Documentation
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .empty-button {
-      width: 140px; /* Adjust the width of the empty button for spacing */
+      width: 120px;
+      background-color: transparent;
+      border: 2px solid #007bff;
+      color: #007bff;
       padding: 10px 20px;
       border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: background-color 0.3s, color 0.3s;
+      text-decoration: none;
       visibility: hidden; /* Hide the empty button */
    }
    .button a {
