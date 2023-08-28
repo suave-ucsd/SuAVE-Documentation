@@ -83,7 +83,7 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 6</a>
    </div>
-   <div class="button" style="margin: 340 180px;">
+   <div class="button" style="left-margin: 520px;">
       <a href="#">Button 9</a>
    </div>
 </div>
