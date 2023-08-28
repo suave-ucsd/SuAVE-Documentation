@@ -56,7 +56,7 @@ title: SuAVE Documentation
       <div class="line"></div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 4px;">
+<div class="button-container" style="margin-top: 10px;">
    <div class="button">
       <a href="#">Button 5</a>
    </div>
@@ -82,16 +82,16 @@ title: SuAVE Documentation
       align-items: center;
    }
    .line {
-      width: 4px;
+      width: 3px;
       height: 25px; /* Adjust the height of the line */
       background-color: black;
-      margin-top: 2px; /* Adjust the distance of the line from the button */
+      margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .white-line {
-      width: 4px;
+      width: 3px;
       height: 25px; /* Adjust the height of the line */
       background-color: white;
-      margin-top: 2px; /* Adjust the distance of the line from the button */
+      margin-top: 10px; /* Adjust the distance of the line from the button */
    }
 
    .button a {
