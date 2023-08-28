@@ -157,20 +157,19 @@ title: SuAVE Documentation
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid #007bff; /* Add border to buttons */
+      border: 2px solid #007bff;
       border-radius: 5px;
       padding: 10px 20px;
-      margin: 0 10px; /* Adjust margin */
+      margin: 0 10px;
    }
    .line {
       width: 2px;
-      height: 16px; /* Adjust the height of the line */
       background-color: black;
-      margin: 0 10px; /* Adjust margin */
+      margin: 10px 0;
    }
    .empty-button {
-      width: 20px; /* Adjust the width of the empty button for spacing */
-      visibility: hidden; /* Hide the empty button */
+      width: 20px;
+      visibility: hidden;
    }
    .button a {
       display: inline-block;
@@ -190,5 +189,6 @@ title: SuAVE Documentation
       color: white;
    }
 </style>
+
 
 
