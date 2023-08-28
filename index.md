@@ -43,7 +43,6 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 1</a>
    </div>
-   <div class="empty-button"></div> <!-- Empty button for spacing -->
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
    </div>
