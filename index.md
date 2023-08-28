@@ -96,7 +96,7 @@ title: SuAVE Documentation
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .empty-button {
-      width: 120px; /* Adjust the width of the empty button for spacing */
+      width: 160px; /* Adjust the width of the empty button for spacing */
       padding: 10px 20px;
       border-radius: 5px;
       visibility: hidden; /* Hide the empty button */
@@ -125,7 +125,6 @@ title: SuAVE Documentation
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
-      <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 3</a>
