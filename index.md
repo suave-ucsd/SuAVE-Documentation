@@ -37,13 +37,11 @@ title: SuAVE Documentation
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; align-items: center;">
    <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Images</a>
-</div>
-
-<div style="text-align: center;">
    <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 2</a>
 </div>
+
 
 
 
