@@ -39,6 +39,7 @@ title: SuAVE Documentation
 
 <div style="display: flex; justify-content: center; align-items: center;">
    <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Images</a>
+    <div style="margin: 0 10px;"></div>
    <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 2</a>
 </div>
 
