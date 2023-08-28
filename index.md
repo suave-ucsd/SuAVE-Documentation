@@ -95,12 +95,16 @@ title: SuAVE Documentation
    }
 
    .button a {
-      display: inline-block;
+      background-color: transparent;
+      border: 2px solid #007bff;
+      color: #007bff;
       padding: 10px 20px;
-      background-color: #337ab7;
-      color: white;
-      text-decoration: none;
       border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: background-color 0.3s, color 0.3s;
    }
    .button:not(:last-child) {
       margin-right: 20px;
