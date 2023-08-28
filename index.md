@@ -51,7 +51,7 @@ title: SuAVE Documentation
    <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 3</a>
 </div>
 
-
+<link rel="stylesheet" type="text/css" href="styles.css">
 <div class="button-container">
    <div class="button">
       <a href="#">Button 1</a>
