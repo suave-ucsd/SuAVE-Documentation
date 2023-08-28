@@ -37,22 +37,18 @@ title: SuAVE Documentation
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<div style="display: flex; justify-content: center; align-items: center;">
-   <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Images</a>
-    <div style="margin: 0 10px;"></div>
-   <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 2</a>
-</div>
 
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<div style="display: flex; justify-content: center; align-items: center;">
-   <div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; align-items: flex-start;">
+   <div>
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 1</a>
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button" style="margin-top: 10px;">Button 2</a>
    </div>
    <div style="margin-left: 10px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 3</a>
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 2</a>
    </div>
+</div>
+
+<div style="margin-top: 10px;">
+   <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 3</a>
 </div>
 
 
