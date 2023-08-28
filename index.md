@@ -99,7 +99,6 @@ title: SuAVE Documentation
       border: 2px solid #007bff;
       color: #007bff;
       padding: 10px 20px;
-      border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
       font-weight: bold;
