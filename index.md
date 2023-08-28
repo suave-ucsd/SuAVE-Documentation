@@ -37,10 +37,6 @@ title: SuAVE Documentation
 ----
 
 
----
-layout: default
----
-
 <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
 
 <div class="button-container">
@@ -52,7 +48,7 @@ layout: default
       <a href="#">Button 2</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 20px; margin-top: -4px;">
       <a href="#">Button 3</a>
    </div>
    <div class="button" style="margin-left: 20px;">
@@ -60,7 +56,7 @@ layout: default
       <div class="line"></div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 2px;">
+<div class="button-container" style="margin-top: 4px;">
    <div class="button">
       <a href="#">Button 5</a>
    </div>
@@ -86,8 +82,8 @@ layout: default
       align-items: center;
    }
    .line {
-      width: 2px;
-      height: 16px; /* Adjust the height of the line */
+      width: 4px;
+      height: 25px; /* Adjust the height of the line */
       background-color: black;
       margin-top: 2px; /* Adjust the distance of the line from the button */
    }
