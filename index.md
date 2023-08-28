@@ -38,20 +38,6 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 
-<div style="display: flex; align-items: flex-start;">
-   <div>
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 1</a>
-   </div>
-   <div style="margin-left: 10px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 2</a>
-   </div>
-</div>
-
-<div style="margin-top: 30px;">
-   <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html" class="custom-button">Button 3</a>
-</div>
-
-<link rel="stylesheet" type="text/css" href="styles.css">
 <div class="button-container">
    <div class="button">
       <a href="#">Button 1</a>
@@ -59,12 +45,17 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 2</a>
    </div>
+   <div class="button">
+      <a href="#">Button 3</a>
+   </div>
 </div>
 
 <style>
    .button-container {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
    }
    .button {
       position: relative;
@@ -78,21 +69,20 @@ title: SuAVE Documentation
       text-decoration: none;
       border-radius: 5px;
    }
+   .button + .button {
+      margin-top: 10px;
+   }
    .button::after {
       content: "";
       position: absolute;
-      top: 50%;
-      left: 100%;
-      transform: translateY(-50%);
-      width: 20px;
-      height: 2px;
+      top: calc(100% + 5px); /* Adjust the distance of the line from the button */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 20px;
       background-color: black;
    }
-   .button:last-child::after {
-      display: none;
-   }
 </style>
-
 
 
 
