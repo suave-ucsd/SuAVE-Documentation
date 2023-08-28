@@ -36,7 +36,6 @@ title: SuAVE Documentation
 </a>
 ----
 
-
 <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
 
 <div class="button-container">
@@ -48,8 +47,9 @@ title: SuAVE Documentation
       <a href="#">Button 2</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px; margin-top: -4px;">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 3</a>
+      <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 4</a>
@@ -85,6 +85,12 @@ title: SuAVE Documentation
       width: 4px;
       height: 25px; /* Adjust the height of the line */
       background-color: black;
+      margin-top: 2px; /* Adjust the distance of the line from the button */
+   }
+   .white-line {
+      width: 4px;
+      height: 25px; /* Adjust the height of the line */
+      background-color: white;
       margin-top: 2px; /* Adjust the distance of the line from the button */
    }
 
