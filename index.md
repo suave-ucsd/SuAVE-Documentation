@@ -35,85 +35,6 @@ title: SuAVE Documentation
    <button class="custom-button">Images</button>
 </a>
 
---------
-
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<div class="button-container">
-   <div class="button">
-      <a href="#">Button 1</a>
-      <div class="line"></div>
-   </div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 2</a>
-      <div class="line"></div>
-   </div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 3</a>
-      <div class="white-line"></div>
-   </div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 4</a>
-      <div class="line"></div>
-   </div>
-</div>
-<div class="button-container" style="margin-top: 10px;">
-   <div class="button">
-      <a href="#">Button 5</a>
-   </div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 6</a>
-   </div>
-   <div class="empty-button" style="margin-left: 20px;"></div> <!-- Empty white button -->
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 7</a>
-   </div>
-</div>
-
-<style>
-   .button-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   .button {
-      position: relative;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   .line {
-      width: 3px;
-      height: 25px; /* Adjust the height of the line */
-      background-color: black;
-      margin-top: 10px; /* Adjust the distance of the line from the button */
-   }
-   .white-line {
-      width: 3px;
-      height: 25px; /* Adjust the height of the line */
-      background-color: white;
-      margin-top: 10px; /* Adjust the distance of the line from the button */
-   }
-   .empty-button {
-      width: 140px; /* Adjust the width of the empty button for spacing */
-      padding: 10px 20px;
-      border-radius: 5px;
-      visibility: hidden; /* Hide the empty button */
-   }
-   .button a {
-      width: 120px;
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #337ab7;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-   }
-   .button:not(:last-child) {
-      margin-right: 20px;
-   }
-</style>
 ---------
 <link rel="stylesheet" type="text/css" href="styles.css">
 
@@ -182,7 +103,7 @@ title: SuAVE Documentation
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .empty-button {
-      width: 140px; /* Adjust the width of the empty button for spacing */
+      width: 160px; /* Adjust the width of the empty button for spacing */
       padding: 10px 20px;
       border-radius: 5px;
       visibility: hidden; /* Hide the empty button */
