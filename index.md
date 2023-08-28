@@ -100,6 +100,8 @@ layout: default
    }
    .empty-button {
       width: 20px; /* Adjust the width of the empty button for spacing */
+      padding: 10px 20px;
+      border-radius: 5px;
       visibility: hidden; /* Hide the empty button */
    }
    .button a {
