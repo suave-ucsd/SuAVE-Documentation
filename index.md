@@ -47,14 +47,6 @@ title: SuAVE Documentation
       <a href="#">Button 2</a>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 5</a>
-   </div>
-   <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 6</a>
-   </div>
-</div>
-<div class="button-container" style="margin-top: 20px;">
-   <div class="button">
       <a href="#">Button 3</a>
    </div>
    <div class="button" style="margin-left: 20px;">
@@ -62,6 +54,12 @@ title: SuAVE Documentation
    </div>
 </div>
 <div class="button-container" style="margin-top: 20px;">
+   <div class="button">
+      <a href="#">Button 5</a>
+   </div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 6</a>
+   </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 7</a>
    </div>
@@ -92,4 +90,3 @@ title: SuAVE Documentation
       margin-right: 20px;
    }
 </style>
-
