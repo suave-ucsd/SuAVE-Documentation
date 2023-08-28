@@ -35,27 +35,26 @@ title: SuAVE Documentation
    <button class="custom-button">Images</button>
 </a>
 ----
----
-layout: default
----
+
 
 <link rel="stylesheet" type="text/css" href="styles.css">
+
 
 <div class="button-container">
    <div class="button">
       <a href="#">Button 1</a>
       <div class="line"></div>
    </div>
-   <div class="button">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 2</a>
    </div>
 </div>
-<div class="button-container">
+<div class="button-container" style="margin-top: 20px;">
    <div class="button">
       <a href="#">Button 3</a>
       <div class="line"></div>
    </div>
-   <div class="button">
+   <div class="button" style="margin-left: 20px;">
       <a href="#">Button 4</a>
    </div>
 </div>
@@ -97,3 +96,4 @@ layout: default
       display: none;
    }
 </style>
+
