@@ -144,9 +144,14 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Button 6</a>
    </div>
-   <div class="empty-button"></div> <!-- Empty white button -->
-   <div class="empty-button"></div> <!-- Empty white button -->
-   <div class="empty-button"></div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 11</a>
+      <div class="line"></div>
+   </div>
+   <div class="button" style="margin-left: 20px;">
+      <a href="#">Button 22</a>
+      <div class="line"></div>
+   </div>
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 7</a>
    </div>
