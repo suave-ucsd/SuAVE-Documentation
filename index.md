@@ -52,6 +52,49 @@ title: SuAVE Documentation
 </div>
 
 
+<div class="button-container">
+   <div class="button">
+      <a href="#">Button 1</a>
+   </div>
+   <div class="button">
+      <a href="#">Button 2</a>
+   </div>
+</div>
+
+<style>
+   .button-container {
+      display: flex;
+      justify-content: space-between;
+   }
+   .button {
+      position: relative;
+      text-align: center;
+   }
+   .button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #337ab7;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+   }
+   .button::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 2px;
+      background-color: black;
+   }
+   .button:last-child::after {
+      display: none;
+   }
+</style>
+
+
+
 
 
 
