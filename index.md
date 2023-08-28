@@ -63,7 +63,7 @@ title: SuAVE Documentation
    <div class="button" style="margin-left: 20px;">
       <a href="#">Button 6</a>
    </div>
-   <div class="button" style="margin-left: 172px;">
+   <div class="button" style="margin-left: 170px;">
       <a href="#">Button 7</a>
    </div>
 </div>
@@ -99,7 +99,7 @@ title: SuAVE Documentation
       border: 2px solid #007bff;
       color: #007bff;
       padding: 10px 20px;
-      border-radius: 3px;
+      border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
       font-weight: bold;
