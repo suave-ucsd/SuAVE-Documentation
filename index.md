@@ -96,7 +96,7 @@ title: SuAVE Documentation
 
    .button a {
       background-color: transparent;
-      border: 2px solid #007bff;
+      border: 1px solid #007bff;
       color: #007bff;
       border-radius: 3px;
       padding: 10px 20px;
