@@ -122,6 +122,7 @@ title: SuAVE Documentation
       font-weight: bold;
       letter-spacing: 1px;
       transition: background-color 0.3s, color 0.3s;
+      text-decoration: none;
    }
    .button:not(:last-child) {
       margin-right: 20px;
