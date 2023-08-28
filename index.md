@@ -103,7 +103,7 @@ title: SuAVE Documentation
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .empty-button {
-      width: 160px; /* Adjust the width of the empty button for spacing */
+      width: 250px; /* Adjust the width of the empty button for spacing */
       padding: 10px 20px;
       border-radius: 5px;
       visibility: hidden; /* Hide the empty button */
