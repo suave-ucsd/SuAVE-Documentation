@@ -5,7 +5,6 @@ nav_order: 7
 ---
 
 # SuAVE General Applications
-<br>
 
 **Utilizing SuAVE**
 
