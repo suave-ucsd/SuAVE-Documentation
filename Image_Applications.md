@@ -5,7 +5,6 @@ nav_order: 4
 ---
 
 # Images
-<br>
 
 **Utilizing DZGen and SuAVE**
 
