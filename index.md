@@ -32,7 +32,7 @@ title: SuAVE Documentation
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<div class="button-container">
+<div class="button-container" style="margin-right: 15px;">
    <div class="button">
       <a href="#">CSV/Tabular</a>
       <div class="line"></div>
