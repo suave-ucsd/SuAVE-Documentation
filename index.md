@@ -134,7 +134,7 @@ title: SuAVE Documentation
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
-      padding: 10px 20px;
+      padding: 5px 5px;
       border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
