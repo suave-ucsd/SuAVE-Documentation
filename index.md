@@ -32,7 +32,7 @@ title: SuAVE Documentation
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<div class="button-container" style="margin-left: 35px;">
+<div class="button-container" style="margin-left: 50px;">
    <div class="button">
       <a href="#">CSV/Tabular</a>
       <div class="line"></div>
@@ -54,7 +54,7 @@ title: SuAVE Documentation
       <div class="line"></div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 10px; margin-left: 35px">
+<div class="button-container" style="margin-top: 10px; margin-left: 50px">
    <div class="button">
       <a href="#">Questionnaire</a>
       <div class="line"></div>
@@ -72,7 +72,7 @@ title: SuAVE Documentation
       <div class="line"></div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 10px; margin-left: 35px">
+<div class="button-container" style="margin-top: 10px; margin-left: 50px">
    <div class="button">
       <a href="#">Limesurvey</a>
    </div>
