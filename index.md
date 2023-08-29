@@ -43,19 +43,19 @@ title: SuAVE Documentation
       <a href="#">CSV/Tabular</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 15px;">
       <a href="#">Images</a>
       <div class="white-line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 15px;">
       <a href="#">Spatial/Map</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 15px;">
       <a href="#">Jupyter</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 15px;">
       <a href="#">Networks</a>
       <div class="line"></div>
    </div>
@@ -65,15 +65,15 @@ title: SuAVE Documentation
       <a href="#">Questionnaire</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 180px;">
+   <div class="button" style="margin-left: 170px;">
       <a href="#">QGIS & MyMaps</a>
       <div class="white-line"></div>
    </div>
-   <div class="button tall-button" style="margin-left: 20px;">
+   <div class="button tall-button" style="margin-left: 15px;">
       <a href="#">SuAVE-Jupyter Notebooks</a>
       <div class="white-line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button" style="margin-left: 15px;">
       <a href="#">CorpusDB</a>
       <div class="line"></div>
    </div>
@@ -82,7 +82,7 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Limesurvey</a>
    </div>
-   <div class="button" style="margin-left: 500px;">
+   <div class="button" style="margin-left: 480px;">
       <a href="#">OpenAlex</a>
    </div>
 </div>
@@ -128,7 +128,7 @@ title: SuAVE Documentation
       visibility: hidden; /* Hide the empty button */
    }
    .button a {
-      width: 120px;
+      width: 130px;
       height: 50px;
       background-color: transparent;
       border: 2px solid #007bff;
@@ -146,7 +146,7 @@ title: SuAVE Documentation
       height: 100px; /* Height for the "SuAVE-Jupyter Notebooks on Github" button */
    }
    .button:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 15px;
    }
    .button a:hover {
       background-color: #007bff;
