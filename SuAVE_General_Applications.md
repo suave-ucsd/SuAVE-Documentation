@@ -23,7 +23,7 @@ To learn how to...
 - Publish an image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html)
 
-**Utilizing SuAVE and Corpus-DB**
+**Utilizing SuAVE, Corpus-DB, and DZGEN**
 
 To learn how to...
 
