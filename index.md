@@ -41,50 +41,50 @@ title: SuAVE Documentation
 
 <div class="button-container">
    <div class="button">
-      <a href="#">Button 1</a>
+      <a href="#">CSV/Tabular</a>
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 2</a>
+      <a href="#">Images</a>
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 3</a>
+      <a href="#">Spatial/Map</a>
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 4</a>
+      <a href="#">Jupyter</a>
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 5</a>
+      <a href="#">Networks</a>
       <div class="line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 10px;">
    <div class="button">
-      <a href="#">Button 6</a>
+      <a href="#">Questionnaire</a>
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 180px;">
-      <a href="#">Button 7</a>
+      <a href="#">QGIS & MyMaps</a>
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 7</a>
+      <a href="#">SuAVE-Jupyter Notebooks on Github</a>
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 20px;">
-      <a href="#">Button 0</a>
+      <a href="#">Corpus-DB</a>
       <div class="line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 10px;">
    <div class="button">
-      <a href="#">Button 6</a>
+      <a href="#">Limesurvey</a>
    </div>
    <div class="button" style="margin-left: 500px;">
-      <a href="#">Button 9</a>
+      <a href="#">OpenAlex</a>
    </div>
 </div>
 
