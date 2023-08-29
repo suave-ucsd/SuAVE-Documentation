@@ -82,7 +82,7 @@ title: SuAVE Documentation
    <div class="button">
       <a href="#">Limesurvey</a>
    </div>
-   <div class="button" style="margin-left: 480px;">
+   <div class="button" style="margin-left: 490px;">
       <a href="#">OpenAlex</a>
    </div>
 </div>
