@@ -66,7 +66,7 @@ title: SuAVE Documentation
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 170px;">
-      <a href="#">QGIS</a>
+      <a href="#">QGIS & MyMaps</a>
       <div class="white-line"></div>
    </div>
    <div class="button tall-button" style="margin-left: 15px;">
@@ -133,7 +133,7 @@ title: SuAVE Documentation
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
-      padding: 10px 5px; /* Adjust the padding for the buttons with a height of 25px */
+      padding: 10px 4px; /* Adjust the padding for the buttons with a height of 25px */
       border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
