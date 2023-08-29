@@ -136,7 +136,7 @@ title: SuAVE Documentation
       padding: 10px 5px; /* Adjust the padding for the buttons with a height of 25px */
       border-radius: 5px;
       cursor: pointer;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bold;
       letter-spacing: 1px;
       transition: background-color 0.3s, color 0.3s;
