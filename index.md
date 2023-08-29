@@ -29,13 +29,7 @@ title: SuAVE Documentation
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
 
-<link rel="stylesheet" type="text/css" href="styles.css">
 
-<a href="https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html">
-   <button class="custom-button">Images</button>
-</a>
-
----------
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <div class="button-container">
@@ -103,7 +97,7 @@ title: SuAVE Documentation
    .line {
       width: 3px;
       height: 25px; /* Adjust the height of the line */
-      background-color: black;
+      background-color: #808080;
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .white-line {
