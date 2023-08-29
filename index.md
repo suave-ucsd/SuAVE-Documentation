@@ -129,7 +129,7 @@ title: SuAVE Documentation
    }
    .button a {
       width: 130px;
-      height: 50px;
+      height: 70px;
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
@@ -142,21 +142,7 @@ title: SuAVE Documentation
       transition: background-color 0.3s, color 0.3s;
       text-decoration: none;
    }
-   .tall-button {
-      width: 130px;
-      height: 75px;
-      background-color: transparent;
-      border: 2px solid #007bff;
-      color: #007bff;
-      padding: 10px 3px; /* Adjust the padding for the buttons with a height of 25px */
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 14px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      transition: background-color 0.3s, color 0.3s;
-      text-decoration: none;
-   }
+
    .button:not(:last-child) {
       margin-right: 15px;
    }
