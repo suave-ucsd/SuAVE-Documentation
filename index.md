@@ -130,6 +130,7 @@ title: SuAVE Documentation
    }
    .button a {
       width: 120px;
+      height: 100px;
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
