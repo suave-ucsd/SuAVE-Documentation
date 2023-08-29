@@ -141,6 +141,12 @@ title: SuAVE Documentation
       letter-spacing: 1px;
       transition: background-color 0.3s, color 0.3s;
       text-decoration: none;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center the text vertically */
+      align-items: center; /* Center the text horizontally */
+      text-align: center; /* Center the text within the button */
    }
 
    .button:not(:last-child) {
@@ -151,5 +157,6 @@ title: SuAVE Documentation
       color: white;
    }
 </style>
+
 
 
