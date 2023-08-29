@@ -74,7 +74,7 @@ title: SuAVE Documentation
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
-      <a href="#">CorpusDB</a>
+      <a href="#">Corpus-DB</a>
       <div class="line"></div>
    </div>
 </div>
