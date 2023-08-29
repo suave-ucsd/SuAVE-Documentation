@@ -6,7 +6,6 @@ nav_order: 9
 
 # Newtorks
 
-
 **Utilizing SuAVE, Corpus-DB, and DZGEN**
 
 To learn how to...
