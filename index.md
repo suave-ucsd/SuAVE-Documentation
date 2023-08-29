@@ -130,7 +130,6 @@ title: SuAVE Documentation
    .button a {
       width: 120px;
       height: 50px;
-      line-height: 50px; /* Center the text vertically within the button */
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
