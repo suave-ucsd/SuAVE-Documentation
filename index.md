@@ -65,12 +65,12 @@ title: SuAVE Documentation
       <a href="#">Questionnaire</a>
       <div class="line"></div>
    </div>
-   <div class="button" style="margin-left: 170px;">
+   <div class="tall-button" style="margin-left: 170px;">
       <a href="#">QGIS & MyMaps</a>
       <div class="white-line"></div>
    </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="#">SuAVE-Jupyter</a>
+   <div class="tall-button" style="margin-left: 15px;">
+      <a href="#">SuAVE-Jupyter Notebooks</a>
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
@@ -143,7 +143,19 @@ title: SuAVE Documentation
       text-decoration: none;
    }
    .tall-button {
-      height: 100px; /* Height for the "SuAVE-Jupyter Notebooks on Github" button */
+      width: 130px;
+      height: 75px;
+      background-color: transparent;
+      border: 2px solid #007bff;
+      color: #007bff;
+      padding: 10px 3px; /* Adjust the padding for the buttons with a height of 25px */
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: background-color 0.3s, color 0.3s;
+      text-decoration: none;
    }
    .button:not(:last-child) {
       margin-right: 15px;
