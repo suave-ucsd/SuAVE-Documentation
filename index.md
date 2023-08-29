@@ -38,7 +38,6 @@ title: SuAVE Documentation
 ---------
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-
 <div class="button-container">
    <div class="button">
       <a href="#">CSV/Tabular</a>
@@ -131,6 +130,7 @@ title: SuAVE Documentation
    .button a {
       width: 120px;
       height: 50px;
+      line-height: 50px; /* Center the text vertically within the button */
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
@@ -154,4 +154,5 @@ title: SuAVE Documentation
       color: white;
    }
 </style>
+
 
