@@ -49,7 +49,7 @@ title: SuAVE Documentation
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
-      <a href="#">Jupyter</a>
+      <a href="#">SuAVE Applications</a>
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
