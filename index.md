@@ -70,7 +70,7 @@ title: SuAVE Documentation
       <div class="white-line"></div>
    </div>
    <div class="button tall-button" style="margin-left: 15px;">
-      <a href="#">SuAVE</a>
+      <a href="#">SuAVE-Jupyter</a>
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
