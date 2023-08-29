@@ -66,11 +66,11 @@ title: SuAVE Documentation
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 170px;">
-      <a href="#">QGIS & MyMaps</a>
+      <a href="#">QGIS</a>
       <div class="white-line"></div>
    </div>
    <div class="button tall-button" style="margin-left: 15px;">
-      <a href="#">SuAVE-Jupyter Notebooks</a>
+      <a href="#">SuAVE</a>
       <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
