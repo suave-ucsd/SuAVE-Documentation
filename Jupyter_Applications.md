@@ -4,8 +4,7 @@ parent: Software Applications
 nav_order: 8
 ---
 
-# Jupyter
-<br>
+# SuAVE-Jupyter Notebooks
 
 **Utilizing Jupyter and SuAVE**
 
