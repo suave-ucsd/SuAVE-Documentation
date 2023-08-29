@@ -29,6 +29,8 @@ title: SuAVE Documentation
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
 
+---
+# Software Applications 
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
