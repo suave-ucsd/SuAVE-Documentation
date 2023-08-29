@@ -5,7 +5,6 @@ nav_order: 5
 ---
 
 # Spatial/Map
-<br>
 
 **Utilizing MyMaps**
 
