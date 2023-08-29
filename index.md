@@ -65,11 +65,11 @@ title: SuAVE Documentation
       <a href="#">Questionnaire</a>
       <div class="line"></div>
    </div>
-   <div class="tall-button" style="margin-left: 170px;">
+   <div class="button" style="margin-left: 170px;">
       <a href="#">QGIS & MyMaps</a>
       <div class="white-line"></div>
    </div>
-   <div class="tall-button" style="margin-left: 15px;">
+   <div class="button" style="margin-left: 15px;">
       <a href="#">SuAVE-Jupyter Notebooks</a>
       <div class="white-line"></div>
    </div>
