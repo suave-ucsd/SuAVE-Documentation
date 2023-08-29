@@ -5,7 +5,6 @@ nav_order: 2
 ---
 
 # Questionnaire
-<br>
 
 **Utilizing Limesurvey and SuAVE**
 
