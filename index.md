@@ -31,6 +31,7 @@ title: SuAVE Documentation
 
 ---
 # <b> Software Applications </b>
+<br>
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
