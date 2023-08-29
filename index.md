@@ -70,7 +70,7 @@ title: SuAVE Documentation
       <a href="#">QGIS & MyMaps</a>
       <div class="white-line"></div>
    </div>
-   <div class="button" style="margin-left: 20px;">
+   <div class="button tall-button" style="margin-left: 20px;">
       <a href="#">SuAVE-Jupyter Notebooks on Github</a>
       <div class="white-line"></div>
    </div>
@@ -130,11 +130,11 @@ title: SuAVE Documentation
    }
    .button a {
       width: 120px;
-      height: 100px;
+      height: 25px;
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
-      padding: 5px 5px;
+      padding: 5px 20px; /* Adjust the padding for the buttons with a height of 25px */
       border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
@@ -143,11 +143,15 @@ title: SuAVE Documentation
       transition: background-color 0.3s, color 0.3s;
       text-decoration: none;
    }
+   .tall-button {
+      height: 100px; /* Height for the "SuAVE-Jupyter Notebooks on Github" button */
+   }
    .button:not(:last-child) {
       margin-right: 20px;
    }
    .button a:hover {
-    background-color: #007bff;
-    color: white;
-}
+      background-color: #007bff;
+      color: white;
+   }
 </style>
+
