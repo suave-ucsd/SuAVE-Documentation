@@ -130,11 +130,11 @@ title: SuAVE Documentation
    }
    .button a {
       width: 120px;
-      height: 25px;
+      height: 50px;
       background-color: transparent;
       border: 2px solid #007bff;
       color: #007bff;
-      padding: 5px 20px; /* Adjust the padding for the buttons with a height of 25px */
+      padding: 5px 10px; /* Adjust the padding for the buttons with a height of 25px */
       border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
