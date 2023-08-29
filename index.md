@@ -121,7 +121,7 @@ title: SuAVE Documentation
       padding: 10px 20px;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: bold;
       letter-spacing: 1px;
       transition: background-color 0.3s, color 0.3s;
