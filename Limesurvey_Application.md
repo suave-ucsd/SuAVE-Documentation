@@ -5,7 +5,6 @@ nav_order: 3
 ---
 
 # Limesurvey
-<br>
 
 **Utilizing Limesurvey**
 
