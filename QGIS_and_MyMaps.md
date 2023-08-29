@@ -5,7 +5,6 @@ nav_order: 6
 ---
 
 # QGIS and MyMaps
-<br>
 
 **Utilizing QGIS**
 
