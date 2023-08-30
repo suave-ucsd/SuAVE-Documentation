@@ -94,7 +94,7 @@ title: SuAVE Documentation
    }
    .button {
       position: relative;
-      margin-right: 5px;
+      margin-right: 10px; /* Adjusted margin for spacing */
       text-align: center;
       display: flex;
       flex-direction: column;
