@@ -36,10 +36,11 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <div class="button-container" style="margin-left: 50px;">
-   <div class="button">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
-      <div class="arrow"></div>
-      <div class="line"></div>
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
+         <div class="arrow"></div>
+      </div>
    </div>
    <div class="button" style="margin-left: 15px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
@@ -114,7 +115,7 @@ title: SuAVE Documentation
     position: absolute;
     width: 0;
     height: 0;
-    border-top: 1px solid transparent;
+    border-top: 12.5px solid transparent;
     border-bottom: 12.5px solid transparent;
     border-left: 25px solid #808080; /* Adjust the color of the arrow */
     left: 100%; /* Position the arrow to the right of the button */
