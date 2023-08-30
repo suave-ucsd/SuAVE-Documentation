@@ -46,11 +46,10 @@ title: SuAVE Documentation
    <div class="arrow-container" style="margin-left: 55px;">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Applications.html">SuAVE-Jupyter Notebooks</a>
-         <div class="arrow"></div>
       </div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 15px; margin-right: 200px;">
+<div class="button-container" style="margin-top: 40px; margin-right: 200px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
