@@ -234,7 +234,7 @@ title: SuAVE Documentation
       </div>
       <div class="arrow"></div>
    </div>
-   <div class="button" style="margin-left: 25px;">
+   <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images%</a>
    </div>
    <div class="button" style="margin-left: 15px;">
