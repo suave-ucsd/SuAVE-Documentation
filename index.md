@@ -223,21 +223,21 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 
-<div class="button-container" style="margin-right: 350px;">
+<div class="button-container" style="margin-right: 250px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="arrow-container" style="margin-left: 50px;">
+   <div class="arrow-container" style="margin-left: 30px;">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
          <div class="arrow"></div>
       </div>
    </div>
    <div class="arrow-container">
-      <div class="button" style="margin-left: 50px;">
+      <div class="button" style="margin-left: 30px;">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
       </div>
    </div>
