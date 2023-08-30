@@ -178,9 +178,7 @@ title: SuAVE Documentation
 
 --------------
 
-<!DOCTYPE html>
 <html>
-<head>
 <style>
    .button-container {
       display: flex;
@@ -189,7 +187,6 @@ title: SuAVE Documentation
    }
    .button {
       position: relative;
-      margin-right: 10px; /* Adjusted margin for spacing */
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -204,6 +201,7 @@ title: SuAVE Documentation
    .arrow-container {
       display: flex;
       align-items: center;
+      position: relative;
    }
    .arrow {
       position: absolute;
@@ -229,8 +227,6 @@ title: SuAVE Documentation
 <b>Software Applications</b>
 <br>
 
-<link rel="stylesheet" type="text/css" href="styles.css">
-
 <div class="button-container" style="margin-left: 50px;">
    <div class="arrow-container">
       <div class="button">
@@ -240,7 +236,6 @@ title: SuAVE Documentation
    </div>
    <div class="button" style="margin-left: 5px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
-      <div class="white-line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Spatial_or_Map_Applications.html">Spatial/Map</a>
