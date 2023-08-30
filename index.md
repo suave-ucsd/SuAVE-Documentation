@@ -282,6 +282,43 @@ title: SuAVE Documentation
 <br>
 
 <link rel="stylesheet" type="text/css" href="styles.css">
+<html>
+<head>
+<style>
+   .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .button {
+      position: relative;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .arrow-container {
+      display: flex;
+      align-items: center;
+      position: relative;
+   }
+   .arrow {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 12.5px solid transparent;
+      border-bottom: 12.5px solid transparent;
+      border-left: 25px solid #808080; /* Adjust the color of the arrow */
+      left: 100%; /* Position the arrow to the right of the button */
+      top: 50%; /* Align the arrow vertically */
+      transform: translateY(-50%); /* Center the arrow vertically */
+   }
+</style>
+</head>
+<body>
+
+<b>Software Applications</b>
+<br>
 
 <div class="button-container" style="margin-right: 350px;">
    <div class="arrow-container">
@@ -290,18 +327,21 @@ title: SuAVE Documentation
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="arrow-container", style="margin-left: 50px;">
+   <div class="arrow-container" style="margin-left: 50px;">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
          <div class="arrow"></div>
       </div>
    </div>
    <div class="arrow-container">
-      <div class="button", style="margin-left: 50px;">
+      <div class="button" style="margin-left: 50px;">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
       </div>
    </div>
 </div>
+
+</body>
+</html>
 
 
 </body>
