@@ -179,66 +179,6 @@ title: SuAVE Documentation
 --------------
 
 <html>
-<body>
-
-<b>Software Applications</b>
-<br>
-
-<div class="button-container" style="margin-left: 50px;">
-   <div class="arrow-container">
-      <div class="button">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
-      </div>
-      <div class="arrow"></div>
-   </div>
-   <div class="button" style="margin-left: 30px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
-   </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Spatial_or_Map_Applications.html">Spatial/Map</a>
-      <div class="line"></div>
-   </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
-      <div class="line"></div>
-   </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Network_Applications.html">Networks</a>
-      <div class="line"></div>
-   </div>
-</div>
-<div class="button-container" style="margin-top: 10px; margin-left: 50px">
-   <div class="button">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
-      <div class="line"></div>
-   </div>
-   <div class="button" style="margin-left: 170px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/QGIS_and_MyMaps.html">QGIS & MyMaps</a>
-      <div class="white-line"></div>
-   </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Applications.html">SuAVE-Jupyter Notebooks</a>
-      <div class="white-line"></div>
-   </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CorpusDB_Applications.html">Corpus-DB</a>
-      <div class="line"></div>
-   </div>
-</div>
-<div class="button-container" style="margin-top: 10px; margin-left: 50px">
-   <div class="button">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
-   </div>
-   <div class="button" style="margin-left: 490px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/OpenAlex_Applications.html">OpenAlex</a>
-   </div>
-</div>
-
-</body>
-</html>
-
-------------
-<html>
 <head>
 <style>
    .button-container {
@@ -276,49 +216,12 @@ title: SuAVE Documentation
    }
 </style>
 </head>
-<body>
 
 <b>Software Applications</b>
 <br>
 
 <link rel="stylesheet" type="text/css" href="styles.css">
-<html>
-<head>
-<style>
-   .button-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   .button {
-      position: relative;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   .arrow-container {
-      display: flex;
-      align-items: center;
-      position: relative;
-   }
-   .arrow {
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 12.5px solid transparent;
-      border-bottom: 12.5px solid transparent;
-      border-left: 25px solid #808080; /* Adjust the color of the arrow */
-      left: 100%; /* Position the arrow to the right of the button */
-      top: 50%; /* Align the arrow vertically */
-      transform: translateY(-50%); /* Center the arrow vertically */
-   }
-</style>
-</head>
 <body>
-
-<b>Software Applications</b>
-<br>
 
 <div class="button-container" style="margin-right: 350px;">
    <div class="arrow-container">
@@ -342,9 +245,8 @@ title: SuAVE Documentation
 
 </body>
 </html>
-
-
 </body>
+
 <style>
    .button-container {
       display: flex;
@@ -369,6 +271,7 @@ title: SuAVE Documentation
     display: flex;
     align-items: center;
   }
+
   .arrow {
     position: absolute;
     width: 0;
@@ -415,12 +318,14 @@ title: SuAVE Documentation
       letter-spacing: 1px;
       transition: background-color 0.3s, color 0.3s;
       text-decoration: none;
+      
       display: flex;
       flex-direction: column;
       justify-content: center; /* Center the text vertically */
       align-items: center; /* Center the text horizontally */
       text-align: center; /* Center the text within the button */
    }
+
    .button:not(:last-child) {
       margin-right: 15px;
    }
@@ -430,8 +335,3 @@ title: SuAVE Documentation
    }
 </style>
 </html>
-
-
-
-
-
