@@ -38,7 +38,7 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <body>
-<div class="button-container" style="margin-top: 20px; margin-right: 400px;">
+<div class="button-container" style="margin-top: 30px; margin-right: 400px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
@@ -51,7 +51,7 @@ title: SuAVE Documentation
       </div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 40px; margin-right: 200px;">
+<div class="button-container" style="margin-top: 25 px; margin-right: 200px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
