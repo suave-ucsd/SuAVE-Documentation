@@ -52,7 +52,7 @@ title: SuAVE Documentation
 
 <strong><span class="blue-text">Blue</span></strong> - Common softwares used in applications<br>
 
-<strong><span class="green-text">Green</span> </strong>- More specific use-cases<br>
+<strong><span class="green-text">Green</span></strong>- More specific use-cases<br>
 
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css">
