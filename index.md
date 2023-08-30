@@ -337,7 +337,6 @@ title: SuAVE Documentation
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
          <div class="arrow"></div>
       </div>
-      <div class="arrow"></div>
    </div>
    <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
