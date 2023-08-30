@@ -290,9 +290,11 @@ title: SuAVE Documentation
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
-      <div class="white-line"></div>
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnairse</a>
+         <div class="arrow"></div>
+      </div>
    </div>
    <div class="button" style="margin-left: 15px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
@@ -377,7 +379,6 @@ title: SuAVE Documentation
       align-items: center; /* Center the text horizontally */
       text-align: center; /* Center the text within the button */
    }
-
    .button:not(:last-child) {
       margin-right: 15px;
    }
