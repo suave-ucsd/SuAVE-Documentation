@@ -34,6 +34,10 @@ title: SuAVE Documentation
 
 **Below are links to different software applications related to SuAVE. Click on the button that best suites your needs, where buttons further down the line are for more specific applications.**
 
+***Key***
+Red - Important Softwares
+Blue - More specific use-cases
+
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
