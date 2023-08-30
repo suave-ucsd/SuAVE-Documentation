@@ -267,7 +267,7 @@ title: SuAVE Documentation
    .arrow-container {
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .arrow {
