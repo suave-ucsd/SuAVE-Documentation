@@ -303,26 +303,19 @@ title: SuAVE Documentation
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
    .arrow-container {
-      display: flex;
-      align-items: center;
-      position: relative;
-   }
+    display: flex;
+    align-items: center;
+  }
    .arrow {
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 12.5px solid transparent;
-      border-bottom: 12.5px solid transparent;
-      border-left: 25px solid #808080; /* Adjust the color of the arrow */
-      left: 100%; /* Position the arrow to the right of the button */
-      top: 50%; /* Align the arrow vertically */
-      transform: translateY(-50%); /* Center the arrow vertically */
-   }
-   .white-line {
-      width: 3px;
-      height: 25px; /* Adjust the height of the line */
-      background-color: white;
-      margin-top: 10px; /* Adjust the distance of the line from the button */
+     position: absolute;
+     width: 0;
+     height: 0;
+     border-top: 12.5px solid transparent;
+     border-bottom: 12.5px solid transparent;
+     border-left: 25px solid #808080; /* Adjust the color of the arrow */
+     left: 100%; /* Position the arrow to the right of the button */
+     top: 50%; /* Align the arrow vertically */
+     transform: translateY(-50%); /* Center the arrow vertically */
    }
 </style>
 </head>
