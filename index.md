@@ -283,7 +283,7 @@ title: SuAVE Documentation
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
-<div class="button-container" style="margin-left: 50px;">
+<div class="button-container" style="margin-right: 350px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
