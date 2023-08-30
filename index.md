@@ -280,6 +280,125 @@ title: SuAVE Documentation
 </body>
 </html>
 
+------------
+<html>
+<head>
+<style>
+   .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .button {
+      position: relative;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .line {
+      width: 3px;
+      height: 25px; /* Adjust the height of the line */
+      background-color: #808080;
+      margin-top: 10px; /* Adjust the distance of the line from the button */
+   }
+   .arrow-container {
+      display: flex;
+      align-items: center;
+      position: relative;
+   }
+   .arrow {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 12.5px solid transparent;
+      border-bottom: 12.5px solid transparent;
+      border-left: 25px solid #808080; /* Adjust the color of the arrow */
+      left: 100%; /* Position the arrow to the right of the button */
+      top: 50%; /* Align the arrow vertically */
+      transform: translateY(-50%); /* Center the arrow vertically */
+   }
+   .white-line {
+      width: 3px;
+      height: 25px; /* Adjust the height of the line */
+      background-color: white;
+      margin-top: 10px; /* Adjust the distance of the line from the button */
+   }
+</style>
+</head>
+<body>
+
+<b>Software Applications</b>
+<br>
+
+<div class="button-container" style="margin-left: 50px;">
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
+         <div class="arrow"></div>
+      </div>
+      <div class="arrow"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
+      <div class="arrow"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
+      <div class="arrow"></div>
+   </div>
+</div>
+<div class="button-container" style="margin-top: 10px; margin-left: 50px">
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
+         <div class="arrow"></div>
+      </div>
+      <div class="arrow"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Spatial_or_Map_Applications.html">Spatial/Map</a>
+      <div class="line"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/QGIS_and_MyMaps.html">QGIS & MyMaps</a>
+      <div class="white-line"></div>
+   </div>
+</div>
+<div class="button-container" style="margin-top: 10px; margin-left: 50px">
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
+         <div class="arrow"></div>
+      </div>
+      <div class="arrow"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Applications.html">SuAVE-Jupyter Notebooks</a>
+      <div class="white-line"></div>
+   </div>
+</div>
+<div class="button-container" style="margin-top: 10px; margin-left: 50px">
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Network_Applications.html">Networks</a>
+         <div class="arrow"></div>
+      </div>
+      <div class="arrow"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CorpusDB_Applications.html">Corpus-DB</a>
+      <div class="arrow"></div>
+   </div>
+   <div class="button" style="margin-left: 30px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/OpenAlex_Applications.html">OpenAlex</a>
+   </div>
+</div>
+
+</body>
+</html>
+
+
 
 
 
