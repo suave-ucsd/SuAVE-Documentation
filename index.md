@@ -281,22 +281,22 @@ title: SuAVE Documentation
 <b>Software Applications</b>
 <br>
 
+<link rel="stylesheet" type="text/css" href="styles.css">
 
-<div class="button-container" style="margin-right: 500px;">
+<div class="button-container" style="margin-left: 50px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
-      </div>
-      <div class="arrow"></div>
-   </div>
-   <div class="arrow-container">
-      <div class="button">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="button">
+   <div class="button" style="margin-left: 15px;">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
+      <div class="white-line"></div>
+   </div>
+   <div class="button" style="margin-left: 15px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
+      <div class="white-line"></div>
    </div>
 </div>
 
