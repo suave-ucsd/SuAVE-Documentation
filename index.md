@@ -48,7 +48,7 @@ title: SuAVE Documentation
    }
 </style>
 <body>
-
+<br>
 <strong><span class="red-text">Red</span></strong> - General overview of SuAVE example applications<br>
 
 <strong><span class="blue-text">Blue</span></strong> - Common softwares used in applications<br>
