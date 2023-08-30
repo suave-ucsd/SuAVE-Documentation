@@ -242,9 +242,6 @@ title: SuAVE Documentation
       </div>
    </div>
 </div>
-
-</body>
-</html>
 </body>
 
 <style>
