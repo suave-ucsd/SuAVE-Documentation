@@ -109,6 +109,7 @@ title: SuAVE Documentation
    .arrow-container {
     display: flex;
     align-items: center;
+   
   }
 
   .arrow {
@@ -179,43 +180,6 @@ title: SuAVE Documentation
 --------------
 
 <html>
-<head>
-<style>
-   .button-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   .button {
-      position: relative;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
-   .line {
-      width: 3px;
-      height: 25px; /* Adjust the height of the line */
-      background-color: #808080;
-      margin-top: 10px; /* Adjust the distance of the line from the button */
-   }
-   .arrow-container {
-    display: flex;
-    align-items: center;
-  }
-   .arrow {
-     position: absolute;
-     width: 0;
-     height: 0;
-     border-top: 12.5px solid transparent;
-     border-bottom: 12.5px solid transparent;
-     border-left: 25px solid #808080; /* Adjust the color of the arrow */
-     left: 100%; /* Position the arrow to the right of the button */
-     top: 50%; /* Align the arrow vertically */
-     transform: translateY(-50%); /* Center the arrow vertically */
-   }
-</style>
-</head>
 
 <b>Software Applications</b>
 <br>
@@ -269,7 +233,6 @@ title: SuAVE Documentation
     align-items: center;
     margin-left: 10px;
   }
-
   .arrow {
     position: absolute;
     width: 0;
@@ -332,4 +295,5 @@ title: SuAVE Documentation
       color: white;
    }
 </style>
+
 </html>
