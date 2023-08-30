@@ -207,9 +207,9 @@ title: SuAVE Documentation
       position: absolute;
       width: 0;
       height: 0;
-      border-top: 12.5px solid transparent;
-      border-bottom: 12.5px solid transparent;
-      border-left: 25px solid #808080; /* Adjust the color of the arrow */
+      border-top: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 15px solid #808080; /* Adjust the color of the arrow */
       left: 100%; /* Position the arrow to the right of the button */
       top: 50%; /* Align the arrow vertically */
       transform: translateY(-50%); /* Center the arrow vertically */
