@@ -49,9 +49,11 @@ title: SuAVE Documentation
 </head>
 <body>
 
-<span class="red-text">Red</span> - General overview of SuAVE example applications<br>
-<span class="blue-text">Blue</span> - Common softwares used in applications<br>
-<span class="green-text">Green</span> - More specific use-cases<br>
+<span class="red-text">Red</span> - General overview of SuAVE example applications
+
+<span class="blue-text">Blue</span> - Common softwares used in applications
+
+<span class="green-text">Green</span> - More specific use-cases
 
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css">
