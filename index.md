@@ -31,12 +31,11 @@ title: SuAVE Documentation
 
 ---
 # <b> Software Applications </b>
-<br>
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <body>
-<div class="button-container" style="margin-right: 400px;">
+<div class="button-container" style="margin-top: 40px; margin-right: 400px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
