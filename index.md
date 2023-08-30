@@ -38,6 +38,7 @@ title: SuAVE Documentation
 <div class="button-container" style="margin-left: 50px;">
    <div class="button">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
+      <div class="arrow"></div>
       <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 15px;">
