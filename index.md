@@ -89,13 +89,12 @@ title: SuAVE Documentation
       </div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 20px; margin-right: 550px;">
+<div class="button-container" style="margin-top: 20px; margin-right: 540px;">
    <div class="arrow-container">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
       </div>
-</div>   
-</body>
+</div> 
 
 <style>
    .button-container {
@@ -184,5 +183,3 @@ title: SuAVE Documentation
       color: white;
    }
 </style>
-
-</html>
