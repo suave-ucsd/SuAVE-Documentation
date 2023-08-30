@@ -30,7 +30,10 @@ title: SuAVE Documentation
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html).
 
 ---
-# <b> Software Applications </b>
+# <b> Software Applications Flowchart</b>
+
+**Below are links to different software applications related to SuAVE. Click on the button that best suites your needs, where buttons further down the line are for more specific applications.**
+
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
