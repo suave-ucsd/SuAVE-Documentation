@@ -104,16 +104,20 @@ title: SuAVE Documentation
       background-color: #808080;
       margin-top: 10px; /* Adjust the distance of the line from the button */
    }
-   .arrow {
+   .arrow-container {
+    position: relative;
+  }
+  
+  .arrow {
+    position: absolute;
     width: 0;
     height: 0;
     border-top: 12.5px solid transparent;
     border-bottom: 12.5px solid transparent;
     border-left: 25px solid #808080; /* Adjust the color of the arrow */
-    margin-top: 10px; /* Adjust the distance of the arrow from the button */
-    display: inline-block;
-    vertical-align: middle;
-    content: "";
+    left: 100%; /* Position the arrow to the right of the first button */
+    top: 50%; /* Align the arrow vertically */
+    transform: translateY(-50%); /* Center the arrow vertically */
   }
    .white-line {
       width: 3px;
