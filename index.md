@@ -114,7 +114,7 @@ title: SuAVE Documentation
     position: absolute;
     width: 0;
     height: 0;
-    border-top: 12.5px solid transparent;
+    border-top: 1px solid transparent;
     border-bottom: 12.5px solid transparent;
     border-left: 25px solid #808080; /* Adjust the color of the arrow */
     left: 100%; /* Position the arrow to the right of the button */
