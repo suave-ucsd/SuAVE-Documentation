@@ -34,7 +34,7 @@ title: SuAVE Documentation
 
 **Below are links to different software applications related to SuAVE. Click on the button that best suites your needs, where buttons further down the line are for more specific applications.**
 
-***Key***
+<p><strong><u>Key</u></strong>
 <style>
    .red-text {
       color: #d73a49; /* GitHub Markdown Red color */
