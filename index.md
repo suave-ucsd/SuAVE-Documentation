@@ -35,8 +35,23 @@ title: SuAVE Documentation
 **Below are links to different software applications related to SuAVE. Click on the button that best suites your needs, where buttons further down the line are for more specific applications.**
 
 ***Key***
-Red - Important Softwares
-Blue - More specific use-cases
+<style>
+   .red-text {
+      color: #d73a49; /* GitHub Markdown Red color */
+   }
+   .blue-text {
+      color: #0366d6; /* GitHub Markdown Blue color */
+   }
+   .green-text {
+      color: #28a745; /* GitHub Markdown Green color */
+   }
+</style>
+</head>
+<body>
+
+<span class="red-text">Red</span> - General overview of SuAVE example applications<br>
+<span class="blue-text">Blue</span> - Common softwares used in applications<br>
+<span class="green-text">Green</span> - More specific use-cases<br>
 
 <html>
 <link rel="stylesheet" type="text/css" href="styles.css">
