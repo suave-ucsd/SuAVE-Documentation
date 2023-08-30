@@ -292,13 +292,14 @@ title: SuAVE Documentation
    </div>
    <div class="arrow-container">
       <div class="button">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnairse</a>
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="button" style="margin-left: 15px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
-      <div class="white-line"></div>
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurveya</a>
+      </div>
    </div>
 </div>
 
