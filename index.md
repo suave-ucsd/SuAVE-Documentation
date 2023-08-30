@@ -207,8 +207,8 @@ title: SuAVE Documentation
       position: absolute;
       width: 0;
       height: 0;
-      border-top: 7px solid transparent;
-      border-bottom: 7px solid transparent;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
       border-left: 15px solid #808080; /* Adjust the color of the arrow */
       left: 100%; /* Position the arrow to the right of the button */
       top: 50%; /* Align the arrow vertically */
@@ -234,7 +234,7 @@ title: SuAVE Documentation
       </div>
       <div class="arrow"></div>
    </div>
-   <div class="button" style="margin-left: 5px;">
+   <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
    </div>
    <div class="button" style="margin-left: 15px;">
