@@ -96,9 +96,6 @@ title: SuAVE Documentation
       position: relative;
       margin-right: 10px; /* Adjusted margin for spacing */
       text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
    }
    .line {
       width: 3px;
