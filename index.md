@@ -353,15 +353,12 @@ title: SuAVE Documentation
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
          <div class="arrow"></div>
       </div>
-      <div class="arrow"></div>
    </div>
    <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Spatial_or_Map_Applications.html">Spatial/Map</a>
-      <div class="line"></div>
    </div>
    <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/QGIS_and_MyMaps.html">QGIS & MyMaps</a>
-      <div class="white-line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 10px; margin-left: 50px">
@@ -370,11 +367,9 @@ title: SuAVE Documentation
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
          <div class="arrow"></div>
       </div>
-      <div class="arrow"></div>
    </div>
    <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Jupyter_Applications.html">SuAVE-Jupyter Notebooks</a>
-      <div class="white-line"></div>
    </div>
 </div>
 <div class="button-container" style="margin-top: 10px; margin-left: 50px">
@@ -383,7 +378,6 @@ title: SuAVE Documentation
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Network_Applications.html">Networks</a>
          <div class="arrow"></div>
       </div>
-      <div class="arrow"></div>
    </div>
    <div class="button" style="margin-left: 30px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CorpusDB_Applications.html">Corpus-DB</a>
