@@ -243,6 +243,7 @@ title: SuAVE Documentation
     left: 100%; /* Position the arrow to the right of the button */
     top: 50%; /* Align the arrow vertically */
     transform: translateY(-50%); /* Center the arrow vertically */
+    margin-left: 10px;
   }
    .white-line {
       width: 3px;
