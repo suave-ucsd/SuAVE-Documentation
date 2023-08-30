@@ -332,8 +332,14 @@ title: SuAVE Documentation
       </div>
       <div class="arrow"></div>
    </div>
-   <div class="button" styler = "margin-left: 30px;">
-       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
+   <div class="arrow-container">
+      <div class="button">
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
+         <div class="arrow"></div>
+      </div>
+   </div>
+   <div class="button">
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
    </div>
 </div>
 
