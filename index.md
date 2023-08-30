@@ -335,7 +335,7 @@ title: SuAVE Documentation
    </div>
    <div class="arrow-container">
       <div class="button" style="margin-left: 50px;">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurveys</a>
       </div>
    </div>
 </div>
