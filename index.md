@@ -44,14 +44,14 @@ title: SuAVE Documentation
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="arrow-container" style="margin-left: 30px;">
+   <div class="arrow-container" style="margin-left: 45px;">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
          <div class="arrow"></div>
       </div>
    </div>
    <div class="arrow-container">
-      <div class="button" style="margin-left: 30px;">
+      <div class="button" style="margin-left: 45px;">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Limesurvey_Application.html">Limesurvey</a>
       </div>
    </div>
@@ -92,7 +92,7 @@ title: SuAVE Documentation
     left: 100%; /* Position the arrow to the right of the button */
     top: 50%; /* Align the arrow vertically */
     transform: translateY(-50%); /* Center the arrow vertically */
-    margin-left: 10px;
+    margin-left: 20px;
   }
    .white-line {
       width: 3px;
