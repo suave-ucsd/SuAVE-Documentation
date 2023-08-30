@@ -235,7 +235,7 @@ title: SuAVE Documentation
       <div class="arrow"></div>
    </div>
    <div class="button" style="margin-left: 25px;">
-      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
+      <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images%</a>
    </div>
    <div class="button" style="margin-left: 15px;">
       <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Spatial_or_Map_Applications.html">Spatial/Map</a>
