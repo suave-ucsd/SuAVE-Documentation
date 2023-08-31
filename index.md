@@ -116,14 +116,14 @@ title: SuAVE Documentation
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
       </div>
 </div>
-<div class="button-container" style="display: flex; align-items: center;margin-top: 30px">
+<div class="button-container" style="display: flex; align-items: center;margin-top: 20px;">
    <div class="arrow-container">
       <div class="button green">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Spatial_or_Map_Applications.html">Spatial/Map</a>
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="arrow-container" style="display: flex; align-items: center;margin-top: 20px;">
+   <div class="arrow-container" style = "margin-left: 55px;">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/QGIS_and_MyMaps.html">QGIS & MyMaps</a>
       </div>
