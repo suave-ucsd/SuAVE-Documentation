@@ -172,8 +172,8 @@ title: SuAVE Documentation
     color: #ff0000;
   }
    .button.green a {
-    border: 2px solid #00FF00;
-    color: #00FF00;
+    border: 2px solid #006400;
+    color: #006400;
   }
   .button:not(:last-child) {
     margin-right: 15px;
@@ -186,6 +186,6 @@ title: SuAVE Documentation
     background-color: #ff0000;
   }
    .button.green a:hover {
-    background-color: #00FF00;
+    background-color: #006400;
   }
 </style>
