@@ -62,7 +62,7 @@ title: SuAVE Documentation
 <div class="button-container" style="margin-top: 30px">
    <div class="arrow-container">
       <div class="button red">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
+         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Application</a>
          <div class="arrow"></div>
       </div>
    </div>
