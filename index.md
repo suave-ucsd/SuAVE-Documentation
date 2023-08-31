@@ -5,12 +5,12 @@
 layout: home
 title: SuAVE Documentation
 ---
-
-# <b> Software Applications Flowchart</b>
-
 **SuAVE (Survey Analysis via Visual Exploration) is a free online data analysis platform with unique capabilities.**
 
 **SuAVE lets you publish, share, analyze and annotate your datasets, including spreadsheets (such as raw survey data) and image galleries, integrate online data collection with data publishing, generate, curate and analyze bibliographic networks, publish maps and tables, and launch Jupyter notebooks with your data.**
+
+
+# <b> Software Applications Flowchart</b>
 
 **Below are links to different software applications related to SuAVE. Click on the button that best suites your needs, where buttons further down the line are for more specific applications.**
 
