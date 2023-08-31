@@ -195,8 +195,7 @@ title: SuAVE Documentation
       align-items: center; /* Center the text horizontally */
       text-align: center; /* Center the text within the button */
    }
-   }
-   .red-button a {
+   .red-button {
       width: 130px;
       height: 60px;
       background-color: transparent;
