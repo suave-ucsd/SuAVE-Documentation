@@ -61,7 +61,7 @@ title: SuAVE Documentation
 <body>
 <div class="button-container" style="margin-top: 30px; margin-right: 400px;">
    <div class="arrow-container">
-      <div class="button">
+      <div class="red-button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
          <div class="arrow"></div>
       </div>
@@ -195,7 +195,28 @@ title: SuAVE Documentation
       align-items: center; /* Center the text horizontally */
       text-align: center; /* Center the text within the button */
    }
-
+   }
+   .red-button a {
+      width: 130px;
+      height: 60px;
+      background-color: transparent;
+      border: 2px solid #d73a49;
+      color: #d73a49;
+      padding: 3px; /* Adjust the padding for the buttons with a height of 25px */
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: background-color 0.3s, color 0.3s;
+      text-decoration: none;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center the text vertically */
+      align-items: center; /* Center the text horizontally */
+      text-align: center; /* Center the text within the button */
+   }
    .button:not(:last-child) {
       margin-right: 15px;
    }
