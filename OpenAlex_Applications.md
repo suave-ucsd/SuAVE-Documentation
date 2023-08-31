@@ -14,4 +14,4 @@ To learn how to create, edit, and publish a bibliographic network to SuAVE, clic
 
 **Utilizing Python and OpenAlex**
 
-For personalized uses of OpenAlex, look into the documentation linked [here](https://github.com/J535D165/pyalex). Also look at OpenAlex documentation [here]([https://github.com/J535D165/pyalex](https://docs.openalex.org/quickstart-tutorial)) to learn how to get data from OpenAlex directly. 
+For personalized uses of OpenAlex, look into the documentation linked [here](https://github.com/J535D165/pyalex). Also look at OpenAlex documentation [here](https://docs.openalex.org/quickstart-tutorial) to learn how to get data from OpenAlex directly. 
