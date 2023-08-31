@@ -74,13 +74,13 @@ title: SuAVE Documentation
 </div>
 <div class="button-container" style="display: flex; align-items: center;margin-top: 20px;">
    <div class="arrow-container">
-      <div class="button">
+      <div class="button green">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CSV_or_Tabular.html">CSV/Tabular</a>
          <div class="arrow"></div>
       </div>
    </div>
    <div class="arrow-container" style="margin-left: 55px;">
-      <div class="button">
+      <div class="button green">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Questionnaire.html">Questionnaire</a>
          <div class="arrow"></div>
       </div>
@@ -93,7 +93,7 @@ title: SuAVE Documentation
 </div>
 <div class="button-container" style="display: flex; align-items: center;margin-top: 20px;">
    <div class="arrow-container">
-      <div class="button">
+      <div class="button green">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Network_Applications.html">Networks</a>
          <div class="arrow"></div>
       </div>
@@ -112,7 +112,7 @@ title: SuAVE Documentation
 </div>
 <div class="button-container" style="display: flex; align-items: center;margin-top: 20px;">
    <div class="arrow-container">
-      <div class="button">
+      <div class="button green">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
       </div>
 </div> 
@@ -171,6 +171,10 @@ title: SuAVE Documentation
     border: 2px solid #ff0000;
     color: #ff0000;
   }
+   .button.green a {
+    border: 2px solid #00FF00;
+    color: #00FF00;
+  }
   .button:not(:last-child) {
     margin-right: 15px;
   }
@@ -180,5 +184,8 @@ title: SuAVE Documentation
   }
   .button.red a:hover {
     background-color: #ff0000;
+  }
+   .button.green a:hover {
+    background-color: #00FF00;
   }
 </style>
