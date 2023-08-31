@@ -13,7 +13,7 @@ nav_order: 3
 To learn how to...
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
 
-**Utilizing Limesurvey and SuAVE**
+<b><u>Utilizing Limesurvey and SuAVE</u></b>
 
 **SuAVE visualizations have the ability to be linked to Limesurvey (and visa-versa). Follow instructions below for your specific use-case.**
 
