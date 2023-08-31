@@ -6,7 +6,7 @@ nav_order: 7
 
 # SuAVE General Applications
 
-**Utilizing SuAVE**
+<b><u>Utilizing SuAVE</u></b>
 
 To learn how to...
 
@@ -15,20 +15,20 @@ To learn how to...
 - Share data views with collaborators: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Share_Views.html)
 - Clone a public SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Clone_Survey.html)
 
-**Utilizing SuAVE and DZGEN**
+<b><u>Utilizing SuAVE and DZGEN</u></b>
 
 To learn how to...
 
 - Publish an image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html)
 
-**Utilizing SuAVE, Corpus-DB, and DZGEN**
+<b><u>Utilizing SuAVE, Corpus-DB, and DZGEN</u></b>
 
 To learn how to...
 
 - Publish a bibliographic network: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Publish.html)
 
-**Utilizing SuAVE and Limesurvey**
+<b><u>Utilizing SuAVE and Limesurvey</u></b>
 
 To learn how to...
 
@@ -38,13 +38,13 @@ To learn how to...
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
 
 
-**Utilizing SuAVE and MyMaps**
+<b><u>Utilizing SuAVE and MyMaps</u></b>
 
 To learn how to...
 
 - Add a map to your SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Add_Map_SuAVE.html)
 
-**Utilizing SuAVE and Jupyter**
+<b><u>Utilizing SuAVE and Jupyter</u></b>
 
 To learn how to...
 
