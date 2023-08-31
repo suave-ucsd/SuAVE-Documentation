@@ -8,7 +8,7 @@ nav_order: 3
 
 **Limsurvey is a free software that allows users to design questionnaires and customize them to their needs.**
 
-**Utilizing Limesurvey**
+<b><u>Utilizing Limesurvey</u></b>
 
 To learn how to...
 - Set up a registration form for a Limesurvey questionnaire: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Registration_Form.html)
