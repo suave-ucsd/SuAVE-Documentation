@@ -179,7 +179,7 @@ title: SuAVE Documentation
     margin-right: 15px;
   }
   .button a:hover {
-    background-color: blue;
+    background-color: #007bff;
     color: white;
   }
   .button.red a:hover {
