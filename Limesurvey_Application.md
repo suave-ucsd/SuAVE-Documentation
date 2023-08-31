@@ -15,7 +15,7 @@ To learn how to...
 
 **Utilizing Limesurvey and SuAVE**
 
-**SuAVE visualizations has the ability to be linked to Limesurvey (and visa-versa). Follow instructions below for your specific use-case.**
+**SuAVE visualizations have the ability to be linked to Limesurvey (and visa-versa). Follow instructions below for your specific use-case.**
 
 To learn how to...
 - Create a questionnaire linked to a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Survey.html)
