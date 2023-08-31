@@ -6,7 +6,7 @@ nav_order: 4
 
 # Images
 
-**Utilizing DZGen and SuAVE**
+<b><u>Utilizing DZGen and SuAVE</u></b>
 
 **DZGen is a free site that allows users to store images in a server and reference them via a link. To utilize DZGen for your specific use-cases, follow the instructions below that best fit your situation.**
 
