@@ -59,7 +59,7 @@ title: SuAVE Documentation
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <body>
-<div class="button-container" style="margin-top: 30px; margin-right: 100px;">
+<div class="button-container" style="margin-top: 30px; margin-right: 400px;">
    <div class="arrow-container">
       <div class="button red">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_General_Applications.html">SuAVE Applications</a>
@@ -123,7 +123,6 @@ title: SuAVE Documentation
     justify-content: center;
     align-items: center;
   }
-
   .button {
     position: relative;
     margin-right: 10px;
@@ -132,12 +131,10 @@ title: SuAVE Documentation
     flex-direction: column;
     align-items: center;
   }
-
   .arrow-container {
     display: flex;
     align-items: center;
   }
-
   .arrow {
     position: absolute;
     width: 0;
@@ -150,7 +147,6 @@ title: SuAVE Documentation
     transform: translateY(-50%);
     margin-left: 20px;
   }
-
   .button a {
     width: 130px;
     height: 60px;
@@ -165,28 +161,23 @@ title: SuAVE Documentation
     letter-spacing: 1px;
     transition: background-color 0.3s, color 0.3s;
     text-decoration: none;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-
   .button.red a {
     border: 2px solid #ff0000;
     color: #ff0000;
   }
-
   .button:not(:last-child) {
     margin-right: 15px;
   }
-
   .button a:hover {
     background-color: #007bff;
     color: white;
   }
-
   .button.red a:hover {
     background-color: #ff0000;
   }
