@@ -15,14 +15,14 @@ To learn how to...
 - Share data views with collaborators: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Share_Views.html)
 - Clone a public SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Clone_Survey.html)
 
-<b><u>Utilizing SuAVE and DZGEN</u></b>
+<b><u>Utilizing SuAVE and DZGen</u></b>
 
 To learn how to...
 
 - Publish an image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
 - Update images in DZGen that are used in a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_DZGen.html)
 
-<b><u>Utilizing SuAVE, Corpus-DB, and DZGEN</u></b>
+<b><u>Utilizing SuAVE, Corpus-DB, and DZGen</u></b>
 
 To learn how to...
 
