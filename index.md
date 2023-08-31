@@ -123,7 +123,7 @@ title: SuAVE Documentation
          <div class="arrow"></div>
       </div>
    </div>
-   <div class="arrow-container" style="margin-left: 55px;">
+   <div class="arrow-container" style="display: flex; align-items: center;margin-top: 20px;">
       <div class="button">
          <a href="https://suave-ucsd.github.io/SuAVE-Documentation/QGIS_and_MyMaps.html">QGIS & MyMaps</a>
       </div>
