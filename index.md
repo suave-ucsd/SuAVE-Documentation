@@ -91,31 +91,6 @@ title: SuAVE Documentation
       </div>
    </div>
 </div>
-<div class="button-container" style="margin-top: 20px; margin-right: 205px;">
-   <div class="arrow-container">
-      <div class="button">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Network_Applications.html">Networks</a>
-         <div class="arrow"></div>
-      </div>
-   </div>
-   <div class="arrow-container" style="margin-left: 55px;">
-      <div class="button">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/CorpusDB_Applications.html">Corpus-DB</a>
-         <div class="arrow"></div>
-      </div>
-   </div>
-   <div class="arrow-container">
-      <div class="button" style="margin-left: 55px;">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/OpenAlex_Applications.html">OpenAlex</a>
-      </div>
-   </div>
-</div>
-<div class="button-container" style="margin-top: 20px; margin-right: 595px;">
-   <div class="arrow-container">
-      <div class="button">
-         <a href="https://suave-ucsd.github.io/SuAVE-Documentation/Image_Applications.html">Images</a>
-      </div>
-</div> 
 
 <style>
   button-container {
