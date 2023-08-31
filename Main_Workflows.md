@@ -12,7 +12,7 @@ To learn how to...
 
 - Publish raw survey data: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Upload_Dataset.html)
 - Publish an image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
-- Publish a bibliographic network: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Pulbish.html)
+- Publish a bibliographic network: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Publish.html)
 - Add a map to your SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Add_Map_SuAVE.html)
 - Create a questionnaire linked to a SuAVE visualization: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Survey.html)
 - Collect student responses for a class questionnaire and immediately show them in SuAVE: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/SuAVE_Class_Survey.html)
