@@ -42,8 +42,15 @@ To learn how to...
 
 To learn how to...
 
-- Add a map to your SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Add_Map_SuAVE.html)
+- Add a static map to your SuAVE application: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Add_Map_SuAVE.html)
 
+<b><u>Utilizing SuAVE and QGIS</u></b>
+
+To learn how to...
+
+- Add an active map to your SuAVE application: click [here](https://docs.google.com/document/d/11svfo8De-zz79xaeXOxFRHfIdBaDX61O4ZmQPV7z8BQ/edit?pli=1)
+
+  
 <b><u>Utilizing SuAVE and Jupyter</u></b>
 
 To learn how to...
