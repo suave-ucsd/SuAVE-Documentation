@@ -7,6 +7,7 @@ nav_order: 6
 # QGIS and MyMaps
 
 **Utilizing QGIS and SuAVE**
+
 **QGIS is a free, open-source software that allows users to create, edit, and analyze maps from data. To utilize this site for your data, follow the instructions below.**
 
 **Utilizing MyMaps and SuAVE**
