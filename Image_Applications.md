@@ -8,6 +8,8 @@ nav_order: 4
 
 **Utilizing DZGen and SuAVE**
 
+**DZGen is a free site that allows users to store images in a server and reference them via a link. To utilize DZGen for your specific use-cases, follow the instructions below that best fit your situation.**
+
 To learn how to...
 - Publish an image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Publish_Gallery.html)
 - Update a published survey or image gallery: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Update_Gallery.html)
