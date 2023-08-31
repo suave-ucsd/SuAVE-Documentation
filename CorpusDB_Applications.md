@@ -6,6 +6,8 @@ nav_order: 10
 
 # Corpus-DB
 
+**Corpus-DB is a free site that allows users to create bibliographic networks through inputting parameters that fit the user's interests. This site also allows individuals to edit the dataset bibliographic network into a tidy dataset ready for further analyzations.**
+
 **Utilizing SuAVE, Corpus-DB, and DZGEN**
 
 To learn how to...
