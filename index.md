@@ -168,24 +168,24 @@ title: SuAVE Documentation
     text-align: center;
   }
   .button.red a {
-    border: 2px solid #ff0000;
-    color: #ff0000;
+    border: 2px solid red;
+    color: red;
   }
    .button.green a {
-    border: 2px solid #008000;
-    color: #008000;
+    border: 2px solid green;
+    color: green;
   }
   .button:not(:last-child) {
     margin-right: 15px;
   }
   .button a:hover {
-    background-color: #007bff;
+    background-color: blue;
     color: white;
   }
   .button.red a:hover {
-    background-color: #ff0000;
+    background-color: red;
   }
    .button.green a:hover {
-    background-color: #008000;
+    background-color: green;
   }
 </style>
