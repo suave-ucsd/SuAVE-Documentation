@@ -6,7 +6,7 @@ nav_order: 3
 
 # Limesurvey
 
-**Limsurvey is a free software that allows users to design questionnaires and customize them to their scenario.**
+**Limsurvey is a free software that allows users to design questionnaires and customize them to their needs.**
 
 **Utilizing Limesurvey**
 
