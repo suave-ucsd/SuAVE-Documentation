@@ -10,7 +10,7 @@ A basic overview is given [here](https://docs.google.com/document/d/1_hE7fin7xvY
 
 1. Make sure you have a verified account with NRP Nautilus. If you do not, create an account [here](https://portal.nrp-nautilus.io) and request access to NRP Nautilus services with that verified academic email [here](https://element.nrp-nautilus.io/#/room/#general:matrix.nrp-nautilus.io/$otJHIgxLiCsRjsqEFnM9mfgxutSmHhnpfIb1YQfuRVE).
 2. Make sure you have access to the specific NRP Nautilus JupyterHub. If you do not, request for access from the administrator by emailing izaslavasky@ucsd.edu.
-3. Craft the correct URL; it should be in the following format: https://joeykaminsky.nrp-nautilus.io/user/***<your email>***/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=***<survey URL>***&user=***<user>***&csv=***<CSV tied to visualization>***&params=none&dzc=***<maxim dzc URL>***. An example is provided below.
+3. Craft the correct URL; it should be in the following format: https://joeykaminsky.nrp-nautilus.io/user/***your email***/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=***survey URL***&user=***user***&csv=***CSV tied to visualization***&params=none&dzc=***maxim dzc URL***. An example is provided below.
    - Example: https://joeykaminsky.nrp-nautilus.io/user/jkaminsky@ucsd.edu/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=https://suave-net.sdsc.edu/main/file=joeykaminsky2_Tester_13.csv&view=grid&user=jkaminsky&csv=joeykaminsky2_Tester_13.csv&params=none&dzc=https://dzgen.sdsc.edu/dzgen/lib-staging-uploads/6eb3af87e3c855ed01cdaad5591b4722/content.dzc&activeobject=null
    - To get the **survey URL**: navigate to the SuAVE visualization and open it. Copy the URL at the top of the page.
    - To get the **user**: This should be whoever created the SuAVE visualization. This field is not that important, but
@@ -25,7 +25,7 @@ A basic overview is given [here](https://docs.google.com/document/d/1_hE7fin7xvY
 
 Follow all the steps from **Adding a Jupyter Notebook of a SuAVE Visualization** except step 3 (crafting the URL). Instead, do the following:
 
-The URL should be in the following format: https://joeykaminsky.nrp-nautilus.io/user/***<your email>***/notebooks/jupyter-suave/SuaveDispatch.ipynb?user=***<user>***&csv=***<CSV tied to gallery>***&params=none&dzc=***<DZC URL>***&surveyurl=***<Image Gallery URL>***
+The URL should be in the following format: https://joeykaminsky.nrp-nautilus.io/user/***your email***/notebooks/jupyter-suave/SuaveDispatch.ipynb?user=***<user>***&csv=***CSV tied to gallery***&params=none&dzc=***DZC URL***&surveyurl=***Image Gallery URL***
    - Example: https://joeykaminsky.nrp-nautilus.io/user/jkaminsky@ucsd.edu/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=https://suave-net.sdsc.edu/main/file=joeykaminsky2_Tester_13.csv&view=grid&user=jkaminsky&csv=joeykaminsky2_Tester_13.csv&params=none&dzc=https://dzgen.sdsc.edu/dzgen/lib-staging-uploads/6eb3af87e3c855ed01cdaad5591b4722/content.dzc&activeobject=null
    - To get the **DZN URL**: Navigate to the gallery view of SuAVE surveys. Click on "Edit" then "Settings" for the survey of interest. Scroll down to "Image Definition Link" and copy the URL.
    - To get the **user**: This should be whoever created the SuAVE visualization. This field is not that important, but
