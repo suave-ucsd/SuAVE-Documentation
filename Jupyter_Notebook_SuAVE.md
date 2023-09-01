@@ -9,7 +9,7 @@ nav_order: 10
 A basic overview is given [here](https://docs.google.com/document/d/1_hE7fin7xvYcFWCa1ukDo8bAH5-ipo6CgWHsObm4cFM/edit#heading=h.rwpzgzb98mp5), but follow the step-by-step guide below.
 
 1. Make sure you have a verified account with NRP Nautilus. If you do not, create an account [here](https://portal.nrp-nautilus.io) and request access to NRP Nautilus services with that verified academic email [here](https://element.nrp-nautilus.io/#/room/#general:matrix.nrp-nautilus.io/$otJHIgxLiCsRjsqEFnM9mfgxutSmHhnpfIb1YQfuRVE).
-2. Make sure you have access to the specific NRP Nautilus JupyterHub. If you do not, request for access from the administrator by emailing izaslavasky@ucsd.edu.
+2. Make sure you have access to the specific NRP Nautilus JupyterHub. If you do not, request for access from the administrator by emailing izaslavsky@ucsd.edu.
 3. Craft the correct URL; it should be in the following format: https://joeykaminsky.nrp-nautilus.io/user/***your email***/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=***survey URL***&user=***user***&csv=***CSV tied to visualization***&params=none&dzc=***maxim DZC URL***. An example is provided below.
    - Example: https://joeykaminsky.nrp-nautilus.io/user/jkaminsky@ucsd.edu/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=https://suave-net.sdsc.edu/main/file=joeykaminsky2_Tester_13.csv&view=grid&user=jkaminsky&csv=joeykaminsky2_Tester_13.csv&params=none&dzc=https://dzgen.sdsc.edu/dzgen/lib-staging-uploads/6eb3af87e3c855ed01cdaad5591b4722/content.dzc&activeobject=null
    - To get the **survey URL**: navigate to the SuAVE visualization and open it. Copy the URL at the top of the page.
