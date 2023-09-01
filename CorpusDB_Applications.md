@@ -14,4 +14,4 @@ To learn how to use create and clean a bibliographic network using Corpus-DB, cl
 
 <b><u>Utilizing SuAVE, Corpus-DB, and DZGen</u></b>
 
-To learn how to create, clean, and publish a bibliographic network in SuAVE: click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Publish.html).
+To learn how to create, clean, and publish a bibliographic network in SuAVE, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Bibliographic_Network_Publish.html).
