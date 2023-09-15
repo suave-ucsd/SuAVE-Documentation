@@ -6,9 +6,9 @@ nav_order: 12
 
 # {{page.title}}
 
-- To learn how to add static map layers to a SuAVE visualization, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Static_Map.html).
+- For step-by-step instructions on how to generate network files using CorpusDB, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/corpusdb_dataset_gen_start.html).
 
-- For step-by-step instructions on how to generate network files using CorpusDB, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Generate_Network_Files.html).
+- To learn how to add static map layers to a SuAVE visualization, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Static_Map.html).
 
 - If you want to clean the dataset generated from CorpusDB above, follow the steps listed [here](https://suave-ucsd.github.io/SuAVE-Documentation/Curate_Network_Files.html).
 
