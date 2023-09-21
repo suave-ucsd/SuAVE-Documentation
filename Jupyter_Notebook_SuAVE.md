@@ -25,7 +25,7 @@ A basic overview is given [here](https://docs.google.com/document/d/1_hE7fin7xvY
 
 Follow all the steps from **Adding a Jupyter Notebook of a SuAVE Visualization** except step 3 (crafting the URL). Instead, do the following:
 
-The URL should be in the following format: https://joeykaminsky.nrp-nautilus.io/user/***your email***/notebooks/jupyter-suave/SuaveDispatch.ipynb?user=***user***&csv=***CSV tied to gallery***&params=none&dzc=***maxim DZC URL***&surveyurl=***Image Gallery URL***
+The URL should be in the following format: https://jupyter-suave.nrp-nautilus.io/user/***your email***/notebooks/jupyter-suave/SuaveDispatch.ipynb?user=***user***&csv=***CSV tied to gallery***&params=none&dzc=***maxim DZC URL***&surveyurl=***Image Gallery URL***
    - Example: https://jupyter-suave.nrp-nautilus.io/user/jkaminsky@ucsd.edu/notebooks/jupyter-suave/SuaveDispatch.ipynb?surveyurl=https://suave-net.sdsc.edu/main/file=joeykaminsky2_Tester_13.csv&view=grid&user=jkaminsky&csv=joeykaminsky2_Tester_13.csv&params=none&dzc=https://dzgen.sdsc.edu/dzgen/lib-staging-uploads/6eb3af87e3c855ed01cdaad5591b4722/content.dzc&activeobject=null
    - To get the **DZC URL**: Navigate to the gallery view of SuAVE surveys. Click on "Edit" then "Settings" for the survey of interest. Scroll down to "Image Definition Link" and copy the URL.
    - To get the **user**: This should be whoever created the SuAVE visualization. This field is not that important, but
