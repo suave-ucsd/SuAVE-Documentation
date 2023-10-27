@@ -6,13 +6,11 @@ nav_order: 14
 
 # Full Guide to Limesurvey
 
-### Part 1 - Creating a Survey
+## Part 1 - Creating a Survey
 
 The first part of this tutorial begins in LimeSurvey. Here, we're going to begin setting up our survey to collect our data.
 
 Begin by logging into your LimeSurvey account. You will see one or more actions to take. For now we're going to click on the "List Surveys" option
-
-
 
 ![Image of LimeSurvey Survey List page](./limesurvey_suave/assets/Untitled.png)
 
@@ -99,7 +97,7 @@ After Saving, you can click the "Toggle Source Code" button again in order to pr
 
 - **Note:** If you want to change the end message in the future, you may have to repeat this step and paste in the code again
 
-### Part 2 - Adding Questions:
+## Part 2 - Adding Questions:
 
 - Next, navigate to the "Group list" tab on the left navigation bar
 
@@ -128,6 +126,7 @@ Note that there must be at least one question group, since each question has to 
 Survey questions are very versatile and are able to handle many data formats, including but not limited to: multiple choice selections, images, and free form text.
 
 - You can read more about setting up questions in the official [LimeSurvey Documentation here](https://manual.limesurvey.org/Questions_-_introduction).
+- **For a list of example questions, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Example_Mappings.html)**
 - Once you have configured your question, ensure you save it by pressing the green "Save" button in the top right.
 
 ### Collecting Question Codes
