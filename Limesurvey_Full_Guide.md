@@ -124,9 +124,9 @@ Note that there must be at least one question group, since each question has to 
 ![Image of Create Question page](./limesurvey_suave/assets/Untitled 10.png)
 
 Survey questions are very versatile and are able to handle many data formats, including but not limited to: multiple choice selections, images, and free form text.
+### For a list of example questions, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Example_Mappings.html)
 
 - You can read more about setting up questions in the official [LimeSurvey Documentation here](https://manual.limesurvey.org/Questions_-_introduction).
-- ### IMPORTANT: **For a list of example questions, click [here](https://suave-ucsd.github.io/SuAVE-Documentation/Example_Mappings.html)**
 - Once you have configured your question, ensure you save it by pressing the green "Save" button in the top right.
 
 ### Collecting Question Codes
