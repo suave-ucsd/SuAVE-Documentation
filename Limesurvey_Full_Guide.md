@@ -6,6 +6,8 @@ nav_order: 14
 
 # Full Guide to Limesurvey
 
+### Part 1 - Creating a Survey
+
 The first part of this tutorial begins in LimeSurvey. Here, we're going to begin setting up our survey to collect our data.
 
 Begin by logging into your LimeSurvey account. You will see one or more actions to take. For now we're going to click on the "List Surveys" option
@@ -18,7 +20,6 @@ This is the LimeSurvey homepage. Here you can create surveys, or monitor the one
 
 Here we can view the surveys we have created along with their basic information such as whether or not a survey is actively taking responses or how many responses we've received thus far.
 
-### Creating a Survey
 
 There will be a button in the top left corner of the homepage that reads "Create a new Survey." Press this to begin the survey creating process.
 
@@ -98,7 +99,7 @@ After Saving, you can click the "Toggle Source Code" button again in order to pr
 
 - **Note:** If you want to change the end message in the future, you may have to repeat this step and paste in the code again
 
-### Adding Questions:
+### Part 2 - Adding Questions:
 
 - Next, navigate to the "Group list" tab on the left navigation bar
 
@@ -149,7 +150,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 You can use the "Preview survey" button to get a preview of what the survey respondents will see before activating your survey.
 
-### Checkpoint
+## Checkpoint
 
 - By now you should have the **survey id** and a list of the **question codes** that pertain to the responses you would like to display in SuAVE
 - Checklist
