@@ -82,7 +82,7 @@ Copy this block of code and paste it into the "End Message" block
 ```
 Now it should look like this:
 
-![Image of "End Message" script after replacing survey id](./assets/new_script.JPG)
+![Image of "End Message" script after replacing survey id](./limesurvey_suave/assets/new_script.JPG)
 
 You can then add whatever ending message you want by adding more html code, or replacing the text that says "Thank you for participating in this survey!" For example, you can enter
 
@@ -94,7 +94,7 @@ You can then add whatever ending message you want by adding more html code, or r
 
 After Saving, you can click the "Toggle Source Code" button again in order to preview what the ending message will look like. This is what the above source code looks like to the survey participant:
 
-![Image of "End Message" box with "source mode" toggled off](./assets/Untitled 8.png)
+![Image of "End Message" box with "source mode" toggled off](./limesurvey_suave/assets/Untitled 8.png)
 
 - **Note:** If you want to change the end message in the future, you may have to repeat this step and paste in the code again
 
@@ -102,7 +102,7 @@ After Saving, you can click the "Toggle Source Code" button again in order to pr
 
 - Next, navigate to the "Group list" tab on the left navigation bar
 
-  ![Image of Survey summary page with highlighted "Group list" navigation bar item](./assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
+  ![Image of Survey summary page with highlighted "Group list" navigation bar item](./limesurvey_suave/assets/Screenshot_2021-08-16_at_15-03-31_LimeSurvey.png)
 
 - We're going to begin by creating a question group, which is essentially a set of questions that will be grouped together on a single page in your survey.
 
@@ -110,7 +110,7 @@ Note that there must be at least one question group, since each question has to 
 
 - This is what the question group page looks like:
 
-![Image of Question Group page](./assets/Untitled 9.png)
+![Image of Question Group page](./limesurvey_suave/assets/Untitled 9.png)
 
 - Your question group does not require any of the fields to be filled in, however we recommend you at least add a title, which will help identify the question group and will show up on the top of page when the survey questions are presented.
 - You can read more about question groups in the official [LimeSurvey Documentation here.](https://manual.limesurvey.org/Question_groups_-_introduction)
@@ -118,11 +118,11 @@ Note that there must be at least one question group, since each question has to 
 - Next, add a question by clicking "Add Question" in the left navigation bar, or by clicking "Save and add question" in the top right
   - To view questions and question groups in the left navigation bar, you will have to select the "Structure" option at the top of the navigation bar.
 
-![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](./assets/new_question.png)
+![Image of Question Group page with highlighted "Add question" and "Save and add question" boxes](./limesurvey_suave/assets/new_question.png)
 
 - Next, we will setup the survey questions in order to collect the data that we'll present in SuAVE.
 
-![Image of Create Question page](./assets/Untitled 10.png)
+![Image of Create Question page](./limesurvey_suave/assets/Untitled 10.png)
 
 Survey questions are very versatile and are able to handle many data formats, including but not limited to: multiple choice selections, images, and free form text.
 
