@@ -12,7 +12,7 @@ Begin by logging into your LimeSurvey account. You will see one or more actions 
 
 
 
-![Image of LimeSurvey Survey List page](./assets/Untitled.png)
+![Image of LimeSurvey Survey List page](./limesurvey_suave/assets/Untitled.png)
 
 This is the LimeSurvey homepage. Here you can create surveys, or monitor the ones you've created.
 
@@ -22,7 +22,7 @@ Here we can view the surveys we have created along with their basic information 
 
 There will be a button in the top left corner of the homepage that reads "Create a new Survey." Press this to begin the survey creating process.
 
-![Image of New Survey page](./assets/Untitled 1.png)
+![Image of New Survey page](./limesurvey_suave/assets/Untitled 1.png)
 
 Here we have many options to customize the functionality of our survey. You can read more about the specifics of each option [here, as part of LimeSurvey's documentation.](https://manual.limesurvey.org/Surveys_-_introduction)
 
@@ -32,7 +32,7 @@ Press the "Save" button in the upper right hand corner.
 
 ### Write Down Your Survey ID
 
-![Zoomed in image of survey title and ID](./assets/Untitled 2.png)
+![Zoomed in image of survey title and ID](./limesurvey_suave/assets/Untitled 2.png)
 
 After saving, you should be redirected to your survey homepage. Here, you can revise the settings of the survey and make changes to it's functionality.
 
@@ -46,17 +46,17 @@ Next, we're going add an end message and include an important piece of code that
 
 Select the menu item titled "Text elements" in the sidebar of your survey homepage.
 
-![Image of survey summary with highlighted "Text elements" navigation menu item](./assets/Untitled 3.png)
+![Image of survey summary with highlighted "Text elements" navigation menu item](./limesurvey_suave/assets/Untitled 3.png)
 
 You will now see a page that looks very similar to the starting page of our survey creation.
 
 Click on the toggle that reads "Toggle Source Code" to the right of the End Message block.
 
-![Image of "Toggle Source mode" button](./assets/Untitled 4.png)
+![Image of "Toggle Source mode" button](./limesurvey_suave/assets/Untitled 4.png)
 
 Your End Message block should now look like this:
 
-![Image of blank "End Message" text box](./assets/Untitled 5.png)
+![Image of blank "End Message" text box](./limesurvey_suave/assets/Untitled 5.png)
 
 Copy this block of code and paste it into the "End Message" block
 
@@ -135,7 +135,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the left navigation bar select the "Settings" toggle in the top left and click "Question list."
 
-  ![Image of "Question list" page with highlighted question codes column](./assets/question_code_columns.png)
+  ![Image of "Question list" page with highlighted question codes column](./limesurvey_suave/assets/question_code_columns.png)
 
   - Write down a list of the question codes of the questions that contain information that you would like to display in SuAVE. We will need these for the following step.
 
@@ -145,7 +145,7 @@ Survey questions are very versatile and are able to handle many data formats, in
 
 - In the toolbar at the top of the page there will be a green button titled "Activate Survey" which will take you through the activation steps.
 
-  ![Image of focused "Activate this survey" and other top menu items](./assets/Untitled 11.png)
+  ![Image of focused "Activate this survey" and other top menu items](./limesurvey_suave/assets/Untitled 11.png)
 
 You can use the "Preview survey" button to get a preview of what the survey respondents will see before activating your survey.
 
