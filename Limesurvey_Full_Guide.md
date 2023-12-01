@@ -174,11 +174,11 @@ You can use the "Preview survey" button to get a preview of what the survey resp
 
 - Click the "Share" button in the top right of the Google Sheets Page
 
-  ![Image of blank Google spreadsheet with highlighted "Share" button](./assets/sharesheets.png)
+  ![Image of blank Google spreadsheet with highlighted "Share" button](./limesurvey_suave/assets/sharesheets.png)
 
 - You will be presented with the following menu:
 
-![Image of defaulted Google spreadsheet share menu](./assets/Untitled 12.png)
+![Image of defaulted Google spreadsheet share menu](./limesurvey_suave/assets/Untitled 12.png)
 
 - In the box that says "Add people and groups" you will enter the following email:
 
