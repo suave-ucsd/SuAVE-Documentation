@@ -3,7 +3,7 @@ title: Getting Started
 nav_order: 1
 ---
 
-# {{page.title}}
+# Getting Started
 
 **Su**rvey **A**nalysis via **V**isual **E**xploration (SuAVE, http://suave.sdsc.edu) is an online exploratory data analysis system. It has been used in  multiple areas, including social and electoral surveys, visual arts and  humanities, biology and ecology, and the geosciences.
 
