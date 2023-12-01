@@ -12,7 +12,7 @@ The first part of this tutorial begins in LimeSurvey. Here, we're going to begin
 
 Begin by logging into your LimeSurvey account. You will see one or more actions to take. For now we're going to click on the "List Surveys" option
 
-![Image of LimeSurvey Survey List page](./limesurvey_suave/assets/Untitled.png)
+[Image of LimeSurvey Survey List page](./limesurvey_suave/assets/Untitled.png)
 
 This is the LimeSurvey homepage. Here you can create surveys, or monitor the ones you've created.
 
