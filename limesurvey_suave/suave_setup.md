@@ -31,7 +31,7 @@ nav_order: 3
 
 - **Name the survey:**
 
-  - You can name your survey anything. It is recommended that the survey name is informative. It will appear at the top of your SuAVE visualization and cannot be changed later. **Please make sure you title does not include apostrophes as this will cause the visualization to not display.**
+  - You can name your survey anything. It is recommended that the survey name is informative. It will appear at the top of your SuAVE visualization and cannot be changed later. **Please make sure your title does not include apostrophes as this will cause the visualization to not display.**
 
 - **Link to Survey (URL)**
 
