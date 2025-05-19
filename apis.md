@@ -7,7 +7,7 @@ nav_order: 8
 
 # **Suave API**
 
-In the following requests, <server> may be suave-stage.sdsc.edu, suave-dev.sdsc.edu, or suave2.sdsc.edu
+In the following requests, <server> may be suave-net.sdsc.edu.
 
 # A. http get requests
 
