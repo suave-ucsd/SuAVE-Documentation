@@ -2,17 +2,17 @@
 
 To explore relationships between elements as a network, use the **network view** icon located in the toolbar:
 
-![Network Icon](./network_icon.png)
+![Network Icon](images/network_icon.png)
 
 Clicking the last icon (a network graph symbol) in the toolbar will switch the view to network mode, where connected elements are visualized as nodes and links. This helps you explore structural patterns such as clusters, collaborations, and connections.
 
 To customize the network display, click on the **gear icon**:
 
-![Network Settings Panel Icon](./network_gear.png)
+![Network Settings Panel Icon](images/network_gear.png)
 
 This opens the **Netvis Controls and Info panel** shown below:
 
-![Netvis Controls and Info](./network_function.png)
+![Netvis Controls and Info](images/network_function.png)
 
 ## Netvis Controls and Settings
 
