@@ -21,3 +21,4 @@ image_base_url: "https://suave-ucsd.github.io/SuAVE-Documentation/"
 # Required to make remote_theme work
 plugins:
   - jekyll-remote-theme
+
