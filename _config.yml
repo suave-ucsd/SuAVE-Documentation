@@ -1,3 +1,23 @@
+# remote_theme: pmarsceill/just-the-docs
+# url: https://suave-ucsd.github.io
+# image_base_url: https://suave-ucsd.github.io/SuAVE-Documentation/
+
+title: SuAVE Documentation
+description: Official documentation for SuAVE
+
+# Remote theme
 remote_theme: pmarsceill/just-the-docs
-url: https://suave-ucsd.github.io
-image_base_url: https://suave-ucsd.github.io/SuAVE-Documentation/
+
+# Correct baseurl and site url
+url: "https://suave-ucsd.github.io"
+baseurl: "/SuAVE-Documentation"  # IMPORTANT: add this!
+
+# (Optional) Color scheme
+color_scheme: "light"
+
+# (Optional) Useful for image linking
+image_base_url: "https://suave-ucsd.github.io/SuAVE-Documentation/"
+
+# Required to make remote_theme work
+plugins:
+  - jekyll-remote-theme
