@@ -85,4 +85,4 @@ poverty_ratio_per_gdp = [Poverty ratio at $1.90/day (%)] ÷ [GDP per cap, PPP in
 
 If you want to **save the result variables to the survey**, you can click on the **Save** button located at the top right of the page.
 
-To **review what you’ve written for the new variable**, click the dropdown in the upper right corner. This allows you to see uyour computed facets.
+To **review what you’ve written for the new variable**, click the dropdown in the upper right corner. This allows you to see your computed facets.
