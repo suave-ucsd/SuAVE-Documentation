@@ -1,4 +1,10 @@
-# Using the Network Function
+---
+title: User interface - network function
+parent: Key Concepts
+nav_order: 7
+---
+
+# {{page.title}}
 
 To explore relationships between elements as a network, use the **network view** icon located in the toolbar:
 
