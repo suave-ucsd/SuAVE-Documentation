@@ -1,4 +1,10 @@
-# Variable Calculator
+---
+title: User interface - variable calculator
+parent: Key Concepts
+nav_order: 6
+---
+
+# {{page.title}}
 
 In the **Variable Calculator** function, when numerical variables (facets) are present, you can select a numerical facet and choose the desired calculation method from the available options. Then, enter a name for the result to create a new variable. After clicking **Compute**, the result will appear as a new facet in the dataset.
 
