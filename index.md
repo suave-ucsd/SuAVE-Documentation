@@ -17,6 +17,7 @@ title: SuAVE Documentation
 
 <p><strong><u>Key</u></strong>
 
+
 <style>
    .red-text {
       color: #d73a49; /* GitHub Markdown Red color */
@@ -183,3 +184,4 @@ title: SuAVE Documentation
     background-color: green;
   }
 </style>
+

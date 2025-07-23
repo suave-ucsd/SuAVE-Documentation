@@ -9,7 +9,7 @@ nav_order: 5
 ![img]({{ BASE_PATH }}/SuAVE-Documentation/interface_elements_with_numbers.png)
 
 1. SuAVE logo. Click it to open SuAVE main web page
-2. Title of the application. When a SuAVE survey is embedded in a web page, these two items may not be needed. To hide them, replace https://suave2.sdsc.edu/main/... with https://suave2.sdsc.edu/suave.html?... in the survey URL.
+2. Title of the application. When a SuAVE survey is embedded in a web page, these two items may not be needed. To hide them, replace https://suave.sdsc.edu/main/... with https://suave.sdsc.edu/suave.html?... in the survey URL.
 3. A set of buttons or icons (depending on version) to a) switch to full screen mode, b) annotate a  view, c) generate a URL for a given view snapshot, d) view user-focused videos,  e) view survey metadata as entered by survey publisher, f) search for items in a survey, g) save current subset as a CSV file, h) customize survey settings, including display of missing values, which variables to show, and which variable to use as a dynamic text over survey items
 4. Zoom-in/out slider.
 5. Drop-down list of survey variables. This selection determines how items are organized (sorted) in data views
