@@ -1,3 +1,9 @@
+---
+title: CorpusDB Merge Tool Operations Guide
+parent: Data Generation and Filtering Using Corpus-DB
+nav_order: 5
+
+---
 # CorpusDB Merge Tool Operations Guide
 
 The **CorpusDB Merge Tool** allows you to perform various operations on your CSV and network data. Below are the available operations and their descriptions:
