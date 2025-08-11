@@ -44,7 +44,7 @@ Rename the facet to prepare it for merging.
 
 ## Step 5 (continued): Choose Merge Selector Facets
 Choose the facets you want to merge.  
-![Choose Merge Selector Facets](images/merge_image/import_image_filter.png)
+![Choose Merge Selector Facets](images/merge_image/final.png)
 
 ---
 
