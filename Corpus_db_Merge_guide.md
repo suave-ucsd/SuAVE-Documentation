@@ -1,4 +1,9 @@
-# CorpusDB Merge User Guide
+---
+title: CorpusDB Merge User Guide
+parent: Data Generation and Filtering Using Corpus-DB
+nav_order: 6
+
+---
 
 This guide walks you through the steps for using **CorpusDB Merge**.
 
@@ -57,3 +62,5 @@ Build the network based on your selected facets.
 ## Step 7: Save Network in ZIP File
 Save the completed network in a `.zip` file for future use.  
 ![Save Network](images/merge_image/Export.png)
+
+Note: For more details, click the Help button on the CorpusDB Merge tool page. There, you will find a video tutorial and a detailed documentation with examples.
