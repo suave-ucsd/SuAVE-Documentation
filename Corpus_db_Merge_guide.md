@@ -6,7 +6,7 @@ This guide walks you through the steps for using **CorpusDB Merge**.
 
 ## Step 1: Add Import Image Filter
 Insert the Import Image Filter into your workspace.  
-![Import Image Filter](images/merge_image/Select_import_CSV.png)
+![Import Image Filter](images/merge_image/Select_Import_CSV.png)
 
 ---
 
