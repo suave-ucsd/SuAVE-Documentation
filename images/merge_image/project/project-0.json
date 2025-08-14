@@ -1,0 +1,1271 @@
+{
+    "config": {
+        "version": 2,
+        "view": {
+            "natwork1": {
+                "slider_label": null,
+                "node_scaling_options": null,
+                "max_weight": 1,
+                "connection_title": ""
+            }
+        }
+    },
+    "data": {
+        "c3abc445-a708-435c-9037-ee2170328ea8": [
+            {
+                "network": "natwork1",
+                "category": "2331480",
+                "links": [],
+                "location": {
+                    "latitude": "43.0728101",
+                    "longitude": "-89.4080519718417"
+                },
+                "connections": [
+                    {
+                        "name": "Ana Hunsinger",
+                        "category": "2234326",
+                        "location": {
+                            "latitude": "38.90442875",
+                            "longitude": "-77.0421550335587"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Peter H Beckman",
+                        "category": "2331263",
+                        "location": {
+                            "latitude": "42.0557157",
+                            "longitude": "-87.6752945473942"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Tommy K Minyard",
+                        "category": "2320757",
+                        "location": {
+                            "latitude": "30.28605835",
+                            "longitude": "-97.7393531778835"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "William D Gropp",
+                        "category": "2320345",
+                        "location": {
+                            "latitude": "40.1083442",
+                            "longitude": "-88.2282550767548"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Leonardo Bobadilla",
+                        "category": "2322308",
+                        "location": {
+                            "latitude": "25.7553898",
+                            "longitude": "-80.3762832779774"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michela Taufer",
+                        "category": "2334945",
+                        "location": {
+                            "latitude": "35.990142",
+                            "longitude": "-83.96218"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Joanmarie Del Vecchio",
+                        "category": "2311319",
+                        "location": {
+                            "latitude": "43.7006144",
+                            "longitude": "-72.2883633"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Carrie Bell",
+                        "category": "2311843",
+                        "location": {
+                            "latitude": "40.0133072",
+                            "longitude": "-105.251943649839"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Jingjing Liang",
+                        "category": "2311762",
+                        "location": {
+                            "latitude": "40.45660395",
+                            "longitude": "-86.9285403523535"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Twila Moon",
+                        "category": "2324765",
+                        "location": {
+                            "latitude": "40.0133072",
+                            "longitude": "-105.251943649839"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Andy Aschwanden",
+                        "category": "2324718",
+                        "location": {
+                            "latitude": "64.860846",
+                            "longitude": "-147.82681"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Isla R Simpson",
+                        "category": "2311376",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "2d07c3ae-5bad-4fe9-91c5-5ea29cb1fd42": [
+            {
+                "network": "natwork1",
+                "category": "2333609",
+                "links": [],
+                "location": {
+                    "latitude": "32.87924375",
+                    "longitude": "-117.231124683773"
+                },
+                "connections": [
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "096990b2-3962-49cc-8388-c984e79561d1": [
+            {
+                "network": "natwork1",
+                "category": "2138259",
+                "links": [],
+                "location": {
+                    "latitude": "40.4442309",
+                    "longitude": "-79.9433716360976"
+                },
+                "connections": [
+                    {
+                        "name": "Joanmarie Del Vecchio",
+                        "category": "2311319",
+                        "location": {
+                            "latitude": "43.7006144",
+                            "longitude": "-72.2883633"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ana Hunsinger",
+                        "category": "2234326",
+                        "location": {
+                            "latitude": "38.90442875",
+                            "longitude": "-77.0421550335587"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "ca6bebbe-9cb4-4ceb-9832-2ab2e3a93f08": [
+            {
+                "network": "natwork1",
+                "category": "1925001",
+                "links": [],
+                "location": {
+                    "latitude": "32.87924375",
+                    "longitude": "-117.231124683773"
+                },
+                "connections": [
+                    {
+                        "name": "David Andrew B Hyde",
+                        "category": "2324735",
+                        "location": {
+                            "latitude": "36.1503967436166",
+                            "longitude": "-86.801035708063"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Carrie Bell",
+                        "category": "2311843",
+                        "location": {
+                            "latitude": "40.0133072",
+                            "longitude": "-105.251943649839"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Isla R Simpson",
+                        "category": "2311376",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "f2bd213a-1922-4376-ae6d-cce9e314bfb9": [
+            {
+                "network": "natwork1",
+                "category": "2324735",
+                "links": [],
+                "location": {
+                    "latitude": "36.1503967436166",
+                    "longitude": "-86.801035708063"
+                },
+                "connections": [
+                    {
+                        "name": "Leonardo Bobadilla",
+                        "category": "2322308",
+                        "location": {
+                            "latitude": "25.7553898",
+                            "longitude": "-80.3762832779774"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ana Hunsinger",
+                        "category": "2234326",
+                        "location": {
+                            "latitude": "38.90442875",
+                            "longitude": "-77.0421550335587"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Isla R Simpson",
+                        "category": "2311376",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michela Taufer",
+                        "category": "2334945",
+                        "location": {
+                            "latitude": "35.990142",
+                            "longitude": "-83.96218"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "df0e8fa7-3f72-4825-8efc-5957cde6b7c0": [
+            {
+                "network": "natwork1",
+                "category": "2324718",
+                "links": [],
+                "location": {
+                    "latitude": "64.860846",
+                    "longitude": "-147.82681"
+                },
+                "connections": [
+                    {
+                        "name": "Stephen L Deems",
+                        "category": "2138259",
+                        "location": {
+                            "latitude": "40.4442309",
+                            "longitude": "-79.9433716360976"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "David Andrew B Hyde",
+                        "category": "2324735",
+                        "location": {
+                            "latitude": "36.1503967436166",
+                            "longitude": "-86.801035708063"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "d925288f-9ee8-47ad-a750-26ffdcc6a6ef": [
+            {
+                "network": "natwork1",
+                "category": "2311319",
+                "links": [],
+                "location": {
+                    "latitude": "43.7006144",
+                    "longitude": "-72.2883633"
+                },
+                "connections": [
+                    {
+                        "name": "Stephen L Deems",
+                        "category": "2138259",
+                        "location": {
+                            "latitude": "40.4442309",
+                            "longitude": "-79.9433716360976"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michela Taufer",
+                        "category": "2334945",
+                        "location": {
+                            "latitude": "35.990142",
+                            "longitude": "-83.96218"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Twila Moon",
+                        "category": "2324765",
+                        "location": {
+                            "latitude": "40.0133072",
+                            "longitude": "-105.251943649839"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "4e0a536d-af14-415f-ac94-fd02bcc56a61": [
+            {
+                "network": "natwork1",
+                "category": "2311843",
+                "links": [],
+                "location": {
+                    "latitude": "40.0133072",
+                    "longitude": "-105.251943649839"
+                },
+                "connections": [
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "David Andrew B Hyde",
+                        "category": "2324735",
+                        "location": {
+                            "latitude": "36.1503967436166",
+                            "longitude": "-86.801035708063"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Leonardo Bobadilla",
+                        "category": "2322308",
+                        "location": {
+                            "latitude": "25.7553898",
+                            "longitude": "-80.3762832779774"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "812b60a7-b0c9-4d0f-91c1-d7039d2611ee": [
+            {
+                "network": "natwork1",
+                "category": "2322308",
+                "links": [],
+                "location": {
+                    "latitude": "25.7553898",
+                    "longitude": "-80.3762832779774"
+                },
+                "connections": [
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "David Andrew B Hyde",
+                        "category": "2324735",
+                        "location": {
+                            "latitude": "36.1503967436166",
+                            "longitude": "-86.801035708063"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "b42168e1-eea0-4042-a15c-359553324436": [
+            {
+                "network": "natwork1",
+                "category": "2319944",
+                "links": [],
+                "location": {
+                    "latitude": "40.488304",
+                    "longitude": "-74.44775"
+                },
+                "connections": [
+                    {
+                        "name": "Peter H Beckman",
+                        "category": "2331263",
+                        "location": {
+                            "latitude": "42.0557157",
+                            "longitude": "-87.6752945473942"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "982c9a48-89c3-4bd5-a387-0f04685dd210": [
+            {
+                "network": "natwork1",
+                "category": "2027208",
+                "links": [],
+                "location": {
+                    "latitude": "40.7628137",
+                    "longitude": "-111.836871913683"
+                },
+                "connections": [
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Stephen L Deems",
+                        "category": "2138259",
+                        "location": {
+                            "latitude": "40.4442309",
+                            "longitude": "-79.9433716360976"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "08ee0ed9-99ae-4f32-a19f-d5b254facef0": [
+            {
+                "network": "natwork1",
+                "category": "2335773",
+                "links": [],
+                "location": {
+                    "latitude": "40.72942865",
+                    "longitude": "-73.9972178045625"
+                },
+                "connections": [
+                    {
+                        "name": "Isla R Simpson",
+                        "category": "2311376",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Peter H Beckman",
+                        "category": "2331263",
+                        "location": {
+                            "latitude": "42.0557157",
+                            "longitude": "-87.6752945473942"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Andy Aschwanden",
+                        "category": "2324718",
+                        "location": {
+                            "latitude": "64.860846",
+                            "longitude": "-147.82681"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "David Andrew B Hyde",
+                        "category": "2324735",
+                        "location": {
+                            "latitude": "36.1503967436166",
+                            "longitude": "-86.801035708063"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Robert Ricci",
+                        "category": "2027208",
+                        "location": {
+                            "latitude": "40.7628137",
+                            "longitude": "-111.836871913683"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "William D Gropp",
+                        "category": "2320345",
+                        "location": {
+                            "latitude": "40.1083442",
+                            "longitude": "-88.2282550767548"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Tommy K Minyard",
+                        "category": "2320757",
+                        "location": {
+                            "latitude": "30.28605835",
+                            "longitude": "-97.7393531778835"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Leonardo Bobadilla",
+                        "category": "2322308",
+                        "location": {
+                            "latitude": "25.7553898",
+                            "longitude": "-80.3762832779774"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Twila Moon",
+                        "category": "2324765",
+                        "location": {
+                            "latitude": "40.0133072",
+                            "longitude": "-105.251943649839"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Udit Gupta",
+                        "category": "2335795",
+                        "location": {
+                            "latitude": "42.4377096",
+                            "longitude": "-76.4628841"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "897e21cf-2137-49e7-ba8e-1bcbc1838999": [
+            {
+                "network": "natwork1",
+                "category": "2335335",
+                "links": [],
+                "location": {
+                    "latitude": "42.38518675",
+                    "longitude": "-72.5296436293461"
+                },
+                "connections": [
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michela Taufer",
+                        "category": "2334945",
+                        "location": {
+                            "latitude": "35.990142",
+                            "longitude": "-83.96218"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "1146b85f-e06d-4de3-a569-74fb3d4ba4fc": [
+            {
+                "network": "natwork1",
+                "category": "2335795",
+                "links": [],
+                "location": {
+                    "latitude": "42.4377096",
+                    "longitude": "-76.4628841"
+                },
+                "connections": [
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Lakshminarayan Subramanian",
+                        "category": "2335773",
+                        "location": {
+                            "latitude": "40.72942865",
+                            "longitude": "-73.9972178045625"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Peter H Beckman",
+                        "category": "2331263",
+                        "location": {
+                            "latitude": "42.0557157",
+                            "longitude": "-87.6752945473942"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "1a1a3409-edbd-4cbb-a7d0-0d0d83ccd178": [
+            {
+                "network": "natwork1",
+                "category": "2334945",
+                "links": [],
+                "location": {
+                    "latitude": "35.990142",
+                    "longitude": "-83.96218"
+                },
+                "connections": [
+                    {
+                        "name": "David Andrew B Hyde",
+                        "category": "2324735",
+                        "location": {
+                            "latitude": "36.1503967436166",
+                            "longitude": "-86.801035708063"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael H Zink",
+                        "category": "2335335",
+                        "location": {
+                            "latitude": "42.38518675",
+                            "longitude": "-72.5296436293461"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "9551b499-5b9e-4817-b82d-269270bb9a63": [
+            {
+                "network": "natwork1",
+                "category": "2333609",
+                "links": [],
+                "location": {
+                    "latitude": "32.87924375",
+                    "longitude": "-117.231124683773"
+                },
+                "connections": [
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "d7002c7c-cd9e-457d-82a1-3609da5c2d15": [
+            {
+                "network": "natwork1",
+                "category": "2320345",
+                "links": [],
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "connections": [
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Jingjing Liang",
+                        "category": "2311762",
+                        "location": {
+                            "latitude": "40.45660395",
+                            "longitude": "-86.9285403523535"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "753bf869-85a2-4c9b-8e02-b8d7e781c8e6": [
+            {
+                "network": "natwork1",
+                "category": "2311762",
+                "links": [],
+                "location": {
+                    "latitude": "40.45660395",
+                    "longitude": "-86.9285403523535"
+                },
+                "connections": [
+                    {
+                        "name": "Katarzyna Keahey",
+                        "category": "2027170",
+                        "location": {
+                            "latitude": "41.784977",
+                            "longitude": "-87.5905237123017"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "William D Gropp",
+                        "category": "2320345",
+                        "location": {
+                            "latitude": "40.1083442",
+                            "longitude": "-88.2282550767548"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Peter H Beckman",
+                        "category": "2331263",
+                        "location": {
+                            "latitude": "42.0557157",
+                            "longitude": "-87.6752945473942"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "6636e2dc-4880-4c37-b4ef-ae622dcb5f6c": [
+            {
+                "network": "natwork1",
+                "category": "1755088",
+                "links": [],
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "connections": [
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ana Hunsinger",
+                        "category": "2234326",
+                        "location": {
+                            "latitude": "38.90442875",
+                            "longitude": "-77.0421550335587"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Carrie Bell",
+                        "category": "2311843",
+                        "location": {
+                            "latitude": "40.0133072",
+                            "longitude": "-105.251943649839"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael H Zink",
+                        "category": "2335335",
+                        "location": {
+                            "latitude": "42.38518675",
+                            "longitude": "-72.5296436293461"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "98e47ead-c23c-418c-98b3-37e1078db61e": [
+            {
+                "network": "natwork1",
+                "category": "2311382",
+                "links": [],
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "connections": [
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Tommy K Minyard",
+                        "category": "2320757",
+                        "location": {
+                            "latitude": "30.28605835",
+                            "longitude": "-97.7393531778835"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Leonardo Bobadilla",
+                        "category": "2322308",
+                        "location": {
+                            "latitude": "25.7553898",
+                            "longitude": "-80.3762832779774"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Isla R Simpson",
+                        "category": "2311376",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Robert Ricci",
+                        "category": "2027208",
+                        "location": {
+                            "latitude": "40.7628137",
+                            "longitude": "-111.836871913683"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "3fb13643-94cf-49ad-820d-92c92365aaff": [
+            {
+                "network": "natwork1",
+                "category": "2324765",
+                "links": [],
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "connections": [
+                    {
+                        "name": "Lakshminarayan Subramanian",
+                        "category": "2335773",
+                        "location": {
+                            "latitude": "40.72942865",
+                            "longitude": "-73.9972178045625"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Brian P Bockelman",
+                        "category": "2331480",
+                        "location": {
+                            "latitude": "43.0728101",
+                            "longitude": "-89.4080519718417"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Ilkay Altintas",
+                        "category": "2333609",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Joanmarie Del Vecchio",
+                        "category": "2311319",
+                        "location": {
+                            "latitude": "43.7006144",
+                            "longitude": "-72.2883633"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Everette D Joseph",
+                        "category": "1755088",
+                        "location": {
+                            "latitude": "40.0310738504029",
+                            "longitude": "-105.246030269945"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ],
+        "7812cd99-c492-453c-a893-3559fabb0b98": [
+            {
+                "network": "natwork1",
+                "category": "2311376",
+                "links": [],
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "connections": [
+                    {
+                        "name": "Tommy K Minyard",
+                        "category": "2320757",
+                        "location": {
+                            "latitude": "30.28605835",
+                            "longitude": "-97.7393531778835"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Michael L Norman",
+                        "category": "1925001",
+                        "location": {
+                            "latitude": "32.87924375",
+                            "longitude": "-117.231124683773"
+                        },
+                        "links": [],
+                        "weight": 1
+                    },
+                    {
+                        "name": "Robert Ricci",
+                        "category": "2027208",
+                        "location": {
+                            "latitude": "40.7628137",
+                            "longitude": "-111.836871913683"
+                        },
+                        "links": [],
+                        "weight": 1
+                    }
+                ]
+            }
+        ]
+    }
+}
