@@ -46,10 +46,12 @@ awardId,firstName,lastName,email,middleInitial,affiliation,address,city,countryC
 2331263,Peter,Beckman,peter.beckman@northwestern.edu,H,NORTHWESTERN UNIVERSITY,633 CLARK ST,EVANSTON,US,IL,602080001,42.0557157,-87.6752945473942,"633 CLARK ST, EVANSTON, IL, 602080001",PI,72637c9f-1768-4d0b-816e-331356f974a6
 ```
 #### Preview of Collaborations.csv
+```csv
 piInit,piEnd,reason,roadblocks
 1d6f06cc-93ae-4bc1-bfec-18b618e2bc30,5951ad06-b1ec-42f1-96c5-486ffb3b26e8,"we will use fount on chamelon to train ahead of data challenges",none
 0c0ac0ca-adf5-4c5c-8fc9-d574c54b8051,eba1b1b2-5e97-40b7-ada3-1c7870745535,"NDP creates a catalog of Pelican origins and makes them discoverable",
-0c0ac0ca-adf5-4c5c-8fc9-d574c54b8051,5951ad06-b1ec-42f1-96c5-486ffb3b26e8,"NDP will utilize Chameleon as an analysis platform and education testbed",
+0c0ac0ca-adf5-4c5c-8fc9-d574c54b8051,5951ad06-b1ec-42f1-96c5-486ffb3b26e8,"NDP will utilize Chameleon as an analysis platform and education testbed"
+```
 
 ---
 
@@ -130,8 +132,5 @@ awardId,firstName,lastName,email,MI,affiliation,address,city,countryCode,stateCo
 Save the completed network in a `.zip` file for future use.  
 ![Save Network](images/merge_image/Export.png)
 - **[Download project.csv](images/merge_image/project/project.csv)**
-
-Place these files in your repo under `results/` (or update the links above to match your folder structure). On GitHub/Jekyll these links will open/download the files directly.
-
 
 Note: For more details, click the Help button on the CorpusDB Merge tool page. There, you will find a video tutorial and a detailed documentation with examples.
