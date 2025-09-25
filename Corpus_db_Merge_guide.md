@@ -134,3 +134,26 @@ Save the completed network in a `.zip` file for future use.
 - **[Download project.csv](images/merge_image/project/project.csv)**
 
 Note: For more details, click the Help button on the CorpusDB Merge tool page. There, you will find a video tutorial and a detailed documentation with examples.
+
+---
+
+## Step 8: Upload the ZIP to SuAVE and View the Network
+Upload the `.zip` you just exported into SuAVE and open the NetVis view.
+
+### A. Create a New SuAVE Survey from the ZIP
+1. Open SuAVE and click **New Survey** 
+2. Choose **Upload CorpusDB ZIP File** and select your exported file (e.g., `project.zip`).  
+3. Name the new survey.
+3. Click **Submit** to build the survey.
+
+### B. Select the NetVis Network
+1. In the **Network** (NetVis) view, open the **gear/settings** (⚙️) for the network panel.  
+
+
+### C. Example: Resulting Network
+Below is an example of what the uploaded network looks like in SuAVE:
+
+![SuAVE Network Example](images/merge_image/network_example.png)
+
+---
+
