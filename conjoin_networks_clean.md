@@ -1,4 +1,9 @@
-# Conjoin Networks Workflow Guide
+---
+title: Conjoin Networks Workflow Guide
+parent: Data Generation and Filtering Using Corpus-DB
+nav_order: 7
+
+---
 
 This guide explains how to process and combine two CSV files (`nsf_collaboration.csv` and `nsfclimateworkshop.csv`) using the **Conjoin Networks** workflow in SuAVE.
 ![Conjoin workflow](images/merge_image/conjoin_workflow.png)
